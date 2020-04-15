@@ -1,10 +1,41 @@
 {
-	"name": "bluehost/satis",
-	"description": "Bluehost Satis Repository",
-	"homepage": "https://bluehost.github.io/satis/",
-	"include-filename": "all.json",
+    "name": "bluehost/satis",
+    "description": "Bluehost Satis Repository",
+    "homepage": "https://bluehost.github.io/satis/",
+    "include-filename": "all.json",
     "repositories": [
-		{ "type": "vcs", "url": "https://github.com/bluehost/endurance-wp-plugin-updater" }
-	],
+        {
+            "type": "vcs",
+            "url": "https://github.com/bluehost/endurance-wp-module-business-reviews"
+		},
+        {
+            "type": "vcs",
+            "url": "https://github.com/bluehost/endurance-wp-module-gutenframe"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/bluehost/endurance-wp-module-loader"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/bluehost/endurance-wp-module-spam-prevention"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/bluehost/endurance-wp-module-sso"
+		},
+		{
+            "type": "vcs",
+            "url": "https://github.com/bluehost/endurance-wp-plugin-updater"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/bluehost/wp-php-standards"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/mojoness/mojo-marketplace-wp-plugin"
+        }
+    ],
     "require-all": true
 }
