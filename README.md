@@ -8,12 +8,10 @@ Add this to your `composer.json` file:
 
 ```
 {
-  "repositories": [
-	{
-	  "type": "composer",
-	  "url": "https://bluehost.github.io/satis/"
-	}
-  ]
+  "repositories": [{
+    "type": "composer",
+    "url": "https://bluehost.github.io/satis/"
+  }]
 }
 ```
 
@@ -56,7 +54,7 @@ jobs:
       with:
         token: ${{ secrets.WEBHOOK_TOKEN }}
         repository: bluehost/satis
-        event-type: Trigger Satis Build
+        event-type: 'trigger_satis_build'
         client-payload: >-
           {
             "vendor": "${{ github.repository_owner }}",

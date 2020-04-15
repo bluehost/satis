@@ -1,12 +1,13 @@
 name: Satis Build via Webhook
 
 on: repository_dispatch
+  types:
+    - trigger_satis_build
 
 jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
-    if: github.event.action == 'Trigger Satis Build'
     steps:
 
       - name: Checkout
