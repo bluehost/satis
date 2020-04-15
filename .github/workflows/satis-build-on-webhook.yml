@@ -2,6 +2,9 @@ name: Satis Build via Webhook
 
 on: repository_dispatch
 
+env:
+  COMPOSER_AUTH: '{"github-oauth": {"github.com": "${{ secrets.TOKEN }}"}}'
+
 jobs:
   build:
     name: Build
