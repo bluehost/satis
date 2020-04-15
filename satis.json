@@ -1,0 +1,10 @@
+{
+	"name": "bluehost/satis",
+	"description": "Bluehost Satis Repository",
+	"homepage": "https://bluehost.github.io/satis/",
+	"include-filename": "all.json",
+    "repositories": [
+		{ "type": "vcs", "url": "https://github.com/bluehost/endurance-wp-plugin-updater" }
+	],
+    "require-all": true
+}
