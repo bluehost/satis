@@ -1,0 +1,19 @@
+{
+    "name": "bluehost/satis",
+    "description": "Bluehost Satis Repository",
+    "type": "project",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Micah Wood",
+            "email": "micah@wpscholar.com"
+        }
+    ],
+    "require": {
+        "composer/satis": "^1.0"
+	},
+	"scripts": {
+		"satis": "./vendor/composer/satis/bin/satis",
+		"build": "php -dmemory_limit=-1 ./vendor/composer/satis/bin/satis build ./satis.json ./dist"
+	}
+}
