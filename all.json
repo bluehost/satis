@@ -86,18 +86,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/endurance-wp-plugin-updater.git",
-                    "reference": "e2c38b8e62f9b4ba8cd83997024900c194c78609"
+                    "reference": "56e7e6978fbeee71b208d53f777107fe76028116"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/endurance-wp-plugin-updater/zipball/e2c38b8e62f9b4ba8cd83997024900c194c78609",
-                    "reference": "e2c38b8e62f9b4ba8cd83997024900c194c78609",
+                    "url": "https://api.github.com/repos/bluehost/endurance-wp-plugin-updater/zipball/56e7e6978fbeee71b208d53f777107fe76028116",
+                    "reference": "56e7e6978fbeee71b208d53f777107fe76028116",
                     "shasum": ""
                 },
                 "require": {
                     "pimple/pimple": "^3.2"
                 },
-                "time": "2020-04-14T18:48:54+00:00",
+                "time": "2020-04-15T19:33:41+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -125,18 +125,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/endurance-wp-plugin-updater.git",
-                    "reference": "e2c38b8e62f9b4ba8cd83997024900c194c78609"
+                    "reference": "56e7e6978fbeee71b208d53f777107fe76028116"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/endurance-wp-plugin-updater/zipball/e2c38b8e62f9b4ba8cd83997024900c194c78609",
-                    "reference": "e2c38b8e62f9b4ba8cd83997024900c194c78609",
+                    "url": "https://api.github.com/repos/bluehost/endurance-wp-plugin-updater/zipball/56e7e6978fbeee71b208d53f777107fe76028116",
+                    "reference": "56e7e6978fbeee71b208d53f777107fe76028116",
                     "shasum": ""
                 },
                 "require": {
                     "pimple/pimple": "^3.2"
                 },
-                "time": "2020-04-14T18:48:54+00:00",
+                "time": "2020-04-15T19:33:41+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
