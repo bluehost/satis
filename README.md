@@ -54,7 +54,7 @@ jobs:
       with:
         token: ${{ secrets.WEBHOOK_TOKEN }}
         repository: bluehost/satis
-        event-type: 'trigger_satis_build'
+        event-type: 'Trigger Satis Build'
         client-payload: >-
           {
             "vendor": "${{ github.repository_owner }}",
