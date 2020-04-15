@@ -1,8 +1,7 @@
 name: Satis Build via Webhook
 
 on: repository_dispatch
-  types:
-    - trigger_satis_build
+  types: [ trigger_satis_build ]
 
 jobs:
   build:
