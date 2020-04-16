@@ -195,18 +195,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/endurance-wp-module-generator.git",
-                    "reference": "f81a2c4a35851f7365714945da343f394afe7a56"
+                    "reference": "3a00779d0bad5cc6c913037997332f29b86db876"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/endurance-wp-module-generator/zipball/f81a2c4a35851f7365714945da343f394afe7a56",
-                    "reference": "f81a2c4a35851f7365714945da343f394afe7a56",
+                    "url": "https://api.github.com/repos/bluehost/endurance-wp-module-generator/zipball/3a00779d0bad5cc6c913037997332f29b86db876",
+                    "reference": "3a00779d0bad5cc6c913037997332f29b86db876",
                     "shasum": ""
                 },
                 "require": {
                     "mustache/mustache": "^2.13"
                 },
-                "time": "2020-04-16T23:03:02+00:00",
+                "time": "2020-04-16T23:46:29+00:00",
                 "type": "library",
                 "scripts": {
                     "post-create-project-cmd": [
@@ -235,18 +235,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/endurance-wp-module-generator.git",
-                    "reference": "f81a2c4a35851f7365714945da343f394afe7a56"
+                    "reference": "3a00779d0bad5cc6c913037997332f29b86db876"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/endurance-wp-module-generator/zipball/f81a2c4a35851f7365714945da343f394afe7a56",
-                    "reference": "f81a2c4a35851f7365714945da343f394afe7a56",
+                    "url": "https://api.github.com/repos/bluehost/endurance-wp-module-generator/zipball/3a00779d0bad5cc6c913037997332f29b86db876",
+                    "reference": "3a00779d0bad5cc6c913037997332f29b86db876",
                     "shasum": ""
                 },
                 "require": {
                     "mustache/mustache": "^2.13"
                 },
-                "time": "2020-04-16T23:03:02+00:00",
+                "time": "2020-04-16T23:46:29+00:00",
                 "type": "library",
                 "scripts": {
                     "post-create-project-cmd": [
