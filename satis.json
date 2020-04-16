@@ -7,7 +7,7 @@
         {
             "type": "vcs",
             "url": "https://github.com/bluehost/endurance-wp-module-business-reviews"
-		},
+        },
         {
             "type": "vcs",
             "url": "https://github.com/bluehost/endurance-wp-module-gutenframe"
@@ -23,8 +23,8 @@
         {
             "type": "vcs",
             "url": "https://github.com/bluehost/endurance-wp-module-sso"
-		},
-		{
+        },
+        {
             "type": "vcs",
             "url": "https://github.com/bluehost/endurance-wp-plugin-updater"
         },
@@ -35,6 +35,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/mojoness/mojo-marketplace-wp-plugin"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/bluehost/endurance-wp-module-generator"
         }
     ],
     "require-all": true
