@@ -195,18 +195,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/endurance-wp-module-generator.git",
-                    "reference": "3a00779d0bad5cc6c913037997332f29b86db876"
+                    "reference": "2d48fc9a95fa949274db9c85ae21db78858772a5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/endurance-wp-module-generator/zipball/3a00779d0bad5cc6c913037997332f29b86db876",
-                    "reference": "3a00779d0bad5cc6c913037997332f29b86db876",
+                    "url": "https://api.github.com/repos/bluehost/endurance-wp-module-generator/zipball/2d48fc9a95fa949274db9c85ae21db78858772a5",
+                    "reference": "2d48fc9a95fa949274db9c85ae21db78858772a5",
                     "shasum": ""
                 },
                 "require": {
                     "mustache/mustache": "^2.13"
                 },
-                "time": "2020-04-16T23:46:29+00:00",
+                "time": "2020-04-17T00:37:01+00:00",
                 "type": "library",
                 "scripts": {
                     "post-create-project-cmd": [
@@ -235,18 +235,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/endurance-wp-module-generator.git",
-                    "reference": "3a00779d0bad5cc6c913037997332f29b86db876"
+                    "reference": "2d48fc9a95fa949274db9c85ae21db78858772a5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/endurance-wp-module-generator/zipball/3a00779d0bad5cc6c913037997332f29b86db876",
-                    "reference": "3a00779d0bad5cc6c913037997332f29b86db876",
+                    "url": "https://api.github.com/repos/bluehost/endurance-wp-module-generator/zipball/2d48fc9a95fa949274db9c85ae21db78858772a5",
+                    "reference": "2d48fc9a95fa949274db9c85ae21db78858772a5",
                     "shasum": ""
                 },
                 "require": {
                     "mustache/mustache": "^2.13"
                 },
-                "time": "2020-04-16T23:46:29+00:00",
+                "time": "2020-04-17T00:37:01+00:00",
                 "type": "library",
                 "scripts": {
                     "post-create-project-cmd": [
@@ -1905,12 +1905,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mojoness/mojo-marketplace-wp-plugin.git",
-                    "reference": "8d75443e3d0a1deb8c9fe633f7fef9381be86bec"
+                    "reference": "2276016883496275c2a696001063abea63051336"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/mojoness/mojo-marketplace-wp-plugin/zipball/8d75443e3d0a1deb8c9fe633f7fef9381be86bec",
-                    "reference": "8d75443e3d0a1deb8c9fe633f7fef9381be86bec",
+                    "url": "https://api.github.com/repos/mojoness/mojo-marketplace-wp-plugin/zipball/2276016883496275c2a696001063abea63051336",
+                    "reference": "2276016883496275c2a696001063abea63051336",
                     "shasum": ""
                 },
                 "require": {
@@ -1924,7 +1924,7 @@
                 "require-dev": {
                     "bluehost/wp-php-standards": "^1.0"
                 },
-                "time": "2020-04-16T16:54:49+00:00",
+                "time": "2020-04-17T17:59:55+00:00",
                 "type": "wordpress-plugin",
                 "extra": {
                     "phpcs-config": {
@@ -2307,12 +2307,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mojoness/mojo-marketplace-wp-plugin.git",
-                    "reference": "497d848e5e23872ffa6f460629f59ba57616992a"
+                    "reference": "6bcbc9ba0e465e033d1396bc9b3a557636ddf34b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/mojoness/mojo-marketplace-wp-plugin/zipball/497d848e5e23872ffa6f460629f59ba57616992a",
-                    "reference": "497d848e5e23872ffa6f460629f59ba57616992a",
+                    "url": "https://api.github.com/repos/mojoness/mojo-marketplace-wp-plugin/zipball/6bcbc9ba0e465e033d1396bc9b3a557636ddf34b",
+                    "reference": "6bcbc9ba0e465e033d1396bc9b3a557636ddf34b",
                     "shasum": ""
                 },
                 "require": {
@@ -2326,7 +2326,7 @@
                 "require-dev": {
                     "bluehost/wp-php-standards": "^1.0"
                 },
-                "time": "2020-04-16T17:07:16+00:00",
+                "time": "2020-04-17T18:01:21+00:00",
                 "type": "wordpress-plugin",
                 "extra": {
                     "phpcs-config": {
