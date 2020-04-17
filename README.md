@@ -4,18 +4,8 @@
 
 ## Usage
 
-Add this to your `composer.json` file:
-
-```
-{
-  "repositories": [{
-    "type": "composer",
-    "url": "https://bluehost.github.io/satis/"
-  }]
-}
-```
-
-Then, head over to https://bluehost.github.io/satis/ to browse available packages.
+- Run `composer config repositories.bluehost composer https://bluehost.github.io/satis`
+- Head over to https://bluehost.github.io/satis/ to browse available packages.
 
 ## Adding A Repo
 
