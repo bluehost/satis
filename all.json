@@ -1,5 +1,54 @@
 {
     "packages": {
+        "bluehost/bluehost-site-migrator": {
+            "dev-master": {
+                "name": "bluehost/bluehost-site-migrator",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bluehost/bluehost-site-migrator.git",
+                    "reference": "4e05e7bfa2aa2b438162b6ae1e460696627043a7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-site-migrator/zipball/4e05e7bfa2aa2b438162b6ae1e460696627043a7",
+                    "reference": "4e05e7bfa2aa2b438162b6ae1e460696627043a7",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "ext-zip": "*"
+                },
+                "require-dev": {
+                    "bluehost/wp-php-standards": "^1.1"
+                },
+                "time": "2020-04-24T00:10:21+00:00",
+                "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . --standard=Bluehost"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . --standard=Bluehost -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Micah Wood",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "A WordPress plugin to help you quickly and easily migrate your website to Bluehost.",
+                "support": {
+                    "source": "https://github.com/bluehost/bluehost-site-migrator/tree/master",
+                    "issues": "https://github.com/bluehost/bluehost-site-migrator/issues"
+                }
+            }
+        },
         "bluehost/endurance-wp-module-business-reviews": {
             "1.0": {
                 "name": "bluehost/endurance-wp-module-business-reviews",
