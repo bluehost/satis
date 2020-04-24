@@ -39,6 +39,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/bluehost/endurance-wp-module-generator"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/bluehost/bluehost-site-migrator"
         }
     ],
     "require-all": true
