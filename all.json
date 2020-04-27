@@ -1947,19 +1947,19 @@
                     "issues": "https://github.com/mojoness/mojo-marketplace-wp-plugin/issues"
                 }
             },
-            "1.5.2": {
+            "1.5.3": {
                 "name": "mojoness/mojo-marketplace-wp-plugin",
-                "version": "1.5.2",
-                "version_normalized": "1.5.2.0",
+                "version": "1.5.3",
+                "version_normalized": "1.5.3.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mojoness/mojo-marketplace-wp-plugin.git",
-                    "reference": "f0f03cbf5bdf3cb716ae62335047dfc2df12e873"
+                    "reference": "962e1465e98a7d8b913e25e1277223eaf7b75f67"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/mojoness/mojo-marketplace-wp-plugin/zipball/f0f03cbf5bdf3cb716ae62335047dfc2df12e873",
-                    "reference": "f0f03cbf5bdf3cb716ae62335047dfc2df12e873",
+                    "url": "https://api.github.com/repos/mojoness/mojo-marketplace-wp-plugin/zipball/962e1465e98a7d8b913e25e1277223eaf7b75f67",
+                    "reference": "962e1465e98a7d8b913e25e1277223eaf7b75f67",
                     "shasum": ""
                 },
                 "require": {
@@ -1975,7 +1975,7 @@
                     "wp-cli/i18n-command": "^2.2",
                     "wp-cli/wp-cli": "^2.4"
                 },
-                "time": "2020-04-27T19:27:06+00:00",
+                "time": "2020-04-27T21:15:57+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
@@ -2014,12 +2014,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mojoness/mojo-marketplace-wp-plugin.git",
-                    "reference": "f0f03cbf5bdf3cb716ae62335047dfc2df12e873"
+                    "reference": "962e1465e98a7d8b913e25e1277223eaf7b75f67"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/mojoness/mojo-marketplace-wp-plugin/zipball/f0f03cbf5bdf3cb716ae62335047dfc2df12e873",
-                    "reference": "f0f03cbf5bdf3cb716ae62335047dfc2df12e873",
+                    "url": "https://api.github.com/repos/mojoness/mojo-marketplace-wp-plugin/zipball/962e1465e98a7d8b913e25e1277223eaf7b75f67",
+                    "reference": "962e1465e98a7d8b913e25e1277223eaf7b75f67",
                     "shasum": ""
                 },
                 "require": {
@@ -2035,7 +2035,7 @@
                     "wp-cli/i18n-command": "^2.2",
                     "wp-cli/wp-cli": "^2.4"
                 },
-                "time": "2020-04-27T19:27:06+00:00",
+                "time": "2020-04-27T21:15:57+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
