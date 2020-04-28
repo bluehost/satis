@@ -43,6 +43,14 @@
         {
             "type": "vcs",
             "url": "https://github.com/bluehost/bluehost-site-migrator"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/bluehost/maestro-connector"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/bluehost/bluehost-wordpress-plugin"
         }
     ],
     "require-all": true
