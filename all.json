@@ -63,12 +63,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/bluehost-site-migrator.git",
-                    "reference": "8795ccc54fccb563ab4d27cebcc1b25e262bd96a"
+                    "reference": "98fa1d73db1716221bcdf03c497e0a241b65fda8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-site-migrator/zipball/8795ccc54fccb563ab4d27cebcc1b25e262bd96a",
-                    "reference": "8795ccc54fccb563ab4d27cebcc1b25e262bd96a",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-site-migrator/zipball/98fa1d73db1716221bcdf03c497e0a241b65fda8",
+                    "reference": "98fa1d73db1716221bcdf03c497e0a241b65fda8",
                     "shasum": ""
                 },
                 "require": {
@@ -81,7 +81,7 @@
                 "require-dev": {
                     "bluehost/wp-php-standards": "^1.1"
                 },
-                "time": "2020-06-24T16:46:11+00:00",
+                "time": "2020-06-24T22:28:17+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "classmap": [
@@ -107,7 +107,7 @@
                 ],
                 "description": "A WordPress plugin to help you quickly and easily migrate your website to Bluehost.",
                 "support": {
-                    "source": "https://github.com/bluehost/bluehost-site-migrator/tree/1.0",
+                    "source": "https://github.com/bluehost/bluehost-site-migrator/tree/master",
                     "issues": "https://github.com/bluehost/bluehost-site-migrator/issues"
                 }
             }
@@ -189,12 +189,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/bluehost-wordpress-plugin.git",
-                    "reference": "6251851a70bd2fca86afbc6d11fe0efd48a42edc"
+                    "reference": "17ecbd9d5d9b111adccc10c52f92b3ec4b69dfcf"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/6251851a70bd2fca86afbc6d11fe0efd48a42edc",
-                    "reference": "6251851a70bd2fca86afbc6d11fe0efd48a42edc",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/17ecbd9d5d9b111adccc10c52f92b3ec4b69dfcf",
+                    "reference": "17ecbd9d5d9b111adccc10c52f92b3ec4b69dfcf",
                     "shasum": ""
                 },
                 "require": {
@@ -205,12 +205,14 @@
                     "bluehost/endurance-wp-module-sso": "^1.0",
                     "bluehost/endurance-wp-plugin-updater": "^1.0",
                     "ext-iconv": "*",
-                    "wpscholar/phpdotenv": "^1.0"
+                    "wpscholar/github-archive-installer": "^1.1"
                 },
                 "require-dev": {
-                    "bluehost/wp-php-standards": "^1.1"
+                    "bluehost/wp-php-standards": "^1.1",
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-cli/wp-cli": "^2.4"
                 },
-                "time": "2020-04-28T19:26:39+00:00",
+                "time": "2020-05-13T18:16:36+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "psr-4": {
@@ -218,8 +220,14 @@
                     }
                 },
                 "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . --standard=Bluehost"
+                    ],
+                    "i18n": [
+                        "vendor/bin/wp i18n make-pot . ./languages/bluehost-wordpress-plugin.pot --headers='{\"Report-Msgid-Bugs-To\":\"https://github.com/bluehost/bluehost-wordpress-plugin/issues\",\"POT-Creation-Date\":null}' --exclude=assets,storybook,tests"
+                    ],
                     "lint": [
-                        "vendor/bin/phpcs ."
+                        "vendor/bin/phpcs . --standard=Bluehost -s"
                     ]
                 },
                 "license": [
@@ -238,8 +246,8 @@
                 ],
                 "description": "This plugin integrates your WordPress site with the Bluehost control panel, including performance, security, and update features.",
                 "support": {
-                    "source": "https://github.com/mojoness/mojo-marketplace-wp-plugin",
-                    "issues": "https://github.com/mojoness/mojo-marketplace-wp-plugin/issues"
+                    "source": "https://github.com/bluehost/bluehost-wordpress-plugin",
+                    "issues": "https://github.com/bluehost/bluehost-wordpress-plugin/issues"
                 }
             },
             "dev-2.0-rc1": {
@@ -568,6 +576,74 @@
                     "issues": "https://github.com/mojoness/mojo-marketplace-wp-plugin/issues"
                 }
             },
+            "dev-fix/i18n": {
+                "name": "bluehost/bluehost-wordpress-plugin",
+                "version": "dev-fix/i18n",
+                "version_normalized": "dev-fix/i18n",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bluehost/bluehost-wordpress-plugin.git",
+                    "reference": "174a916d879891236f9a089c5c5d7054eef3995d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/174a916d879891236f9a089c5c5d7054eef3995d",
+                    "reference": "174a916d879891236f9a089c5c5d7054eef3995d",
+                    "shasum": ""
+                },
+                "require": {
+                    "bluehost/endurance-wp-module-business-reviews": "^1.0",
+                    "bluehost/endurance-wp-module-gutenframe": "^0.1",
+                    "bluehost/endurance-wp-module-loader": "^1.0",
+                    "bluehost/endurance-wp-module-spam-prevention": "^1.0",
+                    "bluehost/endurance-wp-module-sso": "^1.0",
+                    "bluehost/endurance-wp-plugin-updater": "^1.0",
+                    "ext-iconv": "*",
+                    "wpscholar/github-archive-installer": "^1.1"
+                },
+                "require-dev": {
+                    "bluehost/wp-php-standards": "^1.1",
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-cli/wp-cli": "^2.4"
+                },
+                "time": "2020-07-10T10:55:36+00:00",
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "psr-4": {
+                        "Bluehost\\": "inc/"
+                    }
+                },
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . --standard=Bluehost"
+                    ],
+                    "i18n": [
+                        "vendor/bin/wp i18n make-pot . ./languages/bluehost-wordpress-plugin.pot --headers='{\"Report-Msgid-Bugs-To\":\"https://github.com/bluehost/bluehost-wordpress-plugin/issues\",\"POT-Creation-Date\":null}' --exclude=assets,storybook,tests"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . --standard=Bluehost -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike Hansen",
+                        "homepage": "https://mikehansen.me/"
+                    },
+                    {
+                        "name": "Micah Wood",
+                        "email": "micah@wpscholar.com",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "This plugin integrates your WordPress site with the Bluehost control panel, including performance, security, and update features.",
+                "support": {
+                    "source": "https://github.com/bluehost/bluehost-wordpress-plugin",
+                    "issues": "https://github.com/bluehost/bluehost-wordpress-plugin/issues"
+                }
+            },
             "dev-micah/updates": {
                 "name": "bluehost/bluehost-wordpress-plugin",
                 "version": "dev-micah/updates",
@@ -755,6 +831,66 @@
                     }
                 ],
                 "description": "WordPress plugin that has shortcodes, widgets and themes.",
+                "support": {
+                    "source": "https://github.com/mojoness/mojo-marketplace-wp-plugin",
+                    "issues": "https://github.com/mojoness/mojo-marketplace-wp-plugin/issues"
+                }
+            },
+            "dev-old-master": {
+                "name": "bluehost/bluehost-wordpress-plugin",
+                "version": "dev-old-master",
+                "version_normalized": "dev-old-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bluehost/bluehost-wordpress-plugin.git",
+                    "reference": "6251851a70bd2fca86afbc6d11fe0efd48a42edc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/6251851a70bd2fca86afbc6d11fe0efd48a42edc",
+                    "reference": "6251851a70bd2fca86afbc6d11fe0efd48a42edc",
+                    "shasum": ""
+                },
+                "require": {
+                    "bluehost/endurance-wp-module-business-reviews": "^1.0",
+                    "bluehost/endurance-wp-module-gutenframe": "^0.1",
+                    "bluehost/endurance-wp-module-loader": "^1.0",
+                    "bluehost/endurance-wp-module-spam-prevention": "^1.0",
+                    "bluehost/endurance-wp-module-sso": "^1.0",
+                    "bluehost/endurance-wp-plugin-updater": "^1.0",
+                    "ext-iconv": "*",
+                    "wpscholar/phpdotenv": "^1.0"
+                },
+                "require-dev": {
+                    "bluehost/wp-php-standards": "^1.1"
+                },
+                "time": "2020-04-28T19:26:39+00:00",
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "psr-4": {
+                        "Bluehost\\": "inc/"
+                    }
+                },
+                "scripts": {
+                    "lint": [
+                        "vendor/bin/phpcs ."
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike Hansen",
+                        "homepage": "https://mikehansen.me/"
+                    },
+                    {
+                        "name": "Micah Wood",
+                        "email": "micah@wpscholar.com",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "This plugin integrates your WordPress site with the Bluehost control panel, including performance, security, and update features.",
                 "support": {
                     "source": "https://github.com/mojoness/mojo-marketplace-wp-plugin",
                     "issues": "https://github.com/mojoness/mojo-marketplace-wp-plugin/issues"
@@ -3671,19 +3807,19 @@
                     "issues": "https://github.com/mojoness/mojo-marketplace-wp-plugin/issues"
                 }
             },
-            "dev-master": {
+            "1.5.5": {
                 "name": "mojoness/mojo-marketplace-wp-plugin",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.5.5",
+                "version_normalized": "1.5.5.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mojoness/mojo-marketplace-wp-plugin.git",
-                    "reference": "fae7e234e503e75281a00d1639aed398bb205ef0"
+                    "reference": "12b8f8e10eeb89f765f6dadaff53284db7cf13e2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/mojoness/mojo-marketplace-wp-plugin/zipball/fae7e234e503e75281a00d1639aed398bb205ef0",
-                    "reference": "fae7e234e503e75281a00d1639aed398bb205ef0",
+                    "url": "https://api.github.com/repos/mojoness/mojo-marketplace-wp-plugin/zipball/12b8f8e10eeb89f765f6dadaff53284db7cf13e2",
+                    "reference": "12b8f8e10eeb89f765f6dadaff53284db7cf13e2",
                     "shasum": ""
                 },
                 "require": {
@@ -3700,7 +3836,68 @@
                     "wp-cli/i18n-command": "^2.2",
                     "wp-cli/wp-cli": "^2.4"
                 },
-                "time": "2020-05-29T17:05:50+00:00",
+                "time": "2020-07-15T17:31:50+00:00",
+                "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . --standard=Bluehost"
+                    ],
+                    "i18n": [
+                        "vendor/bin/wp i18n make-pot . ./languages/mojo-marketplace-wp-plugin.pot --headers='{\"Report-Msgid-Bugs-To\":\"https://github.com/mojoness/mojo-marketplace-wp-plugin/issues\",\"POT-Creation-Date\":null}'"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . --standard=Bluehost -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike Hansen",
+                        "homepage": "https://mikehansen.me/"
+                    },
+                    {
+                        "name": "Micah Wood",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "WordPress plugin that has shortcodes, widgets and themes.",
+                "support": {
+                    "source": "https://github.com/mojoness/mojo-marketplace-wp-plugin",
+                    "issues": "https://github.com/mojoness/mojo-marketplace-wp-plugin/issues"
+                }
+            },
+            "dev-master": {
+                "name": "mojoness/mojo-marketplace-wp-plugin",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mojoness/mojo-marketplace-wp-plugin.git",
+                    "reference": "12b8f8e10eeb89f765f6dadaff53284db7cf13e2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/mojoness/mojo-marketplace-wp-plugin/zipball/12b8f8e10eeb89f765f6dadaff53284db7cf13e2",
+                    "reference": "12b8f8e10eeb89f765f6dadaff53284db7cf13e2",
+                    "shasum": ""
+                },
+                "require": {
+                    "bluehost/endurance-wp-module-business-reviews": "^1.0",
+                    "bluehost/endurance-wp-module-gutenframe": "^0.1",
+                    "bluehost/endurance-wp-module-loader": "^1.0",
+                    "bluehost/endurance-wp-module-spam-prevention": "^1.0",
+                    "bluehost/endurance-wp-module-sso": "^1.0",
+                    "bluehost/endurance-wp-plugin-updater": "^1.0",
+                    "wpscholar/github-archive-installer": "^1.1"
+                },
+                "require-dev": {
+                    "bluehost/wp-php-standards": "^1.0",
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-cli/wp-cli": "^2.4"
+                },
+                "time": "2020-07-15T17:31:50+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
@@ -3860,6 +4057,67 @@
                     {
                         "name": "Micah Wood",
                         "email": "micah@wpscholar.com",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "WordPress plugin that has shortcodes, widgets and themes.",
+                "support": {
+                    "source": "https://github.com/mojoness/mojo-marketplace-wp-plugin",
+                    "issues": "https://github.com/mojoness/mojo-marketplace-wp-plugin/issues"
+                }
+            },
+            "dev-fix/undefined_function_error": {
+                "name": "mojoness/mojo-marketplace-wp-plugin",
+                "version": "dev-fix/undefined_function_error",
+                "version_normalized": "dev-fix/undefined_function_error",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mojoness/mojo-marketplace-wp-plugin.git",
+                    "reference": "8b9202f3dbb62ddc0f6d4d136e252ba9d014d79b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/mojoness/mojo-marketplace-wp-plugin/zipball/8b9202f3dbb62ddc0f6d4d136e252ba9d014d79b",
+                    "reference": "8b9202f3dbb62ddc0f6d4d136e252ba9d014d79b",
+                    "shasum": ""
+                },
+                "require": {
+                    "bluehost/endurance-wp-module-business-reviews": "^1.0",
+                    "bluehost/endurance-wp-module-gutenframe": "^0.1",
+                    "bluehost/endurance-wp-module-loader": "^1.0",
+                    "bluehost/endurance-wp-module-spam-prevention": "^1.0",
+                    "bluehost/endurance-wp-module-sso": "^1.0",
+                    "bluehost/endurance-wp-plugin-updater": "^1.0",
+                    "wpscholar/github-archive-installer": "^1.1"
+                },
+                "require-dev": {
+                    "bluehost/wp-php-standards": "^1.0",
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-cli/wp-cli": "^2.4"
+                },
+                "time": "2020-07-09T20:13:35+00:00",
+                "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . --standard=Bluehost"
+                    ],
+                    "i18n": [
+                        "vendor/bin/wp i18n make-pot . ./languages/mojo-marketplace-wp-plugin.pot --headers='{\"Report-Msgid-Bugs-To\":\"https://github.com/mojoness/mojo-marketplace-wp-plugin/issues\",\"POT-Creation-Date\":null}'"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . --standard=Bluehost -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike Hansen",
+                        "homepage": "https://mikehansen.me/"
+                    },
+                    {
+                        "name": "Micah Wood",
                         "homepage": "https://wpscholar.com"
                     }
                 ],
