@@ -56,19 +56,19 @@
                     "issues": "https://github.com/bluehost/bluehost-site-migrator/issues"
                 }
             },
-            "dev-master": {
+            "1.0.1": {
                 "name": "bluehost/bluehost-site-migrator",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/bluehost-site-migrator.git",
-                    "reference": "98fa1d73db1716221bcdf03c497e0a241b65fda8"
+                    "reference": "ab6f17ee84f83699596804e070418b8a91cae532"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-site-migrator/zipball/98fa1d73db1716221bcdf03c497e0a241b65fda8",
-                    "reference": "98fa1d73db1716221bcdf03c497e0a241b65fda8",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-site-migrator/zipball/ab6f17ee84f83699596804e070418b8a91cae532",
+                    "reference": "ab6f17ee84f83699596804e070418b8a91cae532",
                     "shasum": ""
                 },
                 "require": {
@@ -81,7 +81,7 @@
                 "require-dev": {
                     "bluehost/wp-php-standards": "^1.1"
                 },
-                "time": "2020-06-24T22:28:17+00:00",
+                "time": "2020-08-10T21:02:27+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "classmap": [
@@ -107,7 +107,62 @@
                 ],
                 "description": "A WordPress plugin to help you quickly and easily migrate your website to Bluehost.",
                 "support": {
-                    "source": "https://github.com/bluehost/bluehost-site-migrator/tree/master",
+                    "source": "https://github.com/bluehost/bluehost-site-migrator/tree/1.0.1",
+                    "issues": "https://github.com/bluehost/bluehost-site-migrator/issues"
+                }
+            },
+            "dev-master": {
+                "name": "bluehost/bluehost-site-migrator",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bluehost/bluehost-site-migrator.git",
+                    "reference": "ab6f17ee84f83699596804e070418b8a91cae532"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-site-migrator/zipball/ab6f17ee84f83699596804e070418b8a91cae532",
+                    "reference": "ab6f17ee84f83699596804e070418b8a91cae532",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "ext-zip": "*",
+                    "symfony/process": "^3.4",
+                    "wp-forge/wp-plugin-check": "^1.0",
+                    "wpscholar/github-archive-installer": "^1.1"
+                },
+                "require-dev": {
+                    "bluehost/wp-php-standards": "^1.1"
+                },
+                "time": "2020-08-10T21:02:27+00:00",
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "classmap": [
+                        "includes/"
+                    ]
+                },
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . --standard=Bluehost"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . --standard=Bluehost -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Micah Wood",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "A WordPress plugin to help you quickly and easily migrate your website to Bluehost.",
+                "support": {
+                    "source": "https://github.com/bluehost/bluehost-site-migrator/tree/1.0.1",
                     "issues": "https://github.com/bluehost/bluehost-site-migrator/issues"
                 }
             },
@@ -163,61 +218,6 @@
                 "description": "A WordPress plugin to help you quickly and easily migrate your website to Bluehost.",
                 "support": {
                     "source": "https://github.com/bluehost/bluehost-site-migrator/tree/dependabot/npm_and_yarn/elliptic-6.5.3",
-                    "issues": "https://github.com/bluehost/bluehost-site-migrator/issues"
-                }
-            },
-            "dev-dependabot/npm_and_yarn/lodash-4.17.19": {
-                "name": "bluehost/bluehost-site-migrator",
-                "version": "dev-dependabot/npm_and_yarn/lodash-4.17.19",
-                "version_normalized": "dev-dependabot/npm_and_yarn/lodash-4.17.19",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/bluehost/bluehost-site-migrator.git",
-                    "reference": "15c96274f13b1c96fa7c2c08b9cdd827efacb97e"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-site-migrator/zipball/15c96274f13b1c96fa7c2c08b9cdd827efacb97e",
-                    "reference": "15c96274f13b1c96fa7c2c08b9cdd827efacb97e",
-                    "shasum": ""
-                },
-                "require": {
-                    "ext-json": "*",
-                    "ext-zip": "*",
-                    "symfony/process": "^3.4",
-                    "wp-forge/wp-plugin-check": "^1.0",
-                    "wpscholar/github-archive-installer": "^1.1"
-                },
-                "require-dev": {
-                    "bluehost/wp-php-standards": "^1.1"
-                },
-                "time": "2020-07-20T10:25:48+00:00",
-                "type": "wordpress-plugin",
-                "autoload": {
-                    "classmap": [
-                        "includes/"
-                    ]
-                },
-                "scripts": {
-                    "fix": [
-                        "vendor/bin/phpcbf . --standard=Bluehost"
-                    ],
-                    "lint": [
-                        "vendor/bin/phpcs . --standard=Bluehost -s"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0-or-later"
-                ],
-                "authors": [
-                    {
-                        "name": "Micah Wood",
-                        "homepage": "https://wpscholar.com"
-                    }
-                ],
-                "description": "A WordPress plugin to help you quickly and easily migrate your website to Bluehost.",
-                "support": {
-                    "source": "https://github.com/bluehost/bluehost-site-migrator/tree/dependabot/npm_and_yarn/lodash-4.17.19",
                     "issues": "https://github.com/bluehost/bluehost-site-migrator/issues"
                 }
             }
@@ -3113,12 +3113,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/maestro-connector.git",
-                    "reference": "c24f9638b1c231b17723ac562774bdb2bf14cac8"
+                    "reference": "cc6542b13ad8ad3bea5b46fb12da0666e82afb86"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/maestro-connector/zipball/c24f9638b1c231b17723ac562774bdb2bf14cac8",
-                    "reference": "c24f9638b1c231b17723ac562774bdb2bf14cac8",
+                    "url": "https://api.github.com/repos/bluehost/maestro-connector/zipball/cc6542b13ad8ad3bea5b46fb12da0666e82afb86",
+                    "reference": "cc6542b13ad8ad3bea5b46fb12da0666e82afb86",
                     "shasum": ""
                 },
                 "require": {
@@ -3127,7 +3127,7 @@
                 "require-dev": {
                     "bluehost/wp-php-standards": "^1.1"
                 },
-                "time": "2020-07-20T11:48:20+00:00",
+                "time": "2020-08-10T17:54:23+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "psr-4": {
@@ -3260,12 +3260,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/maestro-connector.git",
-                    "reference": "170749948ec0ce621931f9545dba31ae75ff8dac"
+                    "reference": "5b0b7ecdcb1ae75eb3211d62be52a6cca1edf467"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/maestro-connector/zipball/170749948ec0ce621931f9545dba31ae75ff8dac",
-                    "reference": "170749948ec0ce621931f9545dba31ae75ff8dac",
+                    "url": "https://api.github.com/repos/bluehost/maestro-connector/zipball/5b0b7ecdcb1ae75eb3211d62be52a6cca1edf467",
+                    "reference": "5b0b7ecdcb1ae75eb3211d62be52a6cca1edf467",
                     "shasum": ""
                 },
                 "require": {
@@ -3274,7 +3274,7 @@
                 "require-dev": {
                     "bluehost/wp-php-standards": "^1.1"
                 },
-                "time": "2020-04-15T17:41:43+00:00",
+                "time": "2020-08-10T17:49:30+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "psr-4": {
@@ -3282,8 +3282,11 @@
                     }
                 },
                 "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . --standard=Bluehost"
+                    ],
                     "lint": [
-                        "vendor/bin/phpcs ."
+                        "vendor/bin/phpcs . --standard=Bluehost -s"
                     ]
                 },
                 "license": [
