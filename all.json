@@ -165,61 +165,6 @@
                     "source": "https://github.com/bluehost/bluehost-site-migrator/tree/1.0.1",
                     "issues": "https://github.com/bluehost/bluehost-site-migrator/issues"
                 }
-            },
-            "dev-dependabot/npm_and_yarn/elliptic-6.5.3": {
-                "name": "bluehost/bluehost-site-migrator",
-                "version": "dev-dependabot/npm_and_yarn/elliptic-6.5.3",
-                "version_normalized": "dev-dependabot/npm_and_yarn/elliptic-6.5.3",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/bluehost/bluehost-site-migrator.git",
-                    "reference": "4d4faaa8827c5f909cfbe61f4047b137b5d59dc9"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-site-migrator/zipball/4d4faaa8827c5f909cfbe61f4047b137b5d59dc9",
-                    "reference": "4d4faaa8827c5f909cfbe61f4047b137b5d59dc9",
-                    "shasum": ""
-                },
-                "require": {
-                    "ext-json": "*",
-                    "ext-zip": "*",
-                    "symfony/process": "^3.4",
-                    "wp-forge/wp-plugin-check": "^1.0",
-                    "wpscholar/github-archive-installer": "^1.1"
-                },
-                "require-dev": {
-                    "bluehost/wp-php-standards": "^1.1"
-                },
-                "time": "2020-08-01T22:23:38+00:00",
-                "type": "wordpress-plugin",
-                "autoload": {
-                    "classmap": [
-                        "includes/"
-                    ]
-                },
-                "scripts": {
-                    "fix": [
-                        "vendor/bin/phpcbf . --standard=Bluehost"
-                    ],
-                    "lint": [
-                        "vendor/bin/phpcs . --standard=Bluehost -s"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0-or-later"
-                ],
-                "authors": [
-                    {
-                        "name": "Micah Wood",
-                        "homepage": "https://wpscholar.com"
-                    }
-                ],
-                "description": "A WordPress plugin to help you quickly and easily migrate your website to Bluehost.",
-                "support": {
-                    "source": "https://github.com/bluehost/bluehost-site-migrator/tree/dependabot/npm_and_yarn/elliptic-6.5.3",
-                    "issues": "https://github.com/bluehost/bluehost-site-migrator/issues"
-                }
             }
         },
         "bluehost/bluehost-wordpress-plugin": {
@@ -292,10 +237,10 @@
                     "issues": "https://github.com/mojoness/mojo-marketplace-wp-plugin/issues"
                 }
             },
-            "dev-master": {
+            "1.6": {
                 "name": "bluehost/bluehost-wordpress-plugin",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.6",
+                "version_normalized": "1.6.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/bluehost-wordpress-plugin.git",
@@ -323,6 +268,278 @@
                     "wp-cli/wp-cli": "^2.4"
                 },
                 "time": "2020-08-07T14:15:57+00:00",
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "psr-4": {
+                        "Bluehost\\": "inc/"
+                    }
+                },
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . --standard=Bluehost"
+                    ],
+                    "i18n": [
+                        "vendor/bin/wp i18n make-pot . ./languages/bluehost-wordpress-plugin.pot --headers='{\"Report-Msgid-Bugs-To\":\"https://github.com/bluehost/bluehost-wordpress-plugin/issues\",\"POT-Creation-Date\":null}' --exclude=assets,storybook,tests"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . --standard=Bluehost -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike Hansen",
+                        "homepage": "https://mikehansen.me/"
+                    },
+                    {
+                        "name": "Micah Wood",
+                        "email": "micah@wpscholar.com",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "This plugin integrates your WordPress site with the Bluehost control panel, including performance, security, and update features.",
+                "support": {
+                    "source": "https://github.com/bluehost/bluehost-wordpress-plugin",
+                    "issues": "https://github.com/bluehost/bluehost-wordpress-plugin/issues"
+                }
+            },
+            "1.7": {
+                "name": "bluehost/bluehost-wordpress-plugin",
+                "version": "1.7",
+                "version_normalized": "1.7.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bluehost/bluehost-wordpress-plugin.git",
+                    "reference": "055c6d15b00b2ea269785dd992a0941a617f5c05"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/055c6d15b00b2ea269785dd992a0941a617f5c05",
+                    "reference": "055c6d15b00b2ea269785dd992a0941a617f5c05",
+                    "shasum": ""
+                },
+                "require": {
+                    "bluehost/endurance-wp-module-business-reviews": "^1.0",
+                    "bluehost/endurance-wp-module-gutenframe": "^0.1",
+                    "bluehost/endurance-wp-module-loader": "^1.0",
+                    "bluehost/endurance-wp-module-spam-prevention": "^1.0",
+                    "bluehost/endurance-wp-module-sso": "^1.0",
+                    "bluehost/endurance-wp-plugin-updater": "^1.0",
+                    "ext-iconv": "*",
+                    "wpscholar/github-archive-installer": "^1.1"
+                },
+                "require-dev": {
+                    "bluehost/wp-php-standards": "^1.1",
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-cli/wp-cli": "^2.4"
+                },
+                "time": "2020-08-19T22:07:45+00:00",
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "psr-4": {
+                        "Bluehost\\": "inc/"
+                    }
+                },
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . --standard=Bluehost"
+                    ],
+                    "i18n": [
+                        "vendor/bin/wp i18n make-pot . ./languages/bluehost-wordpress-plugin.pot --headers='{\"Report-Msgid-Bugs-To\":\"https://github.com/bluehost/bluehost-wordpress-plugin/issues\",\"POT-Creation-Date\":null}' --exclude=assets,storybook,tests"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . --standard=Bluehost -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike Hansen",
+                        "homepage": "https://mikehansen.me/"
+                    },
+                    {
+                        "name": "Micah Wood",
+                        "email": "micah@wpscholar.com",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "This plugin integrates your WordPress site with the Bluehost control panel, including performance, security, and update features.",
+                "support": {
+                    "source": "https://github.com/bluehost/bluehost-wordpress-plugin",
+                    "issues": "https://github.com/bluehost/bluehost-wordpress-plugin/issues"
+                }
+            },
+            "1.8": {
+                "name": "bluehost/bluehost-wordpress-plugin",
+                "version": "1.8",
+                "version_normalized": "1.8.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bluehost/bluehost-wordpress-plugin.git",
+                    "reference": "da6648bde7d5722068cdd0588aa1edb06276c2fe"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/da6648bde7d5722068cdd0588aa1edb06276c2fe",
+                    "reference": "da6648bde7d5722068cdd0588aa1edb06276c2fe",
+                    "shasum": ""
+                },
+                "require": {
+                    "bluehost/endurance-wp-module-business-reviews": "^1.0",
+                    "bluehost/endurance-wp-module-gutenframe": "^0.1",
+                    "bluehost/endurance-wp-module-loader": "^1.0",
+                    "bluehost/endurance-wp-module-spam-prevention": "^1.0",
+                    "bluehost/endurance-wp-module-sso": "^1.0",
+                    "bluehost/endurance-wp-plugin-updater": "^1.0",
+                    "ext-iconv": "*",
+                    "wpscholar/github-archive-installer": "^1.1"
+                },
+                "require-dev": {
+                    "bluehost/wp-php-standards": "^1.1",
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-cli/wp-cli-bundle": "^2.4"
+                },
+                "time": "2020-08-19T23:16:30+00:00",
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "psr-4": {
+                        "Bluehost\\": "inc/"
+                    }
+                },
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . --standard=Bluehost"
+                    ],
+                    "i18n": [
+                        "vendor/bin/wp i18n make-pot . ./languages/bluehost-wordpress-plugin.pot --headers='{\"Report-Msgid-Bugs-To\":\"https://github.com/bluehost/bluehost-wordpress-plugin/issues\",\"POT-Creation-Date\":null}' --exclude=assets,storybook,tests"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . --standard=Bluehost -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike Hansen",
+                        "homepage": "https://mikehansen.me/"
+                    },
+                    {
+                        "name": "Micah Wood",
+                        "email": "micah@wpscholar.com",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "This plugin integrates your WordPress site with the Bluehost control panel, including performance, security, and update features.",
+                "support": {
+                    "source": "https://github.com/bluehost/bluehost-wordpress-plugin",
+                    "issues": "https://github.com/bluehost/bluehost-wordpress-plugin/issues"
+                }
+            },
+            "1.8.1": {
+                "name": "bluehost/bluehost-wordpress-plugin",
+                "version": "1.8.1",
+                "version_normalized": "1.8.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bluehost/bluehost-wordpress-plugin.git",
+                    "reference": "8fbc9c3790ce1217b4772961600005a06fb293fc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/8fbc9c3790ce1217b4772961600005a06fb293fc",
+                    "reference": "8fbc9c3790ce1217b4772961600005a06fb293fc",
+                    "shasum": ""
+                },
+                "require": {
+                    "bluehost/endurance-wp-module-business-reviews": "^1.0",
+                    "bluehost/endurance-wp-module-gutenframe": "^0.1",
+                    "bluehost/endurance-wp-module-loader": "^1.0",
+                    "bluehost/endurance-wp-module-spam-prevention": "^1.0",
+                    "bluehost/endurance-wp-module-sso": "^1.0",
+                    "bluehost/endurance-wp-plugin-updater": "^1.0",
+                    "ext-iconv": "*",
+                    "wpscholar/github-archive-installer": "^1.1"
+                },
+                "require-dev": {
+                    "bluehost/wp-php-standards": "^1.1",
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-cli/wp-cli-bundle": "^2.4"
+                },
+                "time": "2020-08-20T20:52:53+00:00",
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "psr-4": {
+                        "Bluehost\\": "inc/"
+                    }
+                },
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . --standard=Bluehost"
+                    ],
+                    "i18n": [
+                        "vendor/bin/wp i18n make-pot . ./languages/bluehost-wordpress-plugin.pot --headers='{\"Report-Msgid-Bugs-To\":\"https://github.com/bluehost/bluehost-wordpress-plugin/issues\",\"POT-Creation-Date\":null}' --exclude=assets,storybook,tests"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . --standard=Bluehost -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike Hansen",
+                        "homepage": "https://mikehansen.me/"
+                    },
+                    {
+                        "name": "Micah Wood",
+                        "email": "micah@wpscholar.com",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "This plugin integrates your WordPress site with the Bluehost control panel, including performance, security, and update features.",
+                "support": {
+                    "source": "https://github.com/bluehost/bluehost-wordpress-plugin",
+                    "issues": "https://github.com/bluehost/bluehost-wordpress-plugin/issues"
+                }
+            },
+            "dev-master": {
+                "name": "bluehost/bluehost-wordpress-plugin",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bluehost/bluehost-wordpress-plugin.git",
+                    "reference": "8fbc9c3790ce1217b4772961600005a06fb293fc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/8fbc9c3790ce1217b4772961600005a06fb293fc",
+                    "reference": "8fbc9c3790ce1217b4772961600005a06fb293fc",
+                    "shasum": ""
+                },
+                "require": {
+                    "bluehost/endurance-wp-module-business-reviews": "^1.0",
+                    "bluehost/endurance-wp-module-gutenframe": "^0.1",
+                    "bluehost/endurance-wp-module-loader": "^1.0",
+                    "bluehost/endurance-wp-module-spam-prevention": "^1.0",
+                    "bluehost/endurance-wp-module-sso": "^1.0",
+                    "bluehost/endurance-wp-plugin-updater": "^1.0",
+                    "ext-iconv": "*",
+                    "wpscholar/github-archive-installer": "^1.1"
+                },
+                "require-dev": {
+                    "bluehost/wp-php-standards": "^1.1",
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-cli/wp-cli-bundle": "^2.4"
+                },
+                "time": "2020-08-20T20:52:53+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "psr-4": {
@@ -752,60 +969,6 @@
                 "support": {
                     "source": "https://github.com/bluehost/bluehost-wordpress-plugin",
                     "issues": "https://github.com/bluehost/bluehost-wordpress-plugin/issues"
-                }
-            },
-            "dev-micah/updates": {
-                "name": "bluehost/bluehost-wordpress-plugin",
-                "version": "dev-micah/updates",
-                "version_normalized": "dev-micah/updates",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/bluehost/bluehost-wordpress-plugin.git",
-                    "reference": "3b9f7c00d33e949858fff20626bc8d71ca7758fe"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/3b9f7c00d33e949858fff20626bc8d71ca7758fe",
-                    "reference": "3b9f7c00d33e949858fff20626bc8d71ca7758fe",
-                    "shasum": ""
-                },
-                "require": {
-                    "bluehost/endurance-wp-module-business-reviews": "^1.0",
-                    "bluehost/endurance-wp-module-gutenframe": "^0.1",
-                    "bluehost/endurance-wp-module-loader": "^1.0",
-                    "bluehost/endurance-wp-module-spam-prevention": "^1.0",
-                    "bluehost/endurance-wp-module-sso": "^1.0",
-                    "bluehost/endurance-wp-plugin-updater": "^1.0",
-                    "wpscholar/phpdotenv": "^1.0"
-                },
-                "require-dev": {
-                    "bluehost/wp-php-standards": "^1.1"
-                },
-                "time": "2019-09-26T18:09:45+00:00",
-                "type": "wordpress-plugin",
-                "scripts": {
-                    "lint": [
-                        "vendor/bin/phpcs --standard=Bluehost ."
-                    ]
-                },
-                "license": [
-                    "GPL-2.0-or-later"
-                ],
-                "authors": [
-                    {
-                        "name": "Mike Hansen",
-                        "homepage": "https://mikehansen.me/"
-                    },
-                    {
-                        "name": "Micah Wood",
-                        "email": "micah@wpscholar.com",
-                        "homepage": "https://wpscholar.com"
-                    }
-                ],
-                "description": "This plugin integrates your WordPress site with the Bluehost control panel, including performance, security, and update features.",
-                "support": {
-                    "source": "https://github.com/mojoness/mojo-marketplace-wp-plugin",
-                    "issues": "https://github.com/mojoness/mojo-marketplace-wp-plugin/issues"
                 }
             },
             "dev-mobile-menu": {
@@ -1502,74 +1665,6 @@
                 "support": {
                     "source": "https://github.com/mojoness/mojo-marketplace-wp-plugin",
                     "issues": "https://github.com/mojoness/mojo-marketplace-wp-plugin/issues"
-                }
-            },
-            "dev-wordpress-5.5-support": {
-                "name": "bluehost/bluehost-wordpress-plugin",
-                "version": "dev-wordpress-5.5-support",
-                "version_normalized": "dev-wordpress-5.5-support",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/bluehost/bluehost-wordpress-plugin.git",
-                    "reference": "474ca84852804799858ba97bbcc3250bcfe94147"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/474ca84852804799858ba97bbcc3250bcfe94147",
-                    "reference": "474ca84852804799858ba97bbcc3250bcfe94147",
-                    "shasum": ""
-                },
-                "require": {
-                    "bluehost/endurance-wp-module-business-reviews": "^1.0",
-                    "bluehost/endurance-wp-module-gutenframe": "^0.1",
-                    "bluehost/endurance-wp-module-loader": "^1.0",
-                    "bluehost/endurance-wp-module-spam-prevention": "^1.0",
-                    "bluehost/endurance-wp-module-sso": "^1.0",
-                    "bluehost/endurance-wp-plugin-updater": "^1.0",
-                    "ext-iconv": "*",
-                    "wpscholar/github-archive-installer": "^1.1"
-                },
-                "require-dev": {
-                    "bluehost/wp-php-standards": "^1.1",
-                    "wp-cli/i18n-command": "^2.2",
-                    "wp-cli/wp-cli": "^2.4"
-                },
-                "time": "2020-08-05T23:39:22+00:00",
-                "type": "wordpress-plugin",
-                "autoload": {
-                    "psr-4": {
-                        "Bluehost\\": "inc/"
-                    }
-                },
-                "scripts": {
-                    "fix": [
-                        "vendor/bin/phpcbf . --standard=Bluehost"
-                    ],
-                    "i18n": [
-                        "vendor/bin/wp i18n make-pot . ./languages/bluehost-wordpress-plugin.pot --headers='{\"Report-Msgid-Bugs-To\":\"https://github.com/bluehost/bluehost-wordpress-plugin/issues\",\"POT-Creation-Date\":null}' --exclude=assets,storybook,tests"
-                    ],
-                    "lint": [
-                        "vendor/bin/phpcs . --standard=Bluehost -s"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0-or-later"
-                ],
-                "authors": [
-                    {
-                        "name": "Mike Hansen",
-                        "homepage": "https://mikehansen.me/"
-                    },
-                    {
-                        "name": "Micah Wood",
-                        "email": "micah@wpscholar.com",
-                        "homepage": "https://wpscholar.com"
-                    }
-                ],
-                "description": "This plugin integrates your WordPress site with the Bluehost control panel, including performance, security, and update features.",
-                "support": {
-                    "source": "https://github.com/bluehost/bluehost-wordpress-plugin",
-                    "issues": "https://github.com/bluehost/bluehost-wordpress-plugin/issues"
                 }
             }
         },
