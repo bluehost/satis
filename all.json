@@ -3534,6 +3534,51 @@
                     "issues": "https://github.com/bluehost/endurance-wp-module-data/issues"
                 }
             },
+            "0.1.2": {
+                "name": "endurance/wp-module-data",
+                "version": "0.1.2",
+                "version_normalized": "0.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bluehost/endurance-wp-module-data.git",
+                    "reference": "6240bc9689cd9ba2d89022fb8db6f3fd598e1600"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/endurance-wp-module-data/zipball/6240bc9689cd9ba2d89022fb8db6f3fd598e1600",
+                    "reference": "6240bc9689cd9ba2d89022fb8db6f3fd598e1600",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "bluehost/wp-php-standards": "^1.1"
+                },
+                "time": "2020-09-09T08:53:54+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Endurance\\WP\\Module\\Data\\": "src"
+                    },
+                    "files": [
+                        "bootstrap.php"
+                    ]
+                },
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . --standard=Bluehost"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . --standard=Bluehost -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Endurance Data Module",
+                "support": {
+                    "source": "https://github.com/bluehost/endurance-wp-module-data/tree/0.1.2",
+                    "issues": "https://github.com/bluehost/endurance-wp-module-data/issues"
+                }
+            },
             "dev-master": {
                 "name": "endurance/wp-module-data",
                 "version": "dev-master",
@@ -3541,18 +3586,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/endurance-wp-module-data.git",
-                    "reference": "bf6c982621840b3dbe890d43b7566906d30dcffe"
+                    "reference": "6240bc9689cd9ba2d89022fb8db6f3fd598e1600"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/endurance-wp-module-data/zipball/bf6c982621840b3dbe890d43b7566906d30dcffe",
-                    "reference": "bf6c982621840b3dbe890d43b7566906d30dcffe",
+                    "url": "https://api.github.com/repos/bluehost/endurance-wp-module-data/zipball/6240bc9689cd9ba2d89022fb8db6f3fd598e1600",
+                    "reference": "6240bc9689cd9ba2d89022fb8db6f3fd598e1600",
                     "shasum": ""
                 },
                 "require-dev": {
                     "bluehost/wp-php-standards": "^1.1"
                 },
-                "time": "2020-09-04T21:06:06+00:00",
+                "time": "2020-09-09T08:53:54+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -3575,52 +3620,7 @@
                 ],
                 "description": "Endurance Data Module",
                 "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-data/tree/0.1.1",
-                    "issues": "https://github.com/bluehost/endurance-wp-module-data/issues"
-                }
-            },
-            "dev-fix-eig-sso-success-hook": {
-                "name": "endurance/wp-module-data",
-                "version": "dev-fix-eig-sso-success-hook",
-                "version_normalized": "dev-fix-eig-sso-success-hook",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-module-data.git",
-                    "reference": "489863d7db8068246bcf7ee2b763ea7095facb98"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/endurance-wp-module-data/zipball/489863d7db8068246bcf7ee2b763ea7095facb98",
-                    "reference": "489863d7db8068246bcf7ee2b763ea7095facb98",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "bluehost/wp-php-standards": "^1.1"
-                },
-                "time": "2020-09-08T15:53:03+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Endurance\\WP\\Module\\Data\\": "src"
-                    },
-                    "files": [
-                        "bootstrap.php"
-                    ]
-                },
-                "scripts": {
-                    "fix": [
-                        "vendor/bin/phpcbf . --standard=Bluehost"
-                    ],
-                    "lint": [
-                        "vendor/bin/phpcs . --standard=Bluehost -s"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0-or-later"
-                ],
-                "description": "Endurance Data Module",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-data/tree/fix-eig-sso-success-hook",
+                    "source": "https://github.com/bluehost/endurance-wp-module-data/tree/0.1.2",
                     "issues": "https://github.com/bluehost/endurance-wp-module-data/issues"
                 }
             }
