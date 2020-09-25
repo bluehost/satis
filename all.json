@@ -111,19 +111,19 @@
                     "issues": "https://github.com/bluehost/bluehost-site-migrator/issues"
                 }
             },
-            "dev-master": {
+            "1.0.2": {
                 "name": "bluehost/bluehost-site-migrator",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/bluehost-site-migrator.git",
-                    "reference": "ab6f17ee84f83699596804e070418b8a91cae532"
+                    "reference": "30e204aac0022ad827de42d43485795880dcc449"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-site-migrator/zipball/ab6f17ee84f83699596804e070418b8a91cae532",
-                    "reference": "ab6f17ee84f83699596804e070418b8a91cae532",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-site-migrator/zipball/30e204aac0022ad827de42d43485795880dcc449",
+                    "reference": "30e204aac0022ad827de42d43485795880dcc449",
                     "shasum": ""
                 },
                 "require": {
@@ -136,7 +136,7 @@
                 "require-dev": {
                     "bluehost/wp-php-standards": "^1.1"
                 },
-                "time": "2020-08-10T21:02:27+00:00",
+                "time": "2020-09-25T15:48:34+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "classmap": [
@@ -162,7 +162,117 @@
                 ],
                 "description": "A WordPress plugin to help you quickly and easily migrate your website to Bluehost.",
                 "support": {
-                    "source": "https://github.com/bluehost/bluehost-site-migrator/tree/1.0.1",
+                    "source": "https://github.com/bluehost/bluehost-site-migrator/tree/1.0.2",
+                    "issues": "https://github.com/bluehost/bluehost-site-migrator/issues"
+                }
+            },
+            "dev-master": {
+                "name": "bluehost/bluehost-site-migrator",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bluehost/bluehost-site-migrator.git",
+                    "reference": "30e204aac0022ad827de42d43485795880dcc449"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-site-migrator/zipball/30e204aac0022ad827de42d43485795880dcc449",
+                    "reference": "30e204aac0022ad827de42d43485795880dcc449",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "ext-zip": "*",
+                    "symfony/process": "^3.4",
+                    "wp-forge/wp-plugin-check": "^1.0",
+                    "wpscholar/github-archive-installer": "^1.1"
+                },
+                "require-dev": {
+                    "bluehost/wp-php-standards": "^1.1"
+                },
+                "time": "2020-09-25T15:48:34+00:00",
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "classmap": [
+                        "includes/"
+                    ]
+                },
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . --standard=Bluehost"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . --standard=Bluehost -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Micah Wood",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "A WordPress plugin to help you quickly and easily migrate your website to Bluehost.",
+                "support": {
+                    "source": "https://github.com/bluehost/bluehost-site-migrator/tree/1.0.2",
+                    "issues": "https://github.com/bluehost/bluehost-site-migrator/issues"
+                }
+            },
+            "dev-micah/updates": {
+                "name": "bluehost/bluehost-site-migrator",
+                "version": "dev-micah/updates",
+                "version_normalized": "dev-micah/updates",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bluehost/bluehost-site-migrator.git",
+                    "reference": "4817037241bed6d2ee8057d223ebe3644c1ccf6a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-site-migrator/zipball/4817037241bed6d2ee8057d223ebe3644c1ccf6a",
+                    "reference": "4817037241bed6d2ee8057d223ebe3644c1ccf6a",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "ext-zip": "*",
+                    "symfony/process": "^3.4",
+                    "wp-forge/wp-plugin-check": "^1.0",
+                    "wpscholar/github-archive-installer": "^1.1"
+                },
+                "require-dev": {
+                    "bluehost/wp-php-standards": "^1.1"
+                },
+                "time": "2020-09-24T21:14:33+00:00",
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "classmap": [
+                        "includes/"
+                    ]
+                },
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . --standard=Bluehost"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . --standard=Bluehost -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Micah Wood",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "A WordPress plugin to help you quickly and easily migrate your website to Bluehost.",
+                "support": {
+                    "source": "https://github.com/bluehost/bluehost-site-migrator/tree/micah/updates",
                     "issues": "https://github.com/bluehost/bluehost-site-migrator/issues"
                 }
             }
