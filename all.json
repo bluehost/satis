@@ -1167,9 +1167,9 @@
                     "issues": "https://github.com/bluehost/bluehost-wordpress-plugin/issues"
                 }
             },
-            "2.4.0": {
+            "2.4": {
                 "name": "bluehost/bluehost-wordpress-plugin",
-                "version": "2.4.0",
+                "version": "2.4",
                 "version_normalized": "2.4.0.0",
                 "source": {
                     "type": "git",
