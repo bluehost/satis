@@ -1,3 +1,7 @@
+<a href="https://bluehost.com/" target="_blank">
+    <img src="https://bluehost.com/resources/logos/bluehost.svg" alt="Bluehost Logo" title="Bluehost" align="right" height="32" />
+</a>
+
 # Bluehost Satis Repository
 
 [Satis](https://composer.github.io/satis/) is an open-source [Composer](https://getcomposer.org/) repository generator. This repository serves as Bluehost's static file-based version of [Packagist](https://packagist.org/) and hosts the metadata of Bluehost's packages.
