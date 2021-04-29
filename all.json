@@ -2222,6 +2222,76 @@
                     "issues": "https://github.com/bluehost/bluehost-wordpress-plugin/issues"
                 }
             },
+            "dev-add/editor-tours": {
+                "name": "bluehost/bluehost-wordpress-plugin",
+                "version": "dev-add/editor-tours",
+                "version_normalized": "dev-add/editor-tours",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bluehost/bluehost-wordpress-plugin.git",
+                    "reference": "54f535ef74cae4735e95a7537385edc6bf78ac8e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/54f535ef74cae4735e95a7537385edc6bf78ac8e",
+                    "reference": "54f535ef74cae4735e95a7537385edc6bf78ac8e",
+                    "shasum": ""
+                },
+                "require": {
+                    "bluehost/endurance-wp-module-business-reviews": "^1.0",
+                    "bluehost/endurance-wp-module-gutenframe": "^0.1.3",
+                    "bluehost/endurance-wp-module-loader": "^1.0",
+                    "bluehost/endurance-wp-module-sso": "^1.0",
+                    "bluehost/endurance-wp-plugin-updater": "^1.1.1",
+                    "endurance/wp-module-data": "^1.0",
+                    "ext-iconv": "*",
+                    "wp-forge/helpers": "^1.0",
+                    "wpscholar/collection": "^1.0",
+                    "wpscholar/url": "^1.2"
+                },
+                "require-dev": {
+                    "bluehost/wp-php-standards": "^1.1",
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-cli/wp-cli-bundle": "^2.4"
+                },
+                "time": "2021-04-28T15:03:15+00:00",
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "psr-4": {
+                        "Bluehost\\": "inc/"
+                    }
+                },
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf --standard=phpcs.xml ."
+                    ],
+                    "i18n": [
+                        "vendor/bin/wp i18n make-pot . ./languages/bluehost-wordpress-plugin.pot --headers='{\"Report-Msgid-Bugs-To\":\"https://github.com/bluehost/bluehost-wordpress-plugin/issues\",\"POT-Creation-Date\":null}' --exclude=assets,storybook,tests"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs --standard=phpcs.xml -s ."
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike Hansen",
+                        "homepage": "https://mikehansen.me/"
+                    },
+                    {
+                        "name": "Micah Wood",
+                        "email": "micah@wpscholar.com",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "This plugin integrates your WordPress site with the Bluehost control panel, including performance, security, and update features.",
+                "support": {
+                    "source": "https://github.com/bluehost/bluehost-wordpress-plugin",
+                    "issues": "https://github.com/bluehost/bluehost-wordpress-plugin/issues"
+                }
+            },
             "dev-enhance/wp-search-replace-for-escaped-urls": {
                 "name": "bluehost/bluehost-wordpress-plugin",
                 "version": "dev-enhance/wp-search-replace-for-escaped-urls",
@@ -3726,6 +3796,57 @@
                     "issues": "https://github.com/bluehost/endurance-wp-plugin-updater/issues"
                 }
             },
+            "1.1.2": {
+                "name": "bluehost/endurance-wp-plugin-updater",
+                "version": "1.1.2",
+                "version_normalized": "1.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bluehost/endurance-wp-plugin-updater.git",
+                    "reference": "7ba33e3f02d612aa5e5e25751c945d6c700d1653"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/endurance-wp-plugin-updater/zipball/7ba33e3f02d612aa5e5e25751c945d6c700d1653",
+                    "reference": "7ba33e3f02d612aa5e5e25751c945d6c700d1653",
+                    "shasum": ""
+                },
+                "require": {
+                    "pimple/pimple": "^3.2"
+                },
+                "require-dev": {
+                    "bluehost/wp-php-standards": "^1.1"
+                },
+                "time": "2021-04-29T21:17:42+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Endurance_WP_Plugin_Updater\\": ""
+                    }
+                },
+                "scripts": {
+                    "lint": [
+                        "vendor/bin/phpcs . --standard=Bluehost"
+                    ],
+                    "clean": [
+                        "vendor/bin/phpcbf . --standard=Bluehost"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Micah Wood",
+                        "email": "micah@wpscholar.com"
+                    }
+                ],
+                "description": "A Composer package handling updates for WordPress plugins managed by Endurance.",
+                "support": {
+                    "source": "https://github.com/bluehost/endurance-wp-plugin-updater/tree/1.1.2",
+                    "issues": "https://github.com/bluehost/endurance-wp-plugin-updater/issues"
+                }
+            },
             "dev-master": {
                 "name": "bluehost/endurance-wp-plugin-updater",
                 "version": "dev-master",
@@ -3733,12 +3854,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/endurance-wp-plugin-updater.git",
-                    "reference": "256a86a4a600077504807b47724b464495bb8270"
+                    "reference": "7ba33e3f02d612aa5e5e25751c945d6c700d1653"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/endurance-wp-plugin-updater/zipball/256a86a4a600077504807b47724b464495bb8270",
-                    "reference": "256a86a4a600077504807b47724b464495bb8270",
+                    "url": "https://api.github.com/repos/bluehost/endurance-wp-plugin-updater/zipball/7ba33e3f02d612aa5e5e25751c945d6c700d1653",
+                    "reference": "7ba33e3f02d612aa5e5e25751c945d6c700d1653",
                     "shasum": ""
                 },
                 "require": {
@@ -3747,7 +3868,7 @@
                 "require-dev": {
                     "bluehost/wp-php-standards": "^1.1"
                 },
-                "time": "2021-01-27T01:45:38+00:00",
+                "time": "2021-04-29T21:17:42+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -3773,58 +3894,7 @@
                 ],
                 "description": "A Composer package handling updates for WordPress plugins managed by Endurance.",
                 "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-plugin-updater/tree/1.1.1",
-                    "issues": "https://github.com/bluehost/endurance-wp-plugin-updater/issues"
-                }
-            },
-            "dev-fix/type-check": {
-                "name": "bluehost/endurance-wp-plugin-updater",
-                "version": "dev-fix/type-check",
-                "version_normalized": "dev-fix/type-check",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-plugin-updater.git",
-                    "reference": "f5063c1ae9b3e4c381aadde57bb0aab3b256447d"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/endurance-wp-plugin-updater/zipball/f5063c1ae9b3e4c381aadde57bb0aab3b256447d",
-                    "reference": "f5063c1ae9b3e4c381aadde57bb0aab3b256447d",
-                    "shasum": ""
-                },
-                "require": {
-                    "pimple/pimple": "^3.2"
-                },
-                "require-dev": {
-                    "bluehost/wp-php-standards": "^1.1"
-                },
-                "time": "2021-04-02T19:09:46+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Endurance_WP_Plugin_Updater\\": ""
-                    }
-                },
-                "scripts": {
-                    "lint": [
-                        "vendor/bin/phpcs . --standard=Bluehost"
-                    ],
-                    "clean": [
-                        "vendor/bin/phpcbf . --standard=Bluehost"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0-or-later"
-                ],
-                "authors": [
-                    {
-                        "name": "Micah Wood",
-                        "email": "micah@wpscholar.com"
-                    }
-                ],
-                "description": "A Composer package handling updates for WordPress plugins managed by Endurance.",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-plugin-updater/tree/fix/type-check",
+                    "source": "https://github.com/bluehost/endurance-wp-plugin-updater/tree/1.1.2",
                     "issues": "https://github.com/bluehost/endurance-wp-plugin-updater/issues"
                 }
             }
