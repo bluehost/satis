@@ -3131,12 +3131,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/bluehost-wordpress-plugin.git",
-                    "reference": "9dc97521fdc6070773ff1b126e1876bfc84a76a3"
+                    "reference": "edba4ece411989b5590c4661169bd58abb069363"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/9dc97521fdc6070773ff1b126e1876bfc84a76a3",
-                    "reference": "9dc97521fdc6070773ff1b126e1876bfc84a76a3",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/edba4ece411989b5590c4661169bd58abb069363",
+                    "reference": "edba4ece411989b5590c4661169bd58abb069363",
                     "shasum": ""
                 },
                 "require": {
@@ -3145,7 +3145,8 @@
                     "bluehost/endurance-wp-module-loader": "^1.1",
                     "bluehost/endurance-wp-module-sso": "^1.0",
                     "bluehost/endurance-wp-plugin-updater": "^1.1.1",
-                    "endurance/wp-module-data": "^1.5",
+                    "bluehost/wp-data-module": "^1.0",
+                    "endurance/wp-module-data": "^1.6",
                     "ext-iconv": "*",
                     "wp-forge/helpers": "^1.0",
                     "wpscholar/collection": "^1.0",
@@ -3156,7 +3157,7 @@
                     "wp-cli/i18n-command": "^2.2",
                     "wp-cli/wp-cli-bundle": "^2.4"
                 },
-                "time": "2021-10-13T18:52:13+00:00",
+                "time": "2021-10-14T19:17:29+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "psr-4": {
@@ -5854,12 +5855,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:bluehost/bluehost-wp-data.git",
-                    "reference": "323ac2f5673f01909364abe0ecf8e895d0aca641"
+                    "reference": "ac035551695432d4e345d8a1fd3cb41159d65c02"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-wp-data/zipball/323ac2f5673f01909364abe0ecf8e895d0aca641",
-                    "reference": "323ac2f5673f01909364abe0ecf8e895d0aca641",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wp-data/zipball/ac035551695432d4e345d8a1fd3cb41159d65c02",
+                    "reference": "ac035551695432d4e345d8a1fd3cb41159d65c02",
                     "shasum": ""
                 },
                 "require": {
@@ -5868,7 +5869,7 @@
                 "require-dev": {
                     "bluehost/wp-php-standards": "^1.1"
                 },
-                "time": "2021-10-13T19:21:24+00:00",
+                "time": "2021-10-14T19:20:00+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -5908,12 +5909,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:bluehost/bluehost-wp-data.git",
-                    "reference": "323ac2f5673f01909364abe0ecf8e895d0aca641"
+                    "reference": "ac035551695432d4e345d8a1fd3cb41159d65c02"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-wp-data/zipball/323ac2f5673f01909364abe0ecf8e895d0aca641",
-                    "reference": "323ac2f5673f01909364abe0ecf8e895d0aca641",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wp-data/zipball/ac035551695432d4e345d8a1fd3cb41159d65c02",
+                    "reference": "ac035551695432d4e345d8a1fd3cb41159d65c02",
                     "shasum": ""
                 },
                 "require": {
@@ -5922,7 +5923,7 @@
                 "require-dev": {
                     "bluehost/wp-php-standards": "^1.1"
                 },
-                "time": "2021-10-13T19:21:24+00:00",
+                "time": "2021-10-14T19:20:00+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
