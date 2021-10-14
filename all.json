@@ -5848,10 +5848,10 @@
             }
         },
         "bluehost/wp-data-module": {
-            "1.0": {
+            "1.0.1": {
                 "name": "bluehost/wp-data-module",
-                "version": "1.0",
-                "version_normalized": "1.0.0.0",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:bluehost/bluehost-wp-data.git",
@@ -5898,7 +5898,7 @@
                 ],
                 "description": "Bluehost Specific Data Module",
                 "support": {
-                    "source": "https://github.com/bluehost/bluehost-wp-data/tree/1.0",
+                    "source": "https://github.com/bluehost/bluehost-wp-data/tree/1.0.1",
                     "issues": "https://github.com/bluehost/bluehost-wp-data/issues"
                 }
             },
@@ -5952,7 +5952,7 @@
                 ],
                 "description": "Bluehost Specific Data Module",
                 "support": {
-                    "source": "https://github.com/bluehost/bluehost-wp-data/tree/1.0",
+                    "source": "https://github.com/bluehost/bluehost-wp-data/tree/1.0.1",
                     "issues": "https://github.com/bluehost/bluehost-wp-data/issues"
                 }
             }
