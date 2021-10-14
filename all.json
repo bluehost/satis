@@ -5855,12 +5855,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:bluehost/bluehost-wp-data.git",
-                    "reference": "ac035551695432d4e345d8a1fd3cb41159d65c02"
+                    "reference": "2c8cb26e3d43a3b4d4e8a7113c2c1fc4074a4da9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-wp-data/zipball/ac035551695432d4e345d8a1fd3cb41159d65c02",
-                    "reference": "ac035551695432d4e345d8a1fd3cb41159d65c02",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wp-data/zipball/2c8cb26e3d43a3b4d4e8a7113c2c1fc4074a4da9",
+                    "reference": "2c8cb26e3d43a3b4d4e8a7113c2c1fc4074a4da9",
                     "shasum": ""
                 },
                 "require": {
@@ -5869,7 +5869,7 @@
                 "require-dev": {
                     "bluehost/wp-php-standards": "^1.1"
                 },
-                "time": "2021-10-14T19:20:00+00:00",
+                "time": "2021-10-14T19:29:59+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -5909,12 +5909,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:bluehost/bluehost-wp-data.git",
-                    "reference": "ac035551695432d4e345d8a1fd3cb41159d65c02"
+                    "reference": "2c8cb26e3d43a3b4d4e8a7113c2c1fc4074a4da9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-wp-data/zipball/ac035551695432d4e345d8a1fd3cb41159d65c02",
-                    "reference": "ac035551695432d4e345d8a1fd3cb41159d65c02",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wp-data/zipball/2c8cb26e3d43a3b4d4e8a7113c2c1fc4074a4da9",
+                    "reference": "2c8cb26e3d43a3b4d4e8a7113c2c1fc4074a4da9",
                     "shasum": ""
                 },
                 "require": {
@@ -5923,7 +5923,7 @@
                 "require-dev": {
                     "bluehost/wp-php-standards": "^1.1"
                 },
-                "time": "2021-10-14T19:20:00+00:00",
+                "time": "2021-10-14T19:29:59+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
