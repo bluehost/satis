@@ -3131,12 +3131,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/bluehost-wordpress-plugin.git",
-                    "reference": "edba4ece411989b5590c4661169bd58abb069363"
+                    "reference": "652cabe65a4e4f49ca684c6e0c94d7b82246259f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/edba4ece411989b5590c4661169bd58abb069363",
-                    "reference": "edba4ece411989b5590c4661169bd58abb069363",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/652cabe65a4e4f49ca684c6e0c94d7b82246259f",
+                    "reference": "652cabe65a4e4f49ca684c6e0c94d7b82246259f",
                     "shasum": ""
                 },
                 "require": {
@@ -3145,7 +3145,7 @@
                     "bluehost/endurance-wp-module-loader": "^1.1",
                     "bluehost/endurance-wp-module-sso": "^1.0",
                     "bluehost/endurance-wp-plugin-updater": "^1.1.1",
-                    "bluehost/wp-data-module": "^1.0",
+                    "bluehost/wp-data-module": "^1.0.2",
                     "endurance/wp-module-data": "^1.6",
                     "ext-iconv": "*",
                     "wp-forge/helpers": "^1.0",
@@ -3157,7 +3157,7 @@
                     "wp-cli/i18n-command": "^2.2",
                     "wp-cli/wp-cli-bundle": "^2.4"
                 },
-                "time": "2021-10-14T19:17:29+00:00",
+                "time": "2021-10-14T22:44:05+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "psr-4": {
@@ -5956,19 +5956,19 @@
                     "issues": "https://github.com/bluehost/bluehost-wp-data/issues"
                 }
             },
-            "dev-main": {
+            "1.0.3": {
                 "name": "bluehost/wp-data-module",
-                "version": "dev-main",
-                "version_normalized": "dev-main",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:bluehost/bluehost-wp-data.git",
-                    "reference": "cfedb2f8591e43bcf670bf1a3697a47472c0ca06"
+                    "reference": "abdb0e98bee8fe1257898ad4a15481ef7e9cb3de"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-wp-data/zipball/cfedb2f8591e43bcf670bf1a3697a47472c0ca06",
-                    "reference": "cfedb2f8591e43bcf670bf1a3697a47472c0ca06",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wp-data/zipball/abdb0e98bee8fe1257898ad4a15481ef7e9cb3de",
+                    "reference": "abdb0e98bee8fe1257898ad4a15481ef7e9cb3de",
                     "shasum": ""
                 },
                 "require": {
@@ -5977,7 +5977,7 @@
                 "require-dev": {
                     "bluehost/wp-php-standards": "^1.1"
                 },
-                "time": "2021-10-14T22:19:41+00:00",
+                "time": "2021-10-15T18:15:07+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -6006,7 +6006,61 @@
                 ],
                 "description": "Bluehost Specific Data Module",
                 "support": {
-                    "source": "https://github.com/bluehost/bluehost-wp-data/tree/1.0.2",
+                    "source": "https://github.com/bluehost/bluehost-wp-data/tree/1.0.3",
+                    "issues": "https://github.com/bluehost/bluehost-wp-data/issues"
+                }
+            },
+            "dev-main": {
+                "name": "bluehost/wp-data-module",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:bluehost/bluehost-wp-data.git",
+                    "reference": "abdb0e98bee8fe1257898ad4a15481ef7e9cb3de"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wp-data/zipball/abdb0e98bee8fe1257898ad4a15481ef7e9cb3de",
+                    "reference": "abdb0e98bee8fe1257898ad4a15481ef7e9cb3de",
+                    "shasum": ""
+                },
+                "require": {
+                    "endurance/wp-module-data": "^1.6"
+                },
+                "require-dev": {
+                    "bluehost/wp-php-standards": "^1.1"
+                },
+                "time": "2021-10-15T18:15:07+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Bluehost\\WP\\Data\\": "includes"
+                    },
+                    "files": [
+                        "bootstrap.php"
+                    ]
+                },
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . --standard=Bluehost"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . --standard=Bluehost -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Evan Mullins",
+                        "email": "evan@bluehost.com"
+                    }
+                ],
+                "description": "Bluehost Specific Data Module",
+                "support": {
+                    "source": "https://github.com/bluehost/bluehost-wp-data/tree/1.0.3",
                     "issues": "https://github.com/bluehost/bluehost-wp-data/issues"
                 }
             }
