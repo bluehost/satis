@@ -54,11 +54,11 @@
         },
         {
             "type": "vcs",
-            "url": "git@github.com:bluehost/endurance-wp-module-data.git"
+            "url": "https://github.com/bluehost/endurance-wp-module-data"
         },
         {
             "type": "vcs",
-            "url": "git@github.com:bluehost/bluehost-wp-data.git"
+            "url": "https://github.com/bluehost/bluehost-wp-data"
         }
     ],
     "require-all": true
