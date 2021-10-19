@@ -58,7 +58,7 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/bluehost/bluehost-wp-data"
+            "url": "https://github.com/bluehost/bluehost-wp-customer-data"
         }
     ],
     "require-all": true
