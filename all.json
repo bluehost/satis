@@ -7022,6 +7022,51 @@
                     "issues": "https://github.com/bluehost/endurance-wp-module-data/issues"
                 }
             },
+            "1.7": {
+                "name": "endurance/wp-module-data",
+                "version": "1.7",
+                "version_normalized": "1.7.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bluehost/endurance-wp-module-data.git",
+                    "reference": "43daab37a3adb9cbb76bbe8c397e6ad9d8b6594b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/endurance-wp-module-data/zipball/43daab37a3adb9cbb76bbe8c397e6ad9d8b6594b",
+                    "reference": "43daab37a3adb9cbb76bbe8c397e6ad9d8b6594b",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "bluehost/wp-php-standards": "^1.1"
+                },
+                "time": "2021-10-25T13:51:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Endurance\\WP\\Module\\Data\\": "src"
+                    },
+                    "files": [
+                        "bootstrap.php"
+                    ]
+                },
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . --standard=Bluehost"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . --standard=Bluehost -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Endurance Data Module",
+                "support": {
+                    "source": "https://github.com/bluehost/endurance-wp-module-data/tree/1.7",
+                    "issues": "https://github.com/bluehost/endurance-wp-module-data/issues"
+                }
+            },
             "dev-master": {
                 "name": "endurance/wp-module-data",
                 "version": "dev-master",
@@ -7063,7 +7108,7 @@
                 ],
                 "description": "Endurance Data Module",
                 "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-data/tree/master",
+                    "source": "https://github.com/bluehost/endurance-wp-module-data/tree/1.7",
                     "issues": "https://github.com/bluehost/endurance-wp-module-data/issues"
                 }
             },
