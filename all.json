@@ -6583,19 +6583,19 @@
                     "issues": "https://github.com/mojoness/mojo-marketplace-wp-plugin/issues"
                 }
             },
-            "dev-master": {
+            "1.6": {
                 "name": "bluehost/mojo-marketplace-wp-plugin",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.6",
+                "version_normalized": "1.6.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/mojo-marketplace-wp-plugin.git",
-                    "reference": "40f8ca8228b6e69281868762a2e1695efe9d3b7d"
+                    "reference": "faad1a9ce8f69844adee847badc0b6535d196444"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/mojo-marketplace-wp-plugin/zipball/40f8ca8228b6e69281868762a2e1695efe9d3b7d",
-                    "reference": "40f8ca8228b6e69281868762a2e1695efe9d3b7d",
+                    "url": "https://api.github.com/repos/bluehost/mojo-marketplace-wp-plugin/zipball/faad1a9ce8f69844adee847badc0b6535d196444",
+                    "reference": "faad1a9ce8f69844adee847badc0b6535d196444",
                     "shasum": ""
                 },
                 "require": {
@@ -6604,13 +6604,15 @@
                     "bluehost/endurance-wp-module-loader": "^1.0",
                     "bluehost/endurance-wp-module-spam-prevention": "^1.0",
                     "bluehost/endurance-wp-module-sso": "^1.0",
-                    "bluehost/endurance-wp-plugin-updater": "^1.0"
+                    "bluehost/endurance-wp-plugin-updater": "^1.0",
+                    "endurance/wp-module-data": "^1.8"
                 },
                 "require-dev": {
                     "bluehost/wp-php-standards": "^1.0",
+                    "wp-cli/i18n-command": "^2.2",
                     "wp-cli/wp-cli-bundle": "^2.4"
                 },
-                "time": "2021-05-17T18:10:20+00:00",
+                "time": "2021-12-06T16:39:56+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
@@ -6642,19 +6644,19 @@
                     "issues": "https://github.com/bluehost/mojo-marketplace-wp-plugin/issues"
                 }
             },
-            "dev-feature/add-data-module": {
+            "dev-master": {
                 "name": "bluehost/mojo-marketplace-wp-plugin",
-                "version": "dev-feature/add-data-module",
-                "version_normalized": "dev-feature/add-data-module",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/mojo-marketplace-wp-plugin.git",
-                    "reference": "3ab119ec3a023896f3efe32a810e83d1c73c47ad"
+                    "reference": "faad1a9ce8f69844adee847badc0b6535d196444"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/mojo-marketplace-wp-plugin/zipball/3ab119ec3a023896f3efe32a810e83d1c73c47ad",
-                    "reference": "3ab119ec3a023896f3efe32a810e83d1c73c47ad",
+                    "url": "https://api.github.com/repos/bluehost/mojo-marketplace-wp-plugin/zipball/faad1a9ce8f69844adee847badc0b6535d196444",
+                    "reference": "faad1a9ce8f69844adee847badc0b6535d196444",
                     "shasum": ""
                 },
                 "require": {
@@ -6664,14 +6666,14 @@
                     "bluehost/endurance-wp-module-spam-prevention": "^1.0",
                     "bluehost/endurance-wp-module-sso": "^1.0",
                     "bluehost/endurance-wp-plugin-updater": "^1.0",
-                    "endurance/wp-module-data": "^1.7"
+                    "endurance/wp-module-data": "^1.8"
                 },
                 "require-dev": {
                     "bluehost/wp-php-standards": "^1.0",
                     "wp-cli/i18n-command": "^2.2",
                     "wp-cli/wp-cli-bundle": "^2.4"
                 },
-                "time": "2021-11-08T21:00:28+00:00",
+                "time": "2021-12-06T16:39:56+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
