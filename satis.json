@@ -59,6 +59,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/bluehost/bluehost-wp-customer-data"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/bluehost/wp-module-sso.git"
         }
     ],
     "require-all": true
