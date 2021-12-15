@@ -7959,25 +7959,25 @@
             }
         },
         "newfold/wp-module-sso": {
-            "dev-master": {
+            "1.0": {
                 "name": "newfold/wp-module-sso",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/wp-module-sso.git",
-                    "reference": "000899cab454accfbcca24189c8e546186c70afc"
+                    "reference": "cbe553cd0ab118ca091b36f232547634780527c7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/wp-module-sso/zipball/000899cab454accfbcca24189c8e546186c70afc",
-                    "reference": "000899cab454accfbcca24189c8e546186c70afc",
+                    "url": "https://api.github.com/repos/bluehost/wp-module-sso/zipball/cbe553cd0ab118ca091b36f232547634780527c7",
+                    "reference": "cbe553cd0ab118ca091b36f232547634780527c7",
                     "shasum": ""
                 },
                 "require": {
                     "endurance/wp-module-data": "^1.8"
                 },
-                "time": "2021-12-15T13:37:25+00:00",
+                "time": "2021-12-15T13:48:54+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -7998,7 +7998,50 @@
                 ],
                 "description": "Single sign-on functionality for WordPress.",
                 "support": {
-                    "source": "https://github.com/bluehost/wp-module-sso/tree/master",
+                    "source": "https://github.com/bluehost/wp-module-sso/tree/1.0",
+                    "issues": "https://github.com/bluehost/wp-module-sso/issues"
+                }
+            },
+            "dev-master": {
+                "name": "newfold/wp-module-sso",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bluehost/wp-module-sso.git",
+                    "reference": "cbe553cd0ab118ca091b36f232547634780527c7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/wp-module-sso/zipball/cbe553cd0ab118ca091b36f232547634780527c7",
+                    "reference": "cbe553cd0ab118ca091b36f232547634780527c7",
+                    "shasum": ""
+                },
+                "require": {
+                    "endurance/wp-module-data": "^1.8"
+                },
+                "time": "2021-12-15T13:48:54+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "NewFold\\SSO\\": "includes"
+                    },
+                    "files": [
+                        "bootstrap.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Micah Wood",
+                        "email": "micah@bluehost.com"
+                    }
+                ],
+                "description": "Single sign-on functionality for WordPress.",
+                "support": {
+                    "source": "https://github.com/bluehost/wp-module-sso/tree/1.0",
                     "issues": "https://github.com/bluehost/wp-module-sso/issues"
                 }
             }
