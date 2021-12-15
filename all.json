@@ -6704,6 +6704,67 @@
                     "source": "https://github.com/bluehost/mojo-marketplace-wp-plugin",
                     "issues": "https://github.com/bluehost/mojo-marketplace-wp-plugin/issues"
                 }
+            },
+            "dev-fix/mojo-coming-soon": {
+                "name": "bluehost/mojo-marketplace-wp-plugin",
+                "version": "dev-fix/mojo-coming-soon",
+                "version_normalized": "dev-fix/mojo-coming-soon",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bluehost/mojo-marketplace-wp-plugin.git",
+                    "reference": "4f63d5369cadf831c159d33db2afcf9b899ff85d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/mojo-marketplace-wp-plugin/zipball/4f63d5369cadf831c159d33db2afcf9b899ff85d",
+                    "reference": "4f63d5369cadf831c159d33db2afcf9b899ff85d",
+                    "shasum": ""
+                },
+                "require": {
+                    "bluehost/endurance-wp-module-business-reviews": "^1.0",
+                    "bluehost/endurance-wp-module-gutenframe": "^0.1",
+                    "bluehost/endurance-wp-module-loader": "^1.0",
+                    "bluehost/endurance-wp-module-spam-prevention": "^1.0",
+                    "bluehost/endurance-wp-module-sso": "^1.0",
+                    "bluehost/endurance-wp-plugin-updater": "^1.0",
+                    "endurance/wp-module-data": "^1.8"
+                },
+                "require-dev": {
+                    "bluehost/wp-php-standards": "^1.0",
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-cli/wp-cli-bundle": "^2.4"
+                },
+                "time": "2021-12-10T16:55:42+00:00",
+                "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . --standard=Bluehost"
+                    ],
+                    "i18n": [
+                        "vendor/bin/wp i18n make-pot . ./languages/mojo-marketplace-wp-plugin.pot --headers='{\"Report-Msgid-Bugs-To\":\"https://github.com/bluehost/mojo-marketplace-wp-plugin/issues\",\"POT-Creation-Date\":null}'"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . --standard=Bluehost -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike Hansen",
+                        "homepage": "https://mikehansen.me/"
+                    },
+                    {
+                        "name": "Micah Wood",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "WordPress plugin that has shortcodes, widgets and themes.",
+                "support": {
+                    "source": "https://github.com/bluehost/mojo-marketplace-wp-plugin",
+                    "issues": "https://github.com/bluehost/mojo-marketplace-wp-plugin/issues"
+                }
             }
         },
         "bluehost/wp-php-standards": {
@@ -7895,50 +7956,50 @@
                     "source": "https://github.com/bluehost/endurance-wp-module-data/tree/event-rest-endpoint",
                     "issues": "https://github.com/bluehost/endurance-wp-module-data/issues"
                 }
-            },
-            "dev-feature/add-hostgator-to-multibrand": {
-                "name": "endurance/wp-module-data",
-                "version": "dev-feature/add-hostgator-to-multibrand",
-                "version_normalized": "dev-feature/add-hostgator-to-multibrand",
+            }
+        },
+        "newfold/wp-module-sso": {
+            "dev-master": {
+                "name": "newfold/wp-module-sso",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-module-data.git",
-                    "reference": "9ececa787cc7b9117cc4d9d8b887b42f04e7818d"
+                    "url": "https://github.com/bluehost/wp-module-sso.git",
+                    "reference": "000899cab454accfbcca24189c8e546186c70afc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/endurance-wp-module-data/zipball/9ececa787cc7b9117cc4d9d8b887b42f04e7818d",
-                    "reference": "9ececa787cc7b9117cc4d9d8b887b42f04e7818d",
+                    "url": "https://api.github.com/repos/bluehost/wp-module-sso/zipball/000899cab454accfbcca24189c8e546186c70afc",
+                    "reference": "000899cab454accfbcca24189c8e546186c70afc",
                     "shasum": ""
                 },
-                "require-dev": {
-                    "bluehost/wp-php-standards": "^1.1"
+                "require": {
+                    "endurance/wp-module-data": "^1.8"
                 },
-                "time": "2021-12-08T21:42:17+00:00",
+                "time": "2021-12-15T13:37:25+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
-                        "Endurance\\WP\\Module\\Data\\": "src"
+                        "NewFold\\SSO\\": "includes"
                     },
                     "files": [
                         "bootstrap.php"
                     ]
                 },
-                "scripts": {
-                    "fix": [
-                        "vendor/bin/phpcbf . --standard=Bluehost"
-                    ],
-                    "lint": [
-                        "vendor/bin/phpcs . --standard=Bluehost -s"
-                    ]
-                },
                 "license": [
                     "GPL-2.0-or-later"
                 ],
-                "description": "Endurance Data Module",
+                "authors": [
+                    {
+                        "name": "Micah Wood",
+                        "email": "micah@bluehost.com"
+                    }
+                ],
+                "description": "Single sign-on functionality for WordPress.",
                 "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-data/tree/feature/add-hostgator-to-multibrand",
-                    "issues": "https://github.com/bluehost/endurance-wp-module-data/issues"
+                    "source": "https://github.com/bluehost/wp-module-sso/tree/master",
+                    "issues": "https://github.com/bluehost/wp-module-sso/issues"
                 }
             }
         }
