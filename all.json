@@ -4201,7 +4201,8 @@
                 "support": {
                     "source": "https://github.com/bluehost/endurance-wp-module-generator/tree/1.0",
                     "issues": "https://github.com/bluehost/endurance-wp-module-generator/issues"
-                }
+                },
+                "abandoned": true
             },
             "dev-master": {
                 "name": "bluehost/endurance-wp-module-generator",
@@ -4241,47 +4242,8 @@
                 "support": {
                     "source": "https://github.com/bluehost/endurance-wp-module-generator/tree/1.0",
                     "issues": "https://github.com/bluehost/endurance-wp-module-generator/issues"
-                }
-            },
-            "dev-dependabot/composer/mustache/mustache-2.14.1": {
-                "name": "bluehost/endurance-wp-module-generator",
-                "version": "dev-dependabot/composer/mustache/mustache-2.14.1",
-                "version_normalized": "dev-dependabot/composer/mustache/mustache-2.14.1",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-module-generator.git",
-                    "reference": "138958dfffa20882cfb75dcf9c70e19e39a71f88"
                 },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/endurance-wp-module-generator/zipball/138958dfffa20882cfb75dcf9c70e19e39a71f88",
-                    "reference": "138958dfffa20882cfb75dcf9c70e19e39a71f88",
-                    "shasum": ""
-                },
-                "require": {
-                    "mustache/mustache": "^2.13"
-                },
-                "time": "2022-01-27T15:21:06+00:00",
-                "type": "library",
-                "scripts": {
-                    "post-create-project-cmd": [
-                        "@php bootstrap.php"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0-or-later"
-                ],
-                "authors": [
-                    {
-                        "name": "Micah Wood",
-                        "email": "micah@wpscholar.com"
-                    }
-                ],
-                "description": "Endurance WordPress Module Generator",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-generator/tree/dependabot/composer/mustache/mustache-2.14.1",
-                    "issues": "https://github.com/bluehost/endurance-wp-module-generator/issues"
-                }
+                "abandoned": true
             }
         },
         "bluehost/endurance-wp-module-gutenframe": {
@@ -7899,25 +7861,25 @@
                     "issues": "https://github.com/bluehost/endurance-wp-module-data/issues"
                 }
             },
-            "dev-master": {
+            "1.8.3": {
                 "name": "endurance/wp-module-data",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.8.3",
+                "version_normalized": "1.8.3.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/endurance-wp-module-data.git",
-                    "reference": "4410d86af5cb3d0501baaa04f7e5a179e23c887e"
+                    "reference": "08855818870faf3a86c64a05cd83262de2d6bfb0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/endurance-wp-module-data/zipball/4410d86af5cb3d0501baaa04f7e5a179e23c887e",
-                    "reference": "4410d86af5cb3d0501baaa04f7e5a179e23c887e",
+                    "url": "https://api.github.com/repos/bluehost/endurance-wp-module-data/zipball/08855818870faf3a86c64a05cd83262de2d6bfb0",
+                    "reference": "08855818870faf3a86c64a05cd83262de2d6bfb0",
                     "shasum": ""
                 },
                 "require-dev": {
                     "bluehost/wp-php-standards": "^1.1"
                 },
-                "time": "2022-02-04T20:25:36+00:00",
+                "time": "2022-03-01T19:25:45+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -7940,7 +7902,52 @@
                 ],
                 "description": "Endurance Data Module",
                 "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-data/tree/1.8.2",
+                    "source": "https://github.com/bluehost/endurance-wp-module-data/tree/1.8.3",
+                    "issues": "https://github.com/bluehost/endurance-wp-module-data/issues"
+                }
+            },
+            "dev-master": {
+                "name": "endurance/wp-module-data",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bluehost/endurance-wp-module-data.git",
+                    "reference": "08855818870faf3a86c64a05cd83262de2d6bfb0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/endurance-wp-module-data/zipball/08855818870faf3a86c64a05cd83262de2d6bfb0",
+                    "reference": "08855818870faf3a86c64a05cd83262de2d6bfb0",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "bluehost/wp-php-standards": "^1.1"
+                },
+                "time": "2022-03-01T19:25:45+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Endurance\\WP\\Module\\Data\\": "src"
+                    },
+                    "files": [
+                        "bootstrap.php"
+                    ]
+                },
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . --standard=Bluehost"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . --standard=Bluehost -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Endurance Data Module",
+                "support": {
+                    "source": "https://github.com/bluehost/endurance-wp-module-data/tree/1.8.3",
                     "issues": "https://github.com/bluehost/endurance-wp-module-data/issues"
                 }
             },
