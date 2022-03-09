@@ -7,12 +7,12 @@
                 "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/bluehost-site-migrator.git",
+                    "url": "https://github.com/newfold-labs/bluehost-site-migrator.git",
                     "reference": "8795ccc54fccb563ab4d27cebcc1b25e262bd96a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-site-migrator/zipball/8795ccc54fccb563ab4d27cebcc1b25e262bd96a",
+                    "url": "https://api.github.com/repos/newfold-labs/bluehost-site-migrator/zipball/8795ccc54fccb563ab4d27cebcc1b25e262bd96a",
                     "reference": "8795ccc54fccb563ab4d27cebcc1b25e262bd96a",
                     "shasum": ""
                 },
@@ -52,8 +52,8 @@
                 ],
                 "description": "A WordPress plugin to help you quickly and easily migrate your website to Bluehost.",
                 "support": {
-                    "source": "https://github.com/bluehost/bluehost-site-migrator/tree/1.0",
-                    "issues": "https://github.com/bluehost/bluehost-site-migrator/issues"
+                    "source": "https://github.com/newfold-labs/bluehost-site-migrator/tree/1.0",
+                    "issues": "https://github.com/newfold-labs/bluehost-site-migrator/issues"
                 }
             },
             "1.0.1": {
@@ -62,12 +62,12 @@
                 "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/bluehost-site-migrator.git",
+                    "url": "https://github.com/newfold-labs/bluehost-site-migrator.git",
                     "reference": "ab6f17ee84f83699596804e070418b8a91cae532"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-site-migrator/zipball/ab6f17ee84f83699596804e070418b8a91cae532",
+                    "url": "https://api.github.com/repos/newfold-labs/bluehost-site-migrator/zipball/ab6f17ee84f83699596804e070418b8a91cae532",
                     "reference": "ab6f17ee84f83699596804e070418b8a91cae532",
                     "shasum": ""
                 },
@@ -107,8 +107,8 @@
                 ],
                 "description": "A WordPress plugin to help you quickly and easily migrate your website to Bluehost.",
                 "support": {
-                    "source": "https://github.com/bluehost/bluehost-site-migrator/tree/1.0.1",
-                    "issues": "https://github.com/bluehost/bluehost-site-migrator/issues"
+                    "source": "https://github.com/newfold-labs/bluehost-site-migrator/tree/1.0.1",
+                    "issues": "https://github.com/newfold-labs/bluehost-site-migrator/issues"
                 }
             },
             "1.0.2": {
@@ -117,12 +117,12 @@
                 "version_normalized": "1.0.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/bluehost-site-migrator.git",
+                    "url": "https://github.com/newfold-labs/bluehost-site-migrator.git",
                     "reference": "30e204aac0022ad827de42d43485795880dcc449"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-site-migrator/zipball/30e204aac0022ad827de42d43485795880dcc449",
+                    "url": "https://api.github.com/repos/newfold-labs/bluehost-site-migrator/zipball/30e204aac0022ad827de42d43485795880dcc449",
                     "reference": "30e204aac0022ad827de42d43485795880dcc449",
                     "shasum": ""
                 },
@@ -162,8 +162,8 @@
                 ],
                 "description": "A WordPress plugin to help you quickly and easily migrate your website to Bluehost.",
                 "support": {
-                    "source": "https://github.com/bluehost/bluehost-site-migrator/tree/1.0.2",
-                    "issues": "https://github.com/bluehost/bluehost-site-migrator/issues"
+                    "source": "https://github.com/newfold-labs/bluehost-site-migrator/tree/1.0.2",
+                    "issues": "https://github.com/newfold-labs/bluehost-site-migrator/issues"
                 }
             },
             "1.0.3": {
@@ -172,12 +172,12 @@
                 "version_normalized": "1.0.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/bluehost-site-migrator.git",
+                    "url": "https://github.com/newfold-labs/bluehost-site-migrator.git",
                     "reference": "2e945d9a2c43a5085b98384d4a99a2bdeb92cdd2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-site-migrator/zipball/2e945d9a2c43a5085b98384d4a99a2bdeb92cdd2",
+                    "url": "https://api.github.com/repos/newfold-labs/bluehost-site-migrator/zipball/2e945d9a2c43a5085b98384d4a99a2bdeb92cdd2",
                     "reference": "2e945d9a2c43a5085b98384d4a99a2bdeb92cdd2",
                     "shasum": ""
                 },
@@ -216,8 +216,8 @@
                 ],
                 "description": "A WordPress plugin to help you quickly and easily migrate your website to Bluehost.",
                 "support": {
-                    "source": "https://github.com/bluehost/bluehost-site-migrator/tree/1.0.3",
-                    "issues": "https://github.com/bluehost/bluehost-site-migrator/issues"
+                    "source": "https://github.com/newfold-labs/bluehost-site-migrator/tree/1.0.3",
+                    "issues": "https://github.com/newfold-labs/bluehost-site-migrator/issues"
                 }
             },
             "1.0.4": {
@@ -226,12 +226,12 @@
                 "version_normalized": "1.0.4.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/bluehost-site-migrator.git",
+                    "url": "https://github.com/newfold-labs/bluehost-site-migrator.git",
                     "reference": "25981f600f454cf29992808df076751df91513f1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-site-migrator/zipball/25981f600f454cf29992808df076751df91513f1",
+                    "url": "https://api.github.com/repos/newfold-labs/bluehost-site-migrator/zipball/25981f600f454cf29992808df076751df91513f1",
                     "reference": "25981f600f454cf29992808df076751df91513f1",
                     "shasum": ""
                 },
@@ -270,8 +270,8 @@
                 ],
                 "description": "A WordPress plugin to help you quickly and easily migrate your website to Bluehost.",
                 "support": {
-                    "source": "https://github.com/bluehost/bluehost-site-migrator/tree/1.0.4",
-                    "issues": "https://github.com/bluehost/bluehost-site-migrator/issues"
+                    "source": "https://github.com/newfold-labs/bluehost-site-migrator/tree/1.0.4",
+                    "issues": "https://github.com/newfold-labs/bluehost-site-migrator/issues"
                 }
             },
             "1.0.5": {
@@ -280,12 +280,12 @@
                 "version_normalized": "1.0.5.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/bluehost-site-migrator.git",
+                    "url": "https://github.com/newfold-labs/bluehost-site-migrator.git",
                     "reference": "8f767919e250213ba1a28eb3b6da5070133dc8e8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-site-migrator/zipball/8f767919e250213ba1a28eb3b6da5070133dc8e8",
+                    "url": "https://api.github.com/repos/newfold-labs/bluehost-site-migrator/zipball/8f767919e250213ba1a28eb3b6da5070133dc8e8",
                     "reference": "8f767919e250213ba1a28eb3b6da5070133dc8e8",
                     "shasum": ""
                 },
@@ -324,8 +324,8 @@
                 ],
                 "description": "A WordPress plugin to help you quickly and easily migrate your website to Bluehost.",
                 "support": {
-                    "source": "https://github.com/bluehost/bluehost-site-migrator/tree/1.0.5",
-                    "issues": "https://github.com/bluehost/bluehost-site-migrator/issues"
+                    "source": "https://github.com/newfold-labs/bluehost-site-migrator/tree/1.0.5",
+                    "issues": "https://github.com/newfold-labs/bluehost-site-migrator/issues"
                 }
             },
             "1.0.5.1": {
@@ -334,12 +334,12 @@
                 "version_normalized": "1.0.5.1",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/bluehost-site-migrator.git",
+                    "url": "https://github.com/newfold-labs/bluehost-site-migrator.git",
                     "reference": "a4c9b0deb3b7ab1ba543dff99fa426d5969538ca"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-site-migrator/zipball/a4c9b0deb3b7ab1ba543dff99fa426d5969538ca",
+                    "url": "https://api.github.com/repos/newfold-labs/bluehost-site-migrator/zipball/a4c9b0deb3b7ab1ba543dff99fa426d5969538ca",
                     "reference": "a4c9b0deb3b7ab1ba543dff99fa426d5969538ca",
                     "shasum": ""
                 },
@@ -378,8 +378,8 @@
                 ],
                 "description": "A WordPress plugin to help you quickly and easily migrate your website to Bluehost.",
                 "support": {
-                    "source": "https://github.com/bluehost/bluehost-site-migrator/tree/1.0.5.1",
-                    "issues": "https://github.com/bluehost/bluehost-site-migrator/issues"
+                    "source": "https://github.com/newfold-labs/bluehost-site-migrator/tree/1.0.5.1",
+                    "issues": "https://github.com/newfold-labs/bluehost-site-migrator/issues"
                 }
             },
             "1.0.6": {
@@ -388,12 +388,12 @@
                 "version_normalized": "1.0.6.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/bluehost-site-migrator.git",
+                    "url": "https://github.com/newfold-labs/bluehost-site-migrator.git",
                     "reference": "42c97a2d5a6cc0a6dcfda1f6b7be8c58ef53c81f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-site-migrator/zipball/42c97a2d5a6cc0a6dcfda1f6b7be8c58ef53c81f",
+                    "url": "https://api.github.com/repos/newfold-labs/bluehost-site-migrator/zipball/42c97a2d5a6cc0a6dcfda1f6b7be8c58ef53c81f",
                     "reference": "42c97a2d5a6cc0a6dcfda1f6b7be8c58ef53c81f",
                     "shasum": ""
                 },
@@ -432,8 +432,8 @@
                 ],
                 "description": "A WordPress plugin to help you quickly and easily migrate your website to Bluehost.",
                 "support": {
-                    "source": "https://github.com/bluehost/bluehost-site-migrator/tree/1.0.6",
-                    "issues": "https://github.com/bluehost/bluehost-site-migrator/issues"
+                    "source": "https://github.com/newfold-labs/bluehost-site-migrator/tree/1.0.6",
+                    "issues": "https://github.com/newfold-labs/bluehost-site-migrator/issues"
                 }
             },
             "1.0.7": {
@@ -442,12 +442,12 @@
                 "version_normalized": "1.0.7.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/bluehost-site-migrator.git",
+                    "url": "https://github.com/newfold-labs/bluehost-site-migrator.git",
                     "reference": "e3bfebfebf750defebc6a641644d06d13138e209"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-site-migrator/zipball/e3bfebfebf750defebc6a641644d06d13138e209",
+                    "url": "https://api.github.com/repos/newfold-labs/bluehost-site-migrator/zipball/e3bfebfebf750defebc6a641644d06d13138e209",
                     "reference": "e3bfebfebf750defebc6a641644d06d13138e209",
                     "shasum": ""
                 },
@@ -486,8 +486,8 @@
                 ],
                 "description": "A WordPress plugin to help you quickly and easily migrate your website to Bluehost.",
                 "support": {
-                    "source": "https://github.com/bluehost/bluehost-site-migrator/tree/1.0.7",
-                    "issues": "https://github.com/bluehost/bluehost-site-migrator/issues"
+                    "source": "https://github.com/newfold-labs/bluehost-site-migrator/tree/1.0.7",
+                    "issues": "https://github.com/newfold-labs/bluehost-site-migrator/issues"
                 }
             },
             "1.0.8": {
@@ -496,12 +496,12 @@
                 "version_normalized": "1.0.8.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/bluehost-site-migrator.git",
+                    "url": "https://github.com/newfold-labs/bluehost-site-migrator.git",
                     "reference": "b5ad374684ad128c708a7421cb7e0a4207a19aa7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-site-migrator/zipball/b5ad374684ad128c708a7421cb7e0a4207a19aa7",
+                    "url": "https://api.github.com/repos/newfold-labs/bluehost-site-migrator/zipball/b5ad374684ad128c708a7421cb7e0a4207a19aa7",
                     "reference": "b5ad374684ad128c708a7421cb7e0a4207a19aa7",
                     "shasum": ""
                 },
@@ -540,8 +540,8 @@
                 ],
                 "description": "A WordPress plugin to help you quickly and easily migrate your website to Bluehost.",
                 "support": {
-                    "source": "https://github.com/bluehost/bluehost-site-migrator/tree/1.0.8",
-                    "issues": "https://github.com/bluehost/bluehost-site-migrator/issues"
+                    "source": "https://github.com/newfold-labs/bluehost-site-migrator/tree/1.0.8",
+                    "issues": "https://github.com/newfold-labs/bluehost-site-migrator/issues"
                 }
             },
             "dev-master": {
@@ -550,12 +550,12 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/bluehost-site-migrator.git",
+                    "url": "https://github.com/newfold-labs/bluehost-site-migrator.git",
                     "reference": "c57712cd7c9d09730f3b31d2a200c09968da4fa6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-site-migrator/zipball/c57712cd7c9d09730f3b31d2a200c09968da4fa6",
+                    "url": "https://api.github.com/repos/newfold-labs/bluehost-site-migrator/zipball/c57712cd7c9d09730f3b31d2a200c09968da4fa6",
                     "reference": "c57712cd7c9d09730f3b31d2a200c09968da4fa6",
                     "shasum": ""
                 },
@@ -594,8 +594,8 @@
                 ],
                 "description": "A WordPress plugin to help you quickly and easily migrate your website to Bluehost.",
                 "support": {
-                    "source": "https://github.com/bluehost/bluehost-site-migrator/tree/master",
-                    "issues": "https://github.com/bluehost/bluehost-site-migrator/issues"
+                    "source": "https://github.com/newfold-labs/bluehost-site-migrator/tree/master",
+                    "issues": "https://github.com/newfold-labs/bluehost-site-migrator/issues"
                 }
             },
             "dev-add/geo-support": {
@@ -604,12 +604,12 @@
                 "version_normalized": "dev-add/geo-support",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/bluehost-site-migrator.git",
+                    "url": "https://github.com/newfold-labs/bluehost-site-migrator.git",
                     "reference": "58c1f2b8b50f032ecb88e275f36c4eb62f2f8c86"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-site-migrator/zipball/58c1f2b8b50f032ecb88e275f36c4eb62f2f8c86",
+                    "url": "https://api.github.com/repos/newfold-labs/bluehost-site-migrator/zipball/58c1f2b8b50f032ecb88e275f36c4eb62f2f8c86",
                     "reference": "58c1f2b8b50f032ecb88e275f36c4eb62f2f8c86",
                     "shasum": ""
                 },
@@ -648,8 +648,8 @@
                 ],
                 "description": "A WordPress plugin to help you quickly and easily migrate your website to Bluehost.",
                 "support": {
-                    "source": "https://github.com/bluehost/bluehost-site-migrator/tree/add/geo-support",
-                    "issues": "https://github.com/bluehost/bluehost-site-migrator/issues"
+                    "source": "https://github.com/newfold-labs/bluehost-site-migrator/tree/add/geo-support",
+                    "issues": "https://github.com/newfold-labs/bluehost-site-migrator/issues"
                 }
             },
             "dev-dependabot/npm_and_yarn/node-sass-7.0.0": {
@@ -658,12 +658,12 @@
                 "version_normalized": "dev-dependabot/npm_and_yarn/node-sass-7.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/bluehost-site-migrator.git",
+                    "url": "https://github.com/newfold-labs/bluehost-site-migrator.git",
                     "reference": "6b98601baa5fcaaaa7456f60e5ad987fc91da39b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-site-migrator/zipball/6b98601baa5fcaaaa7456f60e5ad987fc91da39b",
+                    "url": "https://api.github.com/repos/newfold-labs/bluehost-site-migrator/zipball/6b98601baa5fcaaaa7456f60e5ad987fc91da39b",
                     "reference": "6b98601baa5fcaaaa7456f60e5ad987fc91da39b",
                     "shasum": ""
                 },
@@ -702,8 +702,8 @@
                 ],
                 "description": "A WordPress plugin to help you quickly and easily migrate your website to Bluehost.",
                 "support": {
-                    "source": "https://github.com/bluehost/bluehost-site-migrator/tree/dependabot/npm_and_yarn/node-sass-7.0.0",
-                    "issues": "https://github.com/bluehost/bluehost-site-migrator/issues"
+                    "source": "https://github.com/newfold-labs/bluehost-site-migrator/tree/dependabot/npm_and_yarn/node-sass-7.0.0",
+                    "issues": "https://github.com/newfold-labs/bluehost-site-migrator/issues"
                 }
             }
         },
@@ -3149,19 +3149,19 @@
                     "issues": "https://github.com/bluehost/bluehost-wordpress-plugin/issues"
                 }
             },
-            "dev-master": {
+            "2.9.0": {
                 "name": "bluehost/bluehost-wordpress-plugin",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "2.9.0",
+                "version_normalized": "2.9.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/bluehost-wordpress-plugin.git",
-                    "reference": "f8c1135b6688f0c0e7143858af4ebbf1ad290240"
+                    "reference": "802234e9f1d7d90dcc443c6be335ad7a5b81fd56"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/f8c1135b6688f0c0e7143858af4ebbf1ad290240",
-                    "reference": "f8c1135b6688f0c0e7143858af4ebbf1ad290240",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/802234e9f1d7d90dcc443c6be335ad7a5b81fd56",
+                    "reference": "802234e9f1d7d90dcc443c6be335ad7a5b81fd56",
                     "shasum": ""
                 },
                 "require": {
@@ -3182,7 +3182,79 @@
                     "wp-cli/i18n-command": "^2.2",
                     "wp-cli/wp-cli-bundle": "^2.4"
                 },
-                "time": "2022-02-16T21:29:42+00:00",
+                "time": "2022-03-09T18:53:19+00:00",
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "psr-4": {
+                        "Bluehost\\": "inc/",
+                        "Newfold\\Plugin\\": "inc/"
+                    }
+                },
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf --standard=phpcs.xml ."
+                    ],
+                    "i18n": [
+                        "vendor/bin/wp i18n make-pot . ./languages/bluehost-wordpress-plugin.pot --headers='{\"Report-Msgid-Bugs-To\":\"https://github.com/bluehost/bluehost-wordpress-plugin/issues\",\"POT-Creation-Date\":null}' --exclude=assets,storybook,tests"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs --standard=phpcs.xml -s ."
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike Hansen",
+                        "homepage": "https://mikehansen.me/"
+                    },
+                    {
+                        "name": "Micah Wood",
+                        "email": "micah@wpscholar.com",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "This plugin integrates your WordPress site with the Bluehost control panel, including performance, security, and update features.",
+                "support": {
+                    "source": "https://github.com/bluehost/bluehost-wordpress-plugin",
+                    "issues": "https://github.com/bluehost/bluehost-wordpress-plugin/issues"
+                }
+            },
+            "dev-master": {
+                "name": "bluehost/bluehost-wordpress-plugin",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bluehost/bluehost-wordpress-plugin.git",
+                    "reference": "802234e9f1d7d90dcc443c6be335ad7a5b81fd56"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/802234e9f1d7d90dcc443c6be335ad7a5b81fd56",
+                    "reference": "802234e9f1d7d90dcc443c6be335ad7a5b81fd56",
+                    "shasum": ""
+                },
+                "require": {
+                    "bluehost/bluehost-wp-customer-data": "^1.0",
+                    "bluehost/endurance-wp-module-business-reviews": "^1.0",
+                    "bluehost/endurance-wp-module-gutenframe": "^0.1.3",
+                    "bluehost/endurance-wp-module-loader": "^1.1",
+                    "bluehost/endurance-wp-module-sso": "^1.0",
+                    "bluehost/endurance-wp-plugin-updater": "^1.1.1",
+                    "endurance/wp-module-data": "^1.8.2",
+                    "ext-iconv": "*",
+                    "wp-forge/helpers": "^1.0",
+                    "wpscholar/collection": "^1.0",
+                    "wpscholar/url": "^1.2"
+                },
+                "require-dev": {
+                    "bluehost/wp-php-standards": "^1.1",
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-cli/wp-cli-bundle": "^2.4"
+                },
+                "time": "2022-03-09T18:53:19+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "psr-4": {
@@ -5490,12 +5562,12 @@
                 "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/maestro-connector.git",
+                    "url": "https://github.com/newfold-labs/maestro-connector.git",
                     "reference": "c4564d827f4adf69858c461626a7d69c1a00f949"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/maestro-connector/zipball/c4564d827f4adf69858c461626a7d69c1a00f949",
+                    "url": "https://api.github.com/repos/newfold-labs/maestro-connector/zipball/c4564d827f4adf69858c461626a7d69c1a00f949",
                     "reference": "c4564d827f4adf69858c461626a7d69c1a00f949",
                     "shasum": ""
                 },
@@ -5528,8 +5600,8 @@
                 ],
                 "description": "Give trusted web professionals admin access to your WordPress account. Revoke anytime.",
                 "support": {
-                    "source": "https://github.com/bluehost/maestro-connector/tree/1.0.1",
-                    "issues": "https://github.com/bluehost/maestro-connector/issues"
+                    "source": "https://github.com/newfold-labs/maestro-connector/tree/1.0.1",
+                    "issues": "https://github.com/newfold-labs/maestro-connector/issues"
                 }
             },
             "1.0.2": {
@@ -5538,12 +5610,12 @@
                 "version_normalized": "1.0.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/maestro-connector.git",
+                    "url": "https://github.com/newfold-labs/maestro-connector.git",
                     "reference": "3227b8c2105aa7b39e992f3724c656d1f1337016"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/maestro-connector/zipball/3227b8c2105aa7b39e992f3724c656d1f1337016",
+                    "url": "https://api.github.com/repos/newfold-labs/maestro-connector/zipball/3227b8c2105aa7b39e992f3724c656d1f1337016",
                     "reference": "3227b8c2105aa7b39e992f3724c656d1f1337016",
                     "shasum": ""
                 },
@@ -5576,8 +5648,8 @@
                 ],
                 "description": "Give trusted web professionals admin access to your WordPress account. Revoke anytime.",
                 "support": {
-                    "source": "https://github.com/bluehost/maestro-connector/tree/1.0.2",
-                    "issues": "https://github.com/bluehost/maestro-connector/issues"
+                    "source": "https://github.com/newfold-labs/maestro-connector/tree/1.0.2",
+                    "issues": "https://github.com/newfold-labs/maestro-connector/issues"
                 }
             },
             "dev-master": {
@@ -5586,12 +5658,12 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/maestro-connector.git",
+                    "url": "https://github.com/newfold-labs/maestro-connector.git",
                     "reference": "81ff72807ad524949064b1eced7fca323b1b5e43"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/maestro-connector/zipball/81ff72807ad524949064b1eced7fca323b1b5e43",
+                    "url": "https://api.github.com/repos/newfold-labs/maestro-connector/zipball/81ff72807ad524949064b1eced7fca323b1b5e43",
                     "reference": "81ff72807ad524949064b1eced7fca323b1b5e43",
                     "shasum": ""
                 },
@@ -5627,8 +5699,8 @@
                 ],
                 "description": "Give trusted web professionals admin access to your WordPress account. Revoke anytime.",
                 "support": {
-                    "source": "https://github.com/bluehost/maestro-connector/tree/master",
-                    "issues": "https://github.com/bluehost/maestro-connector/issues"
+                    "source": "https://github.com/newfold-labs/maestro-connector/tree/master",
+                    "issues": "https://github.com/newfold-labs/maestro-connector/issues"
                 }
             },
             "dev-api-url": {
@@ -5637,12 +5709,12 @@
                 "version_normalized": "dev-api-url",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/maestro-connector.git",
+                    "url": "https://github.com/newfold-labs/maestro-connector.git",
                     "reference": "be33d143bf0976fe0f7bdda3a087f061d8af293c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/maestro-connector/zipball/be33d143bf0976fe0f7bdda3a087f061d8af293c",
+                    "url": "https://api.github.com/repos/newfold-labs/maestro-connector/zipball/be33d143bf0976fe0f7bdda3a087f061d8af293c",
                     "reference": "be33d143bf0976fe0f7bdda3a087f061d8af293c",
                     "shasum": ""
                 },
@@ -5675,8 +5747,8 @@
                 ],
                 "description": "Give trusted web professionals admin access to your WordPress account. Revoke anytime.",
                 "support": {
-                    "source": "https://github.com/bluehost/maestro-connector/tree/api-url",
-                    "issues": "https://github.com/bluehost/maestro-connector/issues"
+                    "source": "https://github.com/newfold-labs/maestro-connector/tree/api-url",
+                    "issues": "https://github.com/newfold-labs/maestro-connector/issues"
                 }
             },
             "dev-develop": {
@@ -5685,12 +5757,12 @@
                 "version_normalized": "dev-develop",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/maestro-connector.git",
+                    "url": "https://github.com/newfold-labs/maestro-connector.git",
                     "reference": "5b0b7ecdcb1ae75eb3211d62be52a6cca1edf467"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/maestro-connector/zipball/5b0b7ecdcb1ae75eb3211d62be52a6cca1edf467",
+                    "url": "https://api.github.com/repos/newfold-labs/maestro-connector/zipball/5b0b7ecdcb1ae75eb3211d62be52a6cca1edf467",
                     "reference": "5b0b7ecdcb1ae75eb3211d62be52a6cca1edf467",
                     "shasum": ""
                 },
@@ -5726,8 +5798,8 @@
                 ],
                 "description": "Give trusted web professionals admin access to your WordPress account. Revoke anytime.",
                 "support": {
-                    "source": "https://github.com/bluehost/maestro-connector/tree/develop",
-                    "issues": "https://github.com/bluehost/maestro-connector/issues"
+                    "source": "https://github.com/newfold-labs/maestro-connector/tree/develop",
+                    "issues": "https://github.com/newfold-labs/maestro-connector/issues"
                 }
             },
             "dev-micah/add-github-archive-installer": {
@@ -5736,12 +5808,12 @@
                 "version_normalized": "dev-micah/add-github-archive-installer",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/maestro-connector.git",
+                    "url": "https://github.com/newfold-labs/maestro-connector.git",
                     "reference": "169010e5ecfc47619bb8a9d0d04f4b8656721012"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/maestro-connector/zipball/169010e5ecfc47619bb8a9d0d04f4b8656721012",
+                    "url": "https://api.github.com/repos/newfold-labs/maestro-connector/zipball/169010e5ecfc47619bb8a9d0d04f4b8656721012",
                     "reference": "169010e5ecfc47619bb8a9d0d04f4b8656721012",
                     "shasum": ""
                 },
@@ -5778,8 +5850,8 @@
                 ],
                 "description": "Give trusted web professionals admin access to your WordPress account. Revoke anytime.",
                 "support": {
-                    "source": "https://github.com/bluehost/maestro-connector/tree/micah/add-github-archive-installer",
-                    "issues": "https://github.com/bluehost/maestro-connector/issues"
+                    "source": "https://github.com/newfold-labs/maestro-connector/tree/micah/add-github-archive-installer",
+                    "issues": "https://github.com/newfold-labs/maestro-connector/issues"
                 }
             }
         },
@@ -6845,12 +6917,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/wp-php-standards.git",
-                    "reference": "b8f664379634eb85850ca5891591c164d66bfb13"
+                    "reference": "ad56b8511c01001e23a4ee84ef5de6a1fa094212"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/wp-php-standards/zipball/b8f664379634eb85850ca5891591c164d66bfb13",
-                    "reference": "b8f664379634eb85850ca5891591c164d66bfb13",
+                    "url": "https://api.github.com/repos/bluehost/wp-php-standards/zipball/ad56b8511c01001e23a4ee84ef5de6a1fa094212",
+                    "reference": "ad56b8511c01001e23a4ee84ef5de6a1fa094212",
                     "shasum": ""
                 },
                 "require": {
@@ -6859,7 +6931,7 @@
                     "squizlabs/php_codesniffer": "@stable",
                     "wp-coding-standards/wpcs": "@stable"
                 },
-                "time": "2022-01-25T11:26:51+00:00",
+                "time": "2022-03-08T20:43:32+00:00",
                 "type": "phpcodesniffer-standard",
                 "license": [
                     "GPL-2.0-or-later"
