@@ -63,6 +63,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/bluehost/wp-module-sso.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/bluehost/wp-module-secure-passwords.git"
         }
     ],
     "require-all": true
