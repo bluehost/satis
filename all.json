@@ -7157,19 +7157,19 @@
             }
         },
         "bluehost/wp-module-secure-passwords": {
-            "dev-main": {
+            "1.0": {
                 "name": "bluehost/wp-module-secure-passwords",
-                "version": "dev-main",
-                "version_normalized": "dev-main",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:bluehost/wp-module-secure-passwords.git",
-                    "reference": "011eedcae0822e5b63368f7d96029960f84894fd"
+                    "reference": "71f534fce3f95df8443f77dce699cfe9cf7d69fa"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/wp-module-secure-passwords/zipball/011eedcae0822e5b63368f7d96029960f84894fd",
-                    "reference": "011eedcae0822e5b63368f7d96029960f84894fd",
+                    "url": "https://api.github.com/repos/bluehost/wp-module-secure-passwords/zipball/71f534fce3f95df8443f77dce699cfe9cf7d69fa",
+                    "reference": "71f534fce3f95df8443f77dce699cfe9cf7d69fa",
                     "shasum": ""
                 },
                 "require-dev": {
@@ -7177,7 +7177,7 @@
                     "wp-phpunit/wp-phpunit": "^5.9",
                     "yoast/phpunit-polyfills": "^1.0"
                 },
-                "time": "2022-04-11T15:19:08+00:00",
+                "time": "2022-04-11T15:54:53+00:00",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7203,7 +7203,57 @@
                 ],
                 "description": "Stuff",
                 "support": {
-                    "source": "https://github.com/bluehost/wp-module-secure-passwords/tree/main",
+                    "source": "https://github.com/bluehost/wp-module-secure-passwords/tree/1.0",
+                    "issues": "https://github.com/bluehost/wp-module-secure-passwords/issues"
+                }
+            },
+            "dev-main": {
+                "name": "bluehost/wp-module-secure-passwords",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:bluehost/wp-module-secure-passwords.git",
+                    "reference": "71f534fce3f95df8443f77dce699cfe9cf7d69fa"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/wp-module-secure-passwords/zipball/71f534fce3f95df8443f77dce699cfe9cf7d69fa",
+                    "reference": "71f534fce3f95df8443f77dce699cfe9cf7d69fa",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "bluehost/wp-php-standards": "^1.1",
+                    "wp-phpunit/wp-phpunit": "^5.9",
+                    "yoast/phpunit-polyfills": "^1.0"
+                },
+                "time": "2022-04-11T15:54:53+00:00",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "bootstrap.php"
+                    ]
+                },
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . --standard=Bluehost"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . --standard=Bluehost -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Jonathan Desrosiers",
+                        "email": "jonathan.desrosiers@newfold.com"
+                    }
+                ],
+                "description": "Stuff",
+                "support": {
+                    "source": "https://github.com/bluehost/wp-module-secure-passwords/tree/1.0",
                     "issues": "https://github.com/bluehost/wp-module-secure-passwords/issues"
                 }
             }
