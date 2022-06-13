@@ -3786,12 +3786,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/bluehost-wordpress-plugin.git",
-                    "reference": "38f40d02ab5fa88c446ff96daee993c0fda96b8f"
+                    "reference": "5af1120ceb388a446f53b3a4f973d11b84c42ae4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/38f40d02ab5fa88c446ff96daee993c0fda96b8f",
-                    "reference": "38f40d02ab5fa88c446ff96daee993c0fda96b8f",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/5af1120ceb388a446f53b3a4f973d11b84c42ae4",
+                    "reference": "5af1120ceb388a446f53b3a4f973d11b84c42ae4",
                     "shasum": ""
                 },
                 "require": {
@@ -3815,7 +3815,7 @@
                     "wp-cli/i18n-command": "^2.2",
                     "wp-cli/wp-cli-bundle": "^2.4"
                 },
-                "time": "2022-05-12T22:20:47+00:00",
+                "time": "2022-05-27T18:32:06+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "psr-4": {
@@ -5725,22 +5725,22 @@
                     "issues": "https://github.com/bluehost/endurance-wp-module-sso/issues"
                 }
             },
-            "dev-master": {
+            "1.0.4": {
                 "name": "bluehost/endurance-wp-module-sso",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.4",
+                "version_normalized": "1.0.4.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/endurance-wp-module-sso.git",
-                    "reference": "2cf57aae19a6a49abf76ea80526dbb1c0253b7df"
+                    "reference": "a166e6c65319e450cf5914ee943f549a420b3dd4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/endurance-wp-module-sso/zipball/2cf57aae19a6a49abf76ea80526dbb1c0253b7df",
-                    "reference": "2cf57aae19a6a49abf76ea80526dbb1c0253b7df",
+                    "url": "https://api.github.com/repos/bluehost/endurance-wp-module-sso/zipball/a166e6c65319e450cf5914ee943f549a420b3dd4",
+                    "reference": "a166e6c65319e450cf5914ee943f549a420b3dd4",
                     "shasum": ""
                 },
-                "time": "2020-12-07T14:43:01+00:00",
+                "time": "2022-06-13T21:07:33+00:00",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -5758,7 +5758,44 @@
                 ],
                 "description": "Bluehost Single Sign-on Integration",
                 "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-sso/tree/master",
+                    "source": "https://github.com/bluehost/endurance-wp-module-sso/tree/1.0.4",
+                    "issues": "https://github.com/bluehost/endurance-wp-module-sso/issues"
+                }
+            },
+            "dev-master": {
+                "name": "bluehost/endurance-wp-module-sso",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bluehost/endurance-wp-module-sso.git",
+                    "reference": "a166e6c65319e450cf5914ee943f549a420b3dd4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/endurance-wp-module-sso/zipball/a166e6c65319e450cf5914ee943f549a420b3dd4",
+                    "reference": "a166e6c65319e450cf5914ee943f549a420b3dd4",
+                    "shasum": ""
+                },
+                "time": "2022-06-13T21:07:33+00:00",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "bootstrap.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Micah Wood",
+                        "email": "micah@wpscholar.com"
+                    }
+                ],
+                "description": "Bluehost Single Sign-on Integration",
+                "support": {
+                    "source": "https://github.com/bluehost/endurance-wp-module-sso/tree/1.0.4",
                     "issues": "https://github.com/bluehost/endurance-wp-module-sso/issues"
                 }
             }
