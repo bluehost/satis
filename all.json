@@ -4597,12 +4597,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/bluehost-wordpress-plugin.git",
-                    "reference": "b2d274b968627c56d4dbedb4224dc9f55168a37a"
+                    "reference": "f6b9f83d515c9e18f9b2af9083c0c7dc8b29c34d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/b2d274b968627c56d4dbedb4224dc9f55168a37a",
-                    "reference": "b2d274b968627c56d4dbedb4224dc9f55168a37a",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/f6b9f83d515c9e18f9b2af9083c0c7dc8b29c34d",
+                    "reference": "f6b9f83d515c9e18f9b2af9083c0c7dc8b29c34d",
                     "shasum": ""
                 },
                 "require": {
@@ -4627,7 +4627,7 @@
                     "wp-cli/i18n-command": "@stable",
                     "wp-cli/wp-cli-bundle": "@stable"
                 },
-                "time": "2022-08-18T20:39:35+00:00",
+                "time": "2022-08-23T14:28:09+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "psr-4": {
@@ -6286,6 +6286,60 @@
                     "issues": "https://github.com/bluehost/bluehost-wp-customer-data/issues"
                 }
             },
+            "1.4.4": {
+                "name": "bluehost/bluehost-wp-customer-data",
+                "version": "1.4.4",
+                "version_normalized": "1.4.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bluehost/bluehost-wp-customer-data.git",
+                    "reference": "7e231283c44e17d3b41862d87521a3dba06cc262"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wp-customer-data/zipball/7e231283c44e17d3b41862d87521a3dba06cc262",
+                    "reference": "7e231283c44e17d3b41862d87521a3dba06cc262",
+                    "shasum": ""
+                },
+                "require": {
+                    "newfold-labs/wp-module-data": "^2.2"
+                },
+                "require-dev": {
+                    "bluehost/wp-php-standards": "^1.1"
+                },
+                "time": "2022-08-23T15:09:54+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Bluehost\\WP\\Data\\": "includes"
+                    },
+                    "files": [
+                        "bootstrap.php"
+                    ]
+                },
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . --standard=Bluehost"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . --standard=Bluehost -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Evan Mullins",
+                        "email": "evan@bluehost.com"
+                    }
+                ],
+                "description": "Bluehost Specific Customer Data Module Integrations",
+                "support": {
+                    "source": "https://github.com/bluehost/bluehost-wp-customer-data/tree/1.4.4",
+                    "issues": "https://github.com/bluehost/bluehost-wp-customer-data/issues"
+                }
+            },
             "dev-fix/php-notices": {
                 "name": "bluehost/bluehost-wp-customer-data",
                 "version": "dev-fix/php-notices",
@@ -6347,12 +6401,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/bluehost-wp-customer-data.git",
-                    "reference": "03f5a4340fecea02c11ad4a3abbdb73c66e403f3"
+                    "reference": "7e231283c44e17d3b41862d87521a3dba06cc262"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-wp-customer-data/zipball/03f5a4340fecea02c11ad4a3abbdb73c66e403f3",
-                    "reference": "03f5a4340fecea02c11ad4a3abbdb73c66e403f3",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wp-customer-data/zipball/7e231283c44e17d3b41862d87521a3dba06cc262",
+                    "reference": "7e231283c44e17d3b41862d87521a3dba06cc262",
                     "shasum": ""
                 },
                 "require": {
@@ -6361,7 +6415,7 @@
                 "require-dev": {
                     "bluehost/wp-php-standards": "^1.1"
                 },
-                "time": "2022-08-19T01:39:51+00:00",
+                "time": "2022-08-23T15:09:54+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -6390,7 +6444,7 @@
                 ],
                 "description": "Bluehost Specific Customer Data Module Integrations",
                 "support": {
-                    "source": "https://github.com/bluehost/bluehost-wp-customer-data/tree/1.4.3",
+                    "source": "https://github.com/bluehost/bluehost-wp-customer-data/tree/1.4.4",
                     "issues": "https://github.com/bluehost/bluehost-wp-customer-data/issues"
                 }
             }
