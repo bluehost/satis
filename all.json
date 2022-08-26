@@ -5121,12 +5121,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/bluehost-wordpress-plugin.git",
-                    "reference": "84bf0d91343ee069bca7b9f9f9efb4835392eab9"
+                    "reference": "d98db6e5b550be335396be7fed6c5b77d77ac887"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/84bf0d91343ee069bca7b9f9f9efb4835392eab9",
-                    "reference": "84bf0d91343ee069bca7b9f9f9efb4835392eab9",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/d98db6e5b550be335396be7fed6c5b77d77ac887",
+                    "reference": "d98db6e5b550be335396be7fed6c5b77d77ac887",
                     "shasum": ""
                 },
                 "require": {
@@ -5151,7 +5151,7 @@
                     "wp-cli/i18n-command": "@stable",
                     "wp-cli/wp-cli-bundle": "@stable"
                 },
-                "time": "2022-08-25T16:58:20+00:00",
+                "time": "2022-08-25T18:49:02+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "psr-4": {
@@ -7566,22 +7566,22 @@
                     "issues": "https://github.com/bluehost/endurance-wp-module-loader/issues"
                 }
             },
-            "dev-master": {
+            "1.1.1": {
                 "name": "bluehost/endurance-wp-module-loader",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/endurance-wp-module-loader.git",
-                    "reference": "bbcef0ba48ce68a6c5dfd65aa13af6ce3dd994ad"
+                    "reference": "e9d5beedb6fbbfcce02759366e3727da858c85f4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/endurance-wp-module-loader/zipball/bbcef0ba48ce68a6c5dfd65aa13af6ce3dd994ad",
-                    "reference": "bbcef0ba48ce68a6c5dfd65aa13af6ce3dd994ad",
+                    "url": "https://api.github.com/repos/bluehost/endurance-wp-module-loader/zipball/e9d5beedb6fbbfcce02759366e3727da858c85f4",
+                    "reference": "e9d5beedb6fbbfcce02759366e3727da858c85f4",
                     "shasum": ""
                 },
-                "time": "2021-10-13T16:42:45+00:00",
+                "time": "2022-08-26T17:44:41+00:00",
                 "type": "library",
                 "autoload": {
                     "classmap": [
@@ -7602,7 +7602,47 @@
                 ],
                 "description": "An Endurance module that handles registration and management of other modules.",
                 "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-loader/tree/1.1",
+                    "source": "https://github.com/bluehost/endurance-wp-module-loader/tree/1.1.1",
+                    "issues": "https://github.com/bluehost/endurance-wp-module-loader/issues"
+                }
+            },
+            "dev-master": {
+                "name": "bluehost/endurance-wp-module-loader",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bluehost/endurance-wp-module-loader.git",
+                    "reference": "e9d5beedb6fbbfcce02759366e3727da858c85f4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/endurance-wp-module-loader/zipball/e9d5beedb6fbbfcce02759366e3727da858c85f4",
+                    "reference": "e9d5beedb6fbbfcce02759366e3727da858c85f4",
+                    "shasum": ""
+                },
+                "time": "2022-08-26T17:44:41+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "includes/"
+                    ],
+                    "files": [
+                        "module-loader.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Micah Wood",
+                        "email": "micah@wpscholar.com"
+                    }
+                ],
+                "description": "An Endurance module that handles registration and management of other modules.",
+                "support": {
+                    "source": "https://github.com/bluehost/endurance-wp-module-loader/tree/1.1.1",
                     "issues": "https://github.com/bluehost/endurance-wp-module-loader/issues"
                 }
             }
@@ -8559,12 +8599,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/newfold-labs/maestro-connector.git",
-                    "reference": "81ff72807ad524949064b1eced7fca323b1b5e43"
+                    "reference": "5f730f5c147b0809693abb5232fd88cc7133988d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/newfold-labs/maestro-connector/zipball/81ff72807ad524949064b1eced7fca323b1b5e43",
-                    "reference": "81ff72807ad524949064b1eced7fca323b1b5e43",
+                    "url": "https://api.github.com/repos/newfold-labs/maestro-connector/zipball/5f730f5c147b0809693abb5232fd88cc7133988d",
+                    "reference": "5f730f5c147b0809693abb5232fd88cc7133988d",
                     "shasum": ""
                 },
                 "require": {
@@ -8573,7 +8613,7 @@
                 "require-dev": {
                     "bluehost/wp-php-standards": "^1.1"
                 },
-                "time": "2022-01-25T17:51:26+00:00",
+                "time": "2022-08-26T12:29:32+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "psr-4": {
@@ -8651,57 +8691,6 @@
                     "issues": "https://github.com/newfold-labs/maestro-connector/issues"
                 }
             },
-            "dev-dependabot/npm_and_yarn/minimist-1.2.6": {
-                "name": "bluehost/maestro-connector",
-                "version": "dev-dependabot/npm_and_yarn/minimist-1.2.6",
-                "version_normalized": "dev-dependabot/npm_and_yarn/minimist-1.2.6",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/newfold-labs/maestro-connector.git",
-                    "reference": "6ab5efad2f7675d1063585467120f6a96ee6c7eb"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/newfold-labs/maestro-connector/zipball/6ab5efad2f7675d1063585467120f6a96ee6c7eb",
-                    "reference": "6ab5efad2f7675d1063585467120f6a96ee6c7eb",
-                    "shasum": ""
-                },
-                "require": {
-                    "firebase/php-jwt": "^5.0"
-                },
-                "require-dev": {
-                    "bluehost/wp-php-standards": "^1.1"
-                },
-                "time": "2022-03-26T13:01:48+00:00",
-                "type": "wordpress-plugin",
-                "autoload": {
-                    "psr-4": {
-                        "Bluehost\\": "inc/"
-                    }
-                },
-                "scripts": {
-                    "fix": [
-                        "vendor/bin/phpcbf . --standard=Bluehost"
-                    ],
-                    "lint": [
-                        "vendor/bin/phpcs . --standard=Bluehost -s"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0-or-later"
-                ],
-                "authors": [
-                    {
-                        "name": "William Earnhardt",
-                        "email": "wearnhardt@gmail.com"
-                    }
-                ],
-                "description": "Give trusted web professionals admin access to your WordPress account. Revoke anytime.",
-                "support": {
-                    "source": "https://github.com/newfold-labs/maestro-connector/tree/dependabot/npm_and_yarn/minimist-1.2.6",
-                    "issues": "https://github.com/newfold-labs/maestro-connector/issues"
-                }
-            },
             "dev-develop": {
                 "name": "bluehost/maestro-connector",
                 "version": "dev-develop",
@@ -8750,6 +8739,57 @@
                 "description": "Give trusted web professionals admin access to your WordPress account. Revoke anytime.",
                 "support": {
                     "source": "https://github.com/newfold-labs/maestro-connector/tree/develop",
+                    "issues": "https://github.com/newfold-labs/maestro-connector/issues"
+                }
+            },
+            "dev-fix-lint-workflow": {
+                "name": "bluehost/maestro-connector",
+                "version": "dev-fix-lint-workflow",
+                "version_normalized": "dev-fix-lint-workflow",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/newfold-labs/maestro-connector.git",
+                    "reference": "8658ff4516e961d186c64796fc7035dce76e5a14"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/newfold-labs/maestro-connector/zipball/8658ff4516e961d186c64796fc7035dce76e5a14",
+                    "reference": "8658ff4516e961d186c64796fc7035dce76e5a14",
+                    "shasum": ""
+                },
+                "require": {
+                    "firebase/php-jwt": "^5.0"
+                },
+                "require-dev": {
+                    "bluehost/wp-php-standards": "^1.1"
+                },
+                "time": "2022-08-26T13:26:02+00:00",
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "psr-4": {
+                        "Bluehost\\": "inc/"
+                    }
+                },
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . --standard=Bluehost"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . --standard=Bluehost -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "William Earnhardt",
+                        "email": "wearnhardt@gmail.com"
+                    }
+                ],
+                "description": "Give trusted web professionals admin access to your WordPress account. Revoke anytime.",
+                "support": {
+                    "source": "https://github.com/newfold-labs/maestro-connector/tree/fix-lint-workflow",
                     "issues": "https://github.com/newfold-labs/maestro-connector/issues"
                 }
             },
