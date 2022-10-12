@@ -10861,7 +10861,8 @@
                 "support": {
                     "source": "https://github.com/bluehost/wp-module-secure-passwords/tree/1.0",
                     "issues": "https://github.com/bluehost/wp-module-secure-passwords/issues"
-                }
+                },
+                "abandoned": true
             },
             "1.0.1": {
                 "name": "bluehost/wp-module-secure-passwords",
@@ -10911,7 +10912,8 @@
                 "support": {
                     "source": "https://github.com/bluehost/wp-module-secure-passwords/tree/1.0.1",
                     "issues": "https://github.com/bluehost/wp-module-secure-passwords/issues"
-                }
+                },
+                "abandoned": true
             },
             "1.0.2": {
                 "name": "bluehost/wp-module-secure-passwords",
@@ -10961,7 +10963,8 @@
                 "support": {
                     "source": "https://github.com/bluehost/wp-module-secure-passwords/tree/1.0.2",
                     "issues": "https://github.com/bluehost/wp-module-secure-passwords/issues"
-                }
+                },
+                "abandoned": true
             },
             "1.0.3": {
                 "name": "bluehost/wp-module-secure-passwords",
@@ -11011,21 +11014,22 @@
                 "support": {
                     "source": "https://github.com/bluehost/wp-module-secure-passwords/tree/1.0.3",
                     "issues": "https://github.com/bluehost/wp-module-secure-passwords/issues"
-                }
+                },
+                "abandoned": true
             },
-            "dev-feature/abandon": {
+            "1.0.4": {
                 "name": "bluehost/wp-module-secure-passwords",
-                "version": "dev-feature/abandon",
-                "version_normalized": "dev-feature/abandon",
+                "version": "1.0.4",
+                "version_normalized": "1.0.4.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/wp-module-secure-passwords.git",
-                    "reference": "a7f2487d61bef92a5aa765a6be7f4beb8c9b2731"
+                    "reference": "01f0b3d1f8534ceea6169d93987153d390efa9ff"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/wp-module-secure-passwords/zipball/a7f2487d61bef92a5aa765a6be7f4beb8c9b2731",
-                    "reference": "a7f2487d61bef92a5aa765a6be7f4beb8c9b2731",
+                    "url": "https://api.github.com/repos/bluehost/wp-module-secure-passwords/zipball/01f0b3d1f8534ceea6169d93987153d390efa9ff",
+                    "reference": "01f0b3d1f8534ceea6169d93987153d390efa9ff",
                     "shasum": ""
                 },
                 "require-dev": {
@@ -11033,7 +11037,7 @@
                     "wp-phpunit/wp-phpunit": "^5.9",
                     "yoast/phpunit-polyfills": "^1.0"
                 },
-                "time": "2022-10-11T20:34:59+00:00",
+                "time": "2022-10-12T00:18:47+00:00",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -11059,7 +11063,7 @@
                 ],
                 "description": "Prevents passwords exposed in data breaches from being used and encourages better password hygiene.",
                 "support": {
-                    "source": "https://github.com/bluehost/wp-module-secure-passwords/tree/feature/abandon",
+                    "source": "https://github.com/bluehost/wp-module-secure-passwords/tree/1.0.4",
                     "issues": "https://github.com/bluehost/wp-module-secure-passwords/issues"
                 },
                 "abandoned": "newfold-labs/wp-module-secure-passwords"
@@ -11071,12 +11075,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/wp-module-secure-passwords.git",
-                    "reference": "9b16736255c20970b13ee266677edf9f3bc22e34"
+                    "reference": "01f0b3d1f8534ceea6169d93987153d390efa9ff"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/wp-module-secure-passwords/zipball/9b16736255c20970b13ee266677edf9f3bc22e34",
-                    "reference": "9b16736255c20970b13ee266677edf9f3bc22e34",
+                    "url": "https://api.github.com/repos/bluehost/wp-module-secure-passwords/zipball/01f0b3d1f8534ceea6169d93987153d390efa9ff",
+                    "reference": "01f0b3d1f8534ceea6169d93987153d390efa9ff",
                     "shasum": ""
                 },
                 "require-dev": {
@@ -11084,7 +11088,7 @@
                     "wp-phpunit/wp-phpunit": "^5.9",
                     "yoast/phpunit-polyfills": "^1.0"
                 },
-                "time": "2022-04-12T23:20:57+00:00",
+                "time": "2022-10-12T00:18:47+00:00",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -11110,9 +11114,10 @@
                 ],
                 "description": "Prevents passwords exposed in data breaches from being used and encourages better password hygiene.",
                 "support": {
-                    "source": "https://github.com/bluehost/wp-module-secure-passwords/tree/1.0.3",
+                    "source": "https://github.com/bluehost/wp-module-secure-passwords/tree/1.0.4",
                     "issues": "https://github.com/bluehost/wp-module-secure-passwords/issues"
-                }
+                },
+                "abandoned": "newfold-labs/wp-module-secure-passwords"
             }
         },
         "bluehost/wp-php-standards": {
