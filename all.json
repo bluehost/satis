@@ -7229,7 +7229,8 @@
                 "support": {
                     "source": "https://github.com/bluehost/endurance-wp-module-business-reviews/tree/1.0",
                     "issues": "https://github.com/bluehost/endurance-wp-module-business-reviews/issues"
-                }
+                },
+                "abandoned": true
             },
             "1.0.1": {
                 "name": "bluehost/endurance-wp-module-business-reviews",
@@ -7266,7 +7267,8 @@
                 "support": {
                     "source": "https://github.com/bluehost/endurance-wp-module-business-reviews/tree/1.0.1",
                     "issues": "https://github.com/bluehost/endurance-wp-module-business-reviews/issues"
-                }
+                },
+                "abandoned": true
             },
             "1.0.2": {
                 "name": "bluehost/endurance-wp-module-business-reviews",
@@ -7303,7 +7305,8 @@
                 "support": {
                     "source": "https://github.com/bluehost/endurance-wp-module-business-reviews/tree/1.0.2",
                     "issues": "https://github.com/bluehost/endurance-wp-module-business-reviews/issues"
-                }
+                },
+                "abandoned": true
             },
             "1.0.3": {
                 "name": "bluehost/endurance-wp-module-business-reviews",
@@ -7340,7 +7343,46 @@
                 "support": {
                     "source": "https://github.com/bluehost/endurance-wp-module-business-reviews/tree/1.0.3",
                     "issues": "https://github.com/bluehost/endurance-wp-module-business-reviews/issues"
-                }
+                },
+                "abandoned": true
+            },
+            "1.0.4": {
+                "name": "bluehost/endurance-wp-module-business-reviews",
+                "version": "1.0.4",
+                "version_normalized": "1.0.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bluehost/endurance-wp-module-business-reviews.git",
+                    "reference": "b8ba7d91701971a7c20dc03a9611714aba3be830"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/endurance-wp-module-business-reviews/zipball/b8ba7d91701971a7c20dc03a9611714aba3be830",
+                    "reference": "b8ba7d91701971a7c20dc03a9611714aba3be830",
+                    "shasum": ""
+                },
+                "time": "2022-10-12T00:08:46+00:00",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "bootstrap.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "William Earnhardt",
+                        "email": "william.earnhardt@endurance.com"
+                    }
+                ],
+                "description": "Bluehost Business Reviews Integration",
+                "support": {
+                    "source": "https://github.com/bluehost/endurance-wp-module-business-reviews/tree/1.0.4",
+                    "issues": "https://github.com/bluehost/endurance-wp-module-business-reviews/issues"
+                },
+                "abandoned": "newfold-labs/wp-module-business-reviews"
             },
             "dev-master": {
                 "name": "bluehost/endurance-wp-module-business-reviews",
@@ -7349,15 +7391,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/endurance-wp-module-business-reviews.git",
-                    "reference": "62ba61dc2de5a2dfce8f68ccf8513c8b671937da"
+                    "reference": "b8ba7d91701971a7c20dc03a9611714aba3be830"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/endurance-wp-module-business-reviews/zipball/62ba61dc2de5a2dfce8f68ccf8513c8b671937da",
-                    "reference": "62ba61dc2de5a2dfce8f68ccf8513c8b671937da",
+                    "url": "https://api.github.com/repos/bluehost/endurance-wp-module-business-reviews/zipball/b8ba7d91701971a7c20dc03a9611714aba3be830",
+                    "reference": "b8ba7d91701971a7c20dc03a9611714aba3be830",
                     "shasum": ""
                 },
-                "time": "2020-12-07T14:46:30+00:00",
+                "time": "2022-10-12T00:08:46+00:00",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -7375,44 +7417,7 @@
                 ],
                 "description": "Bluehost Business Reviews Integration",
                 "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-business-reviews/tree/master",
-                    "issues": "https://github.com/bluehost/endurance-wp-module-business-reviews/issues"
-                }
-            },
-            "dev-feature/abandon": {
-                "name": "bluehost/endurance-wp-module-business-reviews",
-                "version": "dev-feature/abandon",
-                "version_normalized": "dev-feature/abandon",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-module-business-reviews.git",
-                    "reference": "e00fddcaf0999a434612d8e7fa91dc3b43453d0e"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/endurance-wp-module-business-reviews/zipball/e00fddcaf0999a434612d8e7fa91dc3b43453d0e",
-                    "reference": "e00fddcaf0999a434612d8e7fa91dc3b43453d0e",
-                    "shasum": ""
-                },
-                "time": "2022-10-11T20:45:13+00:00",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "bootstrap.php"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0-or-later"
-                ],
-                "authors": [
-                    {
-                        "name": "William Earnhardt",
-                        "email": "william.earnhardt@endurance.com"
-                    }
-                ],
-                "description": "Bluehost Business Reviews Integration",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-business-reviews/tree/feature/abandon",
+                    "source": "https://github.com/bluehost/endurance-wp-module-business-reviews/tree/1.0.4",
                     "issues": "https://github.com/bluehost/endurance-wp-module-business-reviews/issues"
                 },
                 "abandoned": "newfold-labs/wp-module-business-reviews"
@@ -8492,7 +8497,8 @@
                 "support": {
                     "source": "https://github.com/bluehost/endurance-wp-module-sso/tree/1.0",
                     "issues": "https://github.com/bluehost/endurance-wp-module-sso/issues"
-                }
+                },
+                "abandoned": true
             },
             "1.0.1": {
                 "name": "bluehost/endurance-wp-module-sso",
@@ -8529,7 +8535,8 @@
                 "support": {
                     "source": "https://github.com/bluehost/endurance-wp-module-sso/tree/1.0.1",
                     "issues": "https://github.com/bluehost/endurance-wp-module-sso/issues"
-                }
+                },
+                "abandoned": true
             },
             "1.0.2": {
                 "name": "bluehost/endurance-wp-module-sso",
@@ -8566,7 +8573,8 @@
                 "support": {
                     "source": "https://github.com/bluehost/endurance-wp-module-sso/tree/1.0.2",
                     "issues": "https://github.com/bluehost/endurance-wp-module-sso/issues"
-                }
+                },
+                "abandoned": true
             },
             "1.0.3": {
                 "name": "bluehost/endurance-wp-module-sso",
@@ -8603,7 +8611,8 @@
                 "support": {
                     "source": "https://github.com/bluehost/endurance-wp-module-sso/tree/1.0.3",
                     "issues": "https://github.com/bluehost/endurance-wp-module-sso/issues"
-                }
+                },
+                "abandoned": true
             },
             "1.0.4": {
                 "name": "bluehost/endurance-wp-module-sso",
@@ -8640,7 +8649,46 @@
                 "support": {
                     "source": "https://github.com/bluehost/endurance-wp-module-sso/tree/1.0.4",
                     "issues": "https://github.com/bluehost/endurance-wp-module-sso/issues"
-                }
+                },
+                "abandoned": true
+            },
+            "1.0.5": {
+                "name": "bluehost/endurance-wp-module-sso",
+                "version": "1.0.5",
+                "version_normalized": "1.0.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bluehost/endurance-wp-module-sso.git",
+                    "reference": "33c9d807cf6289f95989468db5d98d0896225af7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/endurance-wp-module-sso/zipball/33c9d807cf6289f95989468db5d98d0896225af7",
+                    "reference": "33c9d807cf6289f95989468db5d98d0896225af7",
+                    "shasum": ""
+                },
+                "time": "2022-10-12T00:11:39+00:00",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "bootstrap.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Micah Wood",
+                        "email": "micah@wpscholar.com"
+                    }
+                ],
+                "description": "Bluehost Single Sign-on Integration",
+                "support": {
+                    "source": "https://github.com/bluehost/endurance-wp-module-sso/tree/1.0.5",
+                    "issues": "https://github.com/bluehost/endurance-wp-module-sso/issues"
+                },
+                "abandoned": "newfold-labs/wp-module-sso"
             },
             "dev-master": {
                 "name": "bluehost/endurance-wp-module-sso",
@@ -8649,15 +8697,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/endurance-wp-module-sso.git",
-                    "reference": "a166e6c65319e450cf5914ee943f549a420b3dd4"
+                    "reference": "33c9d807cf6289f95989468db5d98d0896225af7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/endurance-wp-module-sso/zipball/a166e6c65319e450cf5914ee943f549a420b3dd4",
-                    "reference": "a166e6c65319e450cf5914ee943f549a420b3dd4",
+                    "url": "https://api.github.com/repos/bluehost/endurance-wp-module-sso/zipball/33c9d807cf6289f95989468db5d98d0896225af7",
+                    "reference": "33c9d807cf6289f95989468db5d98d0896225af7",
                     "shasum": ""
                 },
-                "time": "2022-06-13T21:07:33+00:00",
+                "time": "2022-10-12T00:11:39+00:00",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -8675,44 +8723,7 @@
                 ],
                 "description": "Bluehost Single Sign-on Integration",
                 "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-sso/tree/1.0.4",
-                    "issues": "https://github.com/bluehost/endurance-wp-module-sso/issues"
-                }
-            },
-            "dev-feature/abandon": {
-                "name": "bluehost/endurance-wp-module-sso",
-                "version": "dev-feature/abandon",
-                "version_normalized": "dev-feature/abandon",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-module-sso.git",
-                    "reference": "8e78e3614af87fe9d6715d9ad501c0517942b359"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/endurance-wp-module-sso/zipball/8e78e3614af87fe9d6715d9ad501c0517942b359",
-                    "reference": "8e78e3614af87fe9d6715d9ad501c0517942b359",
-                    "shasum": ""
-                },
-                "time": "2022-10-11T20:30:40+00:00",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "bootstrap.php"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0-or-later"
-                ],
-                "authors": [
-                    {
-                        "name": "Micah Wood",
-                        "email": "micah@wpscholar.com"
-                    }
-                ],
-                "description": "Bluehost Single Sign-on Integration",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-sso/tree/feature/abandon",
+                    "source": "https://github.com/bluehost/endurance-wp-module-sso/tree/1.0.5",
                     "issues": "https://github.com/bluehost/endurance-wp-module-sso/issues"
                 },
                 "abandoned": "newfold-labs/wp-module-sso"
@@ -12304,12 +12315,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/endurance-wp-module-data.git",
-                    "reference": "2a1ffd0b1b68981da37517b9aa38580c962cd362"
+                    "reference": "8eea76ba1f0fe94ba197fea6ac77223c263cba29"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/endurance-wp-module-data/zipball/2a1ffd0b1b68981da37517b9aa38580c962cd362",
-                    "reference": "2a1ffd0b1b68981da37517b9aa38580c962cd362",
+                    "url": "https://api.github.com/repos/bluehost/endurance-wp-module-data/zipball/8eea76ba1f0fe94ba197fea6ac77223c263cba29",
+                    "reference": "8eea76ba1f0fe94ba197fea6ac77223c263cba29",
                     "shasum": ""
                 },
                 "require": {
@@ -12318,7 +12329,7 @@
                 "require-dev": {
                     "bluehost/wp-php-standards": "^1.1"
                 },
-                "time": "2022-06-21T17:39:48+00:00",
+                "time": "2022-10-12T00:13:08+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -12341,9 +12352,10 @@
                 ],
                 "description": "Endurance Data Module",
                 "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-data/tree/1.9",
+                    "source": "https://github.com/bluehost/endurance-wp-module-data/tree/master",
                     "issues": "https://github.com/bluehost/endurance-wp-module-data/issues"
-                }
+                },
+                "abandoned": "newfold-labs/wp-module-data"
             },
             "dev-event-rest-endpoint": {
                 "name": "endurance/wp-module-data",
@@ -12389,55 +12401,6 @@
                     "source": "https://github.com/bluehost/endurance-wp-module-data/tree/event-rest-endpoint",
                     "issues": "https://github.com/bluehost/endurance-wp-module-data/issues"
                 }
-            },
-            "dev-feature/abandon": {
-                "name": "endurance/wp-module-data",
-                "version": "dev-feature/abandon",
-                "version_normalized": "dev-feature/abandon",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-module-data.git",
-                    "reference": "67409513c5071e6d43a3a19b0c37b6c56bc30b7b"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/endurance-wp-module-data/zipball/67409513c5071e6d43a3a19b0c37b6c56bc30b7b",
-                    "reference": "67409513c5071e6d43a3a19b0c37b6c56bc30b7b",
-                    "shasum": ""
-                },
-                "require": {
-                    "wpscholar/url": "^1.2"
-                },
-                "require-dev": {
-                    "bluehost/wp-php-standards": "^1.1"
-                },
-                "time": "2022-10-11T20:26:51+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Endurance\\WP\\Module\\Data\\": "src"
-                    },
-                    "files": [
-                        "bootstrap.php"
-                    ]
-                },
-                "scripts": {
-                    "fix": [
-                        "vendor/bin/phpcbf . --standard=Bluehost"
-                    ],
-                    "lint": [
-                        "vendor/bin/phpcs . --standard=Bluehost -s"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0-or-later"
-                ],
-                "description": "Endurance Data Module",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-data/tree/feature/abandon",
-                    "issues": "https://github.com/bluehost/endurance-wp-module-data/issues"
-                },
-                "abandoned": "newfold-labs/wp-module-data"
             },
             "dev-feature/add-hostgator-to-multibrand": {
                 "name": "endurance/wp-module-data",
@@ -12572,7 +12535,52 @@
                 "support": {
                     "source": "https://github.com/bluehost/wp-module-sso/tree/1.0",
                     "issues": "https://github.com/bluehost/wp-module-sso/issues"
-                }
+                },
+                "abandoned": true
+            },
+            "1.0.1": {
+                "name": "newfold/wp-module-sso",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bluehost/wp-module-sso.git",
+                    "reference": "f49ee077b5b152b162a836f45df7fc547ef1ab20"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/wp-module-sso/zipball/f49ee077b5b152b162a836f45df7fc547ef1ab20",
+                    "reference": "f49ee077b5b152b162a836f45df7fc547ef1ab20",
+                    "shasum": ""
+                },
+                "require": {
+                    "endurance/wp-module-data": "^1.8"
+                },
+                "time": "2022-10-12T00:10:03+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "NewFold\\SSO\\": "includes"
+                    },
+                    "files": [
+                        "bootstrap.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Micah Wood",
+                        "email": "micah@bluehost.com"
+                    }
+                ],
+                "description": "Single sign-on functionality for WordPress.",
+                "support": {
+                    "source": "https://github.com/bluehost/wp-module-sso/tree/1.0.1",
+                    "issues": "https://github.com/bluehost/wp-module-sso/issues"
+                },
+                "abandoned": "newfold-labs/wp-module-sso"
             },
             "dev-master": {
                 "name": "newfold/wp-module-sso",
@@ -12581,18 +12589,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/wp-module-sso.git",
-                    "reference": "cbe553cd0ab118ca091b36f232547634780527c7"
+                    "reference": "f49ee077b5b152b162a836f45df7fc547ef1ab20"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/wp-module-sso/zipball/cbe553cd0ab118ca091b36f232547634780527c7",
-                    "reference": "cbe553cd0ab118ca091b36f232547634780527c7",
+                    "url": "https://api.github.com/repos/bluehost/wp-module-sso/zipball/f49ee077b5b152b162a836f45df7fc547ef1ab20",
+                    "reference": "f49ee077b5b152b162a836f45df7fc547ef1ab20",
                     "shasum": ""
                 },
                 "require": {
                     "endurance/wp-module-data": "^1.8"
                 },
-                "time": "2021-12-15T13:48:54+00:00",
+                "time": "2022-10-12T00:10:03+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -12613,50 +12621,7 @@
                 ],
                 "description": "Single sign-on functionality for WordPress.",
                 "support": {
-                    "source": "https://github.com/bluehost/wp-module-sso/tree/1.0",
-                    "issues": "https://github.com/bluehost/wp-module-sso/issues"
-                }
-            },
-            "dev-feature/abandon": {
-                "name": "newfold/wp-module-sso",
-                "version": "dev-feature/abandon",
-                "version_normalized": "dev-feature/abandon",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/bluehost/wp-module-sso.git",
-                    "reference": "d4d7aede481da009dc2d8b2639090084e7622250"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/wp-module-sso/zipball/d4d7aede481da009dc2d8b2639090084e7622250",
-                    "reference": "d4d7aede481da009dc2d8b2639090084e7622250",
-                    "shasum": ""
-                },
-                "require": {
-                    "endurance/wp-module-data": "^1.8"
-                },
-                "time": "2022-10-11T21:21:10+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "NewFold\\SSO\\": "includes"
-                    },
-                    "files": [
-                        "bootstrap.php"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0-or-later"
-                ],
-                "authors": [
-                    {
-                        "name": "Micah Wood",
-                        "email": "micah@bluehost.com"
-                    }
-                ],
-                "description": "Single sign-on functionality for WordPress.",
-                "support": {
-                    "source": "https://github.com/bluehost/wp-module-sso/tree/feature/abandon",
+                    "source": "https://github.com/bluehost/wp-module-sso/tree/1.0.1",
                     "issues": "https://github.com/bluehost/wp-module-sso/issues"
                 },
                 "abandoned": "newfold-labs/wp-module-sso"
