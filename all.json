@@ -2837,12 +2837,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/bluehost-wordpress-plugin.git",
-                    "reference": "ce097136fcaed24f3668122063ac8f088c5067aa"
+                    "reference": "890c3d0d1a0649004ee75f26a3b0dae1bdb7e693"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/ce097136fcaed24f3668122063ac8f088c5067aa",
-                    "reference": "ce097136fcaed24f3668122063ac8f088c5067aa",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/890c3d0d1a0649004ee75f26a3b0dae1bdb7e693",
+                    "reference": "890c3d0d1a0649004ee75f26a3b0dae1bdb7e693",
                     "shasum": ""
                 },
                 "require": {
@@ -2870,7 +2870,7 @@
                     "wp-cli/i18n-command": "@stable",
                     "wp-cli/wp-cli-bundle": "@stable"
                 },
-                "time": "2022-12-14T20:35:19+00:00",
+                "time": "2022-12-14T20:39:59+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "psr-4": {
@@ -5777,12 +5777,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/bluehost-wordpress-plugin.git",
-                    "reference": "ce097136fcaed24f3668122063ac8f088c5067aa"
+                    "reference": "890c3d0d1a0649004ee75f26a3b0dae1bdb7e693"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/ce097136fcaed24f3668122063ac8f088c5067aa",
-                    "reference": "ce097136fcaed24f3668122063ac8f088c5067aa",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/890c3d0d1a0649004ee75f26a3b0dae1bdb7e693",
+                    "reference": "890c3d0d1a0649004ee75f26a3b0dae1bdb7e693",
                     "shasum": ""
                 },
                 "require": {
@@ -5810,7 +5810,7 @@
                     "wp-cli/i18n-command": "@stable",
                     "wp-cli/wp-cli-bundle": "@stable"
                 },
-                "time": "2022-12-14T20:35:19+00:00",
+                "time": "2022-12-14T20:39:59+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "psr-4": {
