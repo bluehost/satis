@@ -551,12 +551,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/newfold-labs/bluehost-site-migrator.git",
-                    "reference": "c57712cd7c9d09730f3b31d2a200c09968da4fa6"
+                    "reference": "1cd32f1fa3b3dc6f4468e8bcbbb0a90b86b77e22"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/newfold-labs/bluehost-site-migrator/zipball/c57712cd7c9d09730f3b31d2a200c09968da4fa6",
-                    "reference": "c57712cd7c9d09730f3b31d2a200c09968da4fa6",
+                    "url": "https://api.github.com/repos/newfold-labs/bluehost-site-migrator/zipball/1cd32f1fa3b3dc6f4468e8bcbbb0a90b86b77e22",
+                    "reference": "1cd32f1fa3b3dc6f4468e8bcbbb0a90b86b77e22",
                     "shasum": ""
                 },
                 "require": {
@@ -568,7 +568,7 @@
                 "require-dev": {
                     "bluehost/wp-php-standards": "^1.1"
                 },
-                "time": "2022-02-03T12:13:50+00:00",
+                "time": "2023-04-04T21:03:37+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "classmap": [
@@ -6359,12 +6359,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/bluehost-wordpress-plugin.git",
-                    "reference": "57a954b3b0a91138d36fea4d5539541339e16201"
+                    "reference": "edbdd58a68e87538385e3091645e3a9210f95f2a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/57a954b3b0a91138d36fea4d5539541339e16201",
-                    "reference": "57a954b3b0a91138d36fea4d5539541339e16201",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/edbdd58a68e87538385e3091645e3a9210f95f2a",
+                    "reference": "edbdd58a68e87538385e3091645e3a9210f95f2a",
                     "shasum": ""
                 },
                 "require": {
@@ -6392,7 +6392,7 @@
                     "wp-cli/i18n-command": "@stable",
                     "wp-cli/wp-cli-bundle": "@stable"
                 },
-                "time": "2023-03-29T17:22:28+00:00",
+                "time": "2023-04-05T20:37:19+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "psr-4": {
@@ -6574,19 +6574,19 @@
                     "issues": "https://github.com/bluehost/bluehost-wordpress-plugin/issues"
                 }
             },
-            "dev-dependabot/composer/develop/newfold-labs/wp-module-ecommerce-0.8.0": {
+            "dev-dependabot/composer/develop/newfold-labs/wp-module-ecommerce-0.8.1": {
                 "name": "bluehost/bluehost-wordpress-plugin",
-                "version": "dev-dependabot/composer/develop/newfold-labs/wp-module-ecommerce-0.8.0",
-                "version_normalized": "dev-dependabot/composer/develop/newfold-labs/wp-module-ecommerce-0.8.0",
+                "version": "dev-dependabot/composer/develop/newfold-labs/wp-module-ecommerce-0.8.1",
+                "version_normalized": "dev-dependabot/composer/develop/newfold-labs/wp-module-ecommerce-0.8.1",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/bluehost-wordpress-plugin.git",
-                    "reference": "b05faaf81026fcf7c721380b9c197777ae869ddf"
+                    "reference": "a4e8af63b49c588c0fbbb087f253cf11d1a902d6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/b05faaf81026fcf7c721380b9c197777ae869ddf",
-                    "reference": "b05faaf81026fcf7c721380b9c197777ae869ddf",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/a4e8af63b49c588c0fbbb087f253cf11d1a902d6",
+                    "reference": "a4e8af63b49c588c0fbbb087f253cf11d1a902d6",
                     "shasum": ""
                 },
                 "require": {
@@ -6596,7 +6596,7 @@
                     "newfold-labs/wp-module-coming-soon": "^1.0",
                     "newfold-labs/wp-module-customer-bluehost": "^1.5.3",
                     "newfold-labs/wp-module-data": "^2.3.0",
-                    "newfold-labs/wp-module-ecommerce": "0.8.0",
+                    "newfold-labs/wp-module-ecommerce": "0.8.1",
                     "newfold-labs/wp-module-loader": "^1.0.10",
                     "newfold-labs/wp-module-marketplace": "^1.5.0",
                     "newfold-labs/wp-module-notifications": "^1.1.2",
@@ -6614,7 +6614,7 @@
                     "wp-cli/i18n-command": "@stable",
                     "wp-cli/wp-cli-bundle": "@stable"
                 },
-                "time": "2023-03-29T15:57:14+00:00",
+                "time": "2023-03-29T17:50:22+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "psr-4": {
@@ -6653,19 +6653,19 @@
                     "issues": "https://github.com/bluehost/bluehost-wordpress-plugin/issues"
                 }
             },
-            "dev-dependabot/npm_and_yarn/develop/change-case-4.1.2": {
+            "dev-dependabot/composer/develop/newfold-labs/wp-module-onboarding-1.3.0": {
                 "name": "bluehost/bluehost-wordpress-plugin",
-                "version": "dev-dependabot/npm_and_yarn/develop/change-case-4.1.2",
-                "version_normalized": "dev-dependabot/npm_and_yarn/develop/change-case-4.1.2",
+                "version": "dev-dependabot/composer/develop/newfold-labs/wp-module-onboarding-1.3.0",
+                "version_normalized": "dev-dependabot/composer/develop/newfold-labs/wp-module-onboarding-1.3.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/bluehost-wordpress-plugin.git",
-                    "reference": "751ff1d8cafffadae28913da43a4ce5a34b9b140"
+                    "reference": "c7449d9ef7f47d2af98430e1ca1561f3c90b1ea6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/751ff1d8cafffadae28913da43a4ce5a34b9b140",
-                    "reference": "751ff1d8cafffadae28913da43a4ce5a34b9b140",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/c7449d9ef7f47d2af98430e1ca1561f3c90b1ea6",
+                    "reference": "c7449d9ef7f47d2af98430e1ca1561f3c90b1ea6",
                     "shasum": ""
                 },
                 "require": {
@@ -6675,11 +6675,11 @@
                     "newfold-labs/wp-module-coming-soon": "^1.0",
                     "newfold-labs/wp-module-customer-bluehost": "^1.5.3",
                     "newfold-labs/wp-module-data": "^2.3.0",
-                    "newfold-labs/wp-module-ecommerce": "0.7.5",
+                    "newfold-labs/wp-module-ecommerce": "0.7.6",
                     "newfold-labs/wp-module-loader": "^1.0.10",
                     "newfold-labs/wp-module-marketplace": "^1.5.0",
                     "newfold-labs/wp-module-notifications": "^1.1.2",
-                    "newfold-labs/wp-module-onboarding": "1.2.2",
+                    "newfold-labs/wp-module-onboarding": "1.3.0",
                     "newfold-labs/wp-module-secure-passwords": "^1.1",
                     "newfold-labs/wp-module-sso": "^1.0.3",
                     "wp-forge/collection": "^1.0.2",
@@ -6693,7 +6693,7 @@
                     "wp-cli/i18n-command": "@stable",
                     "wp-cli/wp-cli-bundle": "@stable"
                 },
-                "time": "2023-03-28T15:59:54+00:00",
+                "time": "2023-04-06T15:57:31+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "psr-4": {
@@ -6732,19 +6732,19 @@
                     "issues": "https://github.com/bluehost/bluehost-wordpress-plugin/issues"
                 }
             },
-            "dev-dependabot/npm_and_yarn/develop/fuse.js-6.6.2": {
+            "dev-dependabot/npm_and_yarn/develop/animate.css-4.1.1": {
                 "name": "bluehost/bluehost-wordpress-plugin",
-                "version": "dev-dependabot/npm_and_yarn/develop/fuse.js-6.6.2",
-                "version_normalized": "dev-dependabot/npm_and_yarn/develop/fuse.js-6.6.2",
+                "version": "dev-dependabot/npm_and_yarn/develop/animate.css-4.1.1",
+                "version_normalized": "dev-dependabot/npm_and_yarn/develop/animate.css-4.1.1",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/bluehost-wordpress-plugin.git",
-                    "reference": "0596bf64a0f11d6904d9832f6ffed76424c85704"
+                    "reference": "94c404813943e9fe87ae013519306a40d54bddac"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/0596bf64a0f11d6904d9832f6ffed76424c85704",
-                    "reference": "0596bf64a0f11d6904d9832f6ffed76424c85704",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/94c404813943e9fe87ae013519306a40d54bddac",
+                    "reference": "94c404813943e9fe87ae013519306a40d54bddac",
                     "shasum": ""
                 },
                 "require": {
@@ -6754,7 +6754,7 @@
                     "newfold-labs/wp-module-coming-soon": "^1.0",
                     "newfold-labs/wp-module-customer-bluehost": "^1.5.3",
                     "newfold-labs/wp-module-data": "^2.3.0",
-                    "newfold-labs/wp-module-ecommerce": "0.7.5",
+                    "newfold-labs/wp-module-ecommerce": "0.7.6",
                     "newfold-labs/wp-module-loader": "^1.0.10",
                     "newfold-labs/wp-module-marketplace": "^1.5.0",
                     "newfold-labs/wp-module-notifications": "^1.1.2",
@@ -6772,7 +6772,7 @@
                     "wp-cli/i18n-command": "@stable",
                     "wp-cli/wp-cli-bundle": "@stable"
                 },
-                "time": "2023-03-28T15:57:40+00:00",
+                "time": "2023-04-04T15:57:13+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "psr-4": {
@@ -6811,19 +6811,19 @@
                     "issues": "https://github.com/bluehost/bluehost-wordpress-plugin/issues"
                 }
             },
-            "dev-dependabot/npm_and_yarn/develop/husky-8.0.3": {
+            "dev-dependabot/npm_and_yarn/develop/chalk-5.2.0": {
                 "name": "bluehost/bluehost-wordpress-plugin",
-                "version": "dev-dependabot/npm_and_yarn/develop/husky-8.0.3",
-                "version_normalized": "dev-dependabot/npm_and_yarn/develop/husky-8.0.3",
+                "version": "dev-dependabot/npm_and_yarn/develop/chalk-5.2.0",
+                "version_normalized": "dev-dependabot/npm_and_yarn/develop/chalk-5.2.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/bluehost-wordpress-plugin.git",
-                    "reference": "7255c821f69d2d302a26f5c2e6d84792af4a358b"
+                    "reference": "8e1b398a0952f6cec819d3196e7d49f07c1ced87"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/7255c821f69d2d302a26f5c2e6d84792af4a358b",
-                    "reference": "7255c821f69d2d302a26f5c2e6d84792af4a358b",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/8e1b398a0952f6cec819d3196e7d49f07c1ced87",
+                    "reference": "8e1b398a0952f6cec819d3196e7d49f07c1ced87",
                     "shasum": ""
                 },
                 "require": {
@@ -6833,7 +6833,7 @@
                     "newfold-labs/wp-module-coming-soon": "^1.0",
                     "newfold-labs/wp-module-customer-bluehost": "^1.5.3",
                     "newfold-labs/wp-module-data": "^2.3.0",
-                    "newfold-labs/wp-module-ecommerce": "0.7.5",
+                    "newfold-labs/wp-module-ecommerce": "0.7.6",
                     "newfold-labs/wp-module-loader": "^1.0.10",
                     "newfold-labs/wp-module-marketplace": "^1.5.0",
                     "newfold-labs/wp-module-notifications": "^1.1.2",
@@ -6851,7 +6851,7 @@
                     "wp-cli/i18n-command": "@stable",
                     "wp-cli/wp-cli-bundle": "@stable"
                 },
-                "time": "2023-03-28T15:58:18+00:00",
+                "time": "2023-04-03T21:20:38+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "psr-4": {
@@ -6890,19 +6890,19 @@
                     "issues": "https://github.com/bluehost/bluehost-wordpress-plugin/issues"
                 }
             },
-            "dev-dependabot/npm_and_yarn/develop/semver-7.3.8": {
+            "dev-dependabot/npm_and_yarn/develop/copy-webpack-plugin-11.0.0": {
                 "name": "bluehost/bluehost-wordpress-plugin",
-                "version": "dev-dependabot/npm_and_yarn/develop/semver-7.3.8",
-                "version_normalized": "dev-dependabot/npm_and_yarn/develop/semver-7.3.8",
+                "version": "dev-dependabot/npm_and_yarn/develop/copy-webpack-plugin-11.0.0",
+                "version_normalized": "dev-dependabot/npm_and_yarn/develop/copy-webpack-plugin-11.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/bluehost-wordpress-plugin.git",
-                    "reference": "cc968ae22a6cd9cbbbab98ccd316f9c76975c3c7"
+                    "reference": "2ae065841dd147ec7ad873cc1470aca70a65cd20"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/cc968ae22a6cd9cbbbab98ccd316f9c76975c3c7",
-                    "reference": "cc968ae22a6cd9cbbbab98ccd316f9c76975c3c7",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/2ae065841dd147ec7ad873cc1470aca70a65cd20",
+                    "reference": "2ae065841dd147ec7ad873cc1470aca70a65cd20",
                     "shasum": ""
                 },
                 "require": {
@@ -6912,7 +6912,7 @@
                     "newfold-labs/wp-module-coming-soon": "^1.0",
                     "newfold-labs/wp-module-customer-bluehost": "^1.5.3",
                     "newfold-labs/wp-module-data": "^2.3.0",
-                    "newfold-labs/wp-module-ecommerce": "0.7.5",
+                    "newfold-labs/wp-module-ecommerce": "0.7.6",
                     "newfold-labs/wp-module-loader": "^1.0.10",
                     "newfold-labs/wp-module-marketplace": "^1.5.0",
                     "newfold-labs/wp-module-notifications": "^1.1.2",
@@ -6930,7 +6930,7 @@
                     "wp-cli/i18n-command": "@stable",
                     "wp-cli/wp-cli-bundle": "@stable"
                 },
-                "time": "2023-03-28T02:34:34+00:00",
+                "time": "2023-04-03T16:00:10+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "psr-4": {
@@ -6969,19 +6969,19 @@
                     "issues": "https://github.com/bluehost/bluehost-wordpress-plugin/issues"
                 }
             },
-            "dev-dependabot/npm_and_yarn/develop/webpack-merge-5.8.0": {
+            "dev-dependabot/npm_and_yarn/develop/newfold-labs/wp-module-ecommerce-v0.8.1": {
                 "name": "bluehost/bluehost-wordpress-plugin",
-                "version": "dev-dependabot/npm_and_yarn/develop/webpack-merge-5.8.0",
-                "version_normalized": "dev-dependabot/npm_and_yarn/develop/webpack-merge-5.8.0",
+                "version": "dev-dependabot/npm_and_yarn/develop/newfold-labs/wp-module-ecommerce-v0.8.1",
+                "version_normalized": "dev-dependabot/npm_and_yarn/develop/newfold-labs/wp-module-ecommerce-v0.8.1",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/bluehost-wordpress-plugin.git",
-                    "reference": "6044abe63749e1f8f5ea0a3d97739c8829a645fa"
+                    "reference": "fd8c51773692a4807aa1be91e1a1a8c46c8ad1ce"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/6044abe63749e1f8f5ea0a3d97739c8829a645fa",
-                    "reference": "6044abe63749e1f8f5ea0a3d97739c8829a645fa",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/fd8c51773692a4807aa1be91e1a1a8c46c8ad1ce",
+                    "reference": "fd8c51773692a4807aa1be91e1a1a8c46c8ad1ce",
                     "shasum": ""
                 },
                 "require": {
@@ -6991,7 +6991,7 @@
                     "newfold-labs/wp-module-coming-soon": "^1.0",
                     "newfold-labs/wp-module-customer-bluehost": "^1.5.3",
                     "newfold-labs/wp-module-data": "^2.3.0",
-                    "newfold-labs/wp-module-ecommerce": "0.7.5",
+                    "newfold-labs/wp-module-ecommerce": "0.7.6",
                     "newfold-labs/wp-module-loader": "^1.0.10",
                     "newfold-labs/wp-module-marketplace": "^1.5.0",
                     "newfold-labs/wp-module-notifications": "^1.1.2",
@@ -7009,7 +7009,86 @@
                     "wp-cli/i18n-command": "@stable",
                     "wp-cli/wp-cli-bundle": "@stable"
                 },
-                "time": "2023-03-28T15:58:58+00:00",
+                "time": "2023-04-03T15:59:24+00:00",
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "psr-4": {
+                        "Bluehost\\": "inc/",
+                        "Newfold\\Plugin\\": "inc/"
+                    }
+                },
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf --standard=phpcs.xml ."
+                    ],
+                    "i18n": [
+                        "vendor/bin/wp i18n make-pot . ./languages/bluehost-wordpress-plugin.pot --headers='{\"Report-Msgid-Bugs-To\":\"https://github.com/bluehost/bluehost-wordpress-plugin/issues\",\"POT-Creation-Date\":null}' --exclude=assets,storybook,tests"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs --standard=phpcs.xml -s ."
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike Hansen",
+                        "homepage": "https://mikehansen.me/"
+                    },
+                    {
+                        "name": "Micah Wood",
+                        "email": "micah@wpscholar.com",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "This plugin integrates your WordPress site with the Bluehost control panel, including performance, security, and update features.",
+                "support": {
+                    "source": "https://github.com/bluehost/bluehost-wordpress-plugin",
+                    "issues": "https://github.com/bluehost/bluehost-wordpress-plugin/issues"
+                }
+            },
+            "dev-dependabot/npm_and_yarn/develop/node-fetch-3.3.1": {
+                "name": "bluehost/bluehost-wordpress-plugin",
+                "version": "dev-dependabot/npm_and_yarn/develop/node-fetch-3.3.1",
+                "version_normalized": "dev-dependabot/npm_and_yarn/develop/node-fetch-3.3.1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bluehost/bluehost-wordpress-plugin.git",
+                    "reference": "537562b5eff6a3c0c96db3cfe22352def69971e5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/537562b5eff6a3c0c96db3cfe22352def69971e5",
+                    "reference": "537562b5eff6a3c0c96db3cfe22352def69971e5",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/inflector": "1.2.0 as 1.3.1",
+                    "ext-iconv": "*",
+                    "newfold-labs/wp-module-business-reviews": "^1.1",
+                    "newfold-labs/wp-module-coming-soon": "^1.0",
+                    "newfold-labs/wp-module-customer-bluehost": "^1.5.3",
+                    "newfold-labs/wp-module-data": "^2.3.0",
+                    "newfold-labs/wp-module-ecommerce": "0.7.6",
+                    "newfold-labs/wp-module-loader": "^1.0.10",
+                    "newfold-labs/wp-module-marketplace": "^1.5.0",
+                    "newfold-labs/wp-module-notifications": "^1.1.2",
+                    "newfold-labs/wp-module-onboarding": "1.2.2",
+                    "newfold-labs/wp-module-secure-passwords": "^1.1",
+                    "newfold-labs/wp-module-sso": "^1.0.3",
+                    "wp-forge/collection": "^1.0.2",
+                    "wp-forge/helpers": "^1.1.1",
+                    "wp-forge/wp-update-handler": "^1.0.1",
+                    "wp-forge/wp-upgrade-handler": "^1.0",
+                    "wpscholar/url": "^1.2.2"
+                },
+                "require-dev": {
+                    "newfold-labs/wp-php-standards": "^1.2",
+                    "wp-cli/i18n-command": "@stable",
+                    "wp-cli/wp-cli-bundle": "@stable"
+                },
+                "time": "2023-04-03T21:20:22+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "psr-4": {
@@ -7055,12 +7134,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/bluehost-wordpress-plugin.git",
-                    "reference": "53f900e67e058e5c1e2fea36974246ca59f3eade"
+                    "reference": "7fef27b7bfbad94e4ec3250bd01b30830a55f0f8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/53f900e67e058e5c1e2fea36974246ca59f3eade",
-                    "reference": "53f900e67e058e5c1e2fea36974246ca59f3eade",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/7fef27b7bfbad94e4ec3250bd01b30830a55f0f8",
+                    "reference": "7fef27b7bfbad94e4ec3250bd01b30830a55f0f8",
                     "shasum": ""
                 },
                 "require": {
@@ -7070,7 +7149,7 @@
                     "newfold-labs/wp-module-coming-soon": "^1.0",
                     "newfold-labs/wp-module-customer-bluehost": "^1.5.3",
                     "newfold-labs/wp-module-data": "^2.3.0",
-                    "newfold-labs/wp-module-ecommerce": "0.7.5",
+                    "newfold-labs/wp-module-ecommerce": "0.7.6",
                     "newfold-labs/wp-module-loader": "^1.0.10",
                     "newfold-labs/wp-module-marketplace": "^1.5.0",
                     "newfold-labs/wp-module-notifications": "^1.1.2",
@@ -7088,7 +7167,7 @@
                     "wp-cli/i18n-command": "@stable",
                     "wp-cli/wp-cli-bundle": "@stable"
                 },
-                "time": "2023-03-29T16:50:07+00:00",
+                "time": "2023-04-05T20:38:00+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "psr-4": {
@@ -7283,12 +7362,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/bluehost-wordpress-plugin.git",
-                    "reference": "8472f54ed82ddde0d6e21e45ef3cf3f2a0a3dce2"
+                    "reference": "95c41888d6bda5033094b851e8f475b892a6d900"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/8472f54ed82ddde0d6e21e45ef3cf3f2a0a3dce2",
-                    "reference": "8472f54ed82ddde0d6e21e45ef3cf3f2a0a3dce2",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/95c41888d6bda5033094b851e8f475b892a6d900",
+                    "reference": "95c41888d6bda5033094b851e8f475b892a6d900",
                     "shasum": ""
                 },
                 "require": {
@@ -7298,11 +7377,11 @@
                     "newfold-labs/wp-module-coming-soon": "^1.0",
                     "newfold-labs/wp-module-customer-bluehost": "^1.5.3",
                     "newfold-labs/wp-module-data": "^2.3.0",
-                    "newfold-labs/wp-module-ecommerce": "0.7.2",
+                    "newfold-labs/wp-module-ecommerce": "0.7.6",
                     "newfold-labs/wp-module-loader": "^1.0.10",
                     "newfold-labs/wp-module-marketplace": "^1.5.0",
                     "newfold-labs/wp-module-notifications": "^1.1.2",
-                    "newfold-labs/wp-module-onboarding": "1.2.0",
+                    "newfold-labs/wp-module-onboarding": "1.2.2",
                     "newfold-labs/wp-module-secure-passwords": "^1.1",
                     "newfold-labs/wp-module-sso": "^1.0.3",
                     "wp-forge/collection": "^1.0.2",
@@ -7316,7 +7395,7 @@
                     "wp-cli/i18n-command": "@stable",
                     "wp-cli/wp-cli-bundle": "@stable"
                 },
-                "time": "2023-03-15T16:08:32+00:00",
+                "time": "2023-03-31T16:01:04+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "psr-4": {
@@ -7545,6 +7624,85 @@
                     "wp-cli/wp-cli-bundle": "^2.4"
                 },
                 "time": "2022-04-11T00:40:12+00:00",
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "psr-4": {
+                        "Bluehost\\": "inc/",
+                        "Newfold\\Plugin\\": "inc/"
+                    }
+                },
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf --standard=phpcs.xml ."
+                    ],
+                    "i18n": [
+                        "vendor/bin/wp i18n make-pot . ./languages/bluehost-wordpress-plugin.pot --headers='{\"Report-Msgid-Bugs-To\":\"https://github.com/bluehost/bluehost-wordpress-plugin/issues\",\"POT-Creation-Date\":null}' --exclude=assets,storybook,tests"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs --standard=phpcs.xml -s ."
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike Hansen",
+                        "homepage": "https://mikehansen.me/"
+                    },
+                    {
+                        "name": "Micah Wood",
+                        "email": "micah@wpscholar.com",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "This plugin integrates your WordPress site with the Bluehost control panel, including performance, security, and update features.",
+                "support": {
+                    "source": "https://github.com/bluehost/bluehost-wordpress-plugin",
+                    "issues": "https://github.com/bluehost/bluehost-wordpress-plugin/issues"
+                }
+            },
+            "dev-fix/compat-mode-translatable-strings": {
+                "name": "bluehost/bluehost-wordpress-plugin",
+                "version": "dev-fix/compat-mode-translatable-strings",
+                "version_normalized": "dev-fix/compat-mode-translatable-strings",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bluehost/bluehost-wordpress-plugin.git",
+                    "reference": "57a954b3b0a91138d36fea4d5539541339e16201"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/57a954b3b0a91138d36fea4d5539541339e16201",
+                    "reference": "57a954b3b0a91138d36fea4d5539541339e16201",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/inflector": "1.2.0 as 1.3.1",
+                    "ext-iconv": "*",
+                    "newfold-labs/wp-module-business-reviews": "^1.1",
+                    "newfold-labs/wp-module-coming-soon": "^1.0",
+                    "newfold-labs/wp-module-customer-bluehost": "^1.5.3",
+                    "newfold-labs/wp-module-data": "^2.3.0",
+                    "newfold-labs/wp-module-ecommerce": "0.7.6",
+                    "newfold-labs/wp-module-loader": "^1.0.10",
+                    "newfold-labs/wp-module-marketplace": "^1.5.0",
+                    "newfold-labs/wp-module-notifications": "^1.1.2",
+                    "newfold-labs/wp-module-onboarding": "1.2.2",
+                    "newfold-labs/wp-module-secure-passwords": "^1.1",
+                    "newfold-labs/wp-module-sso": "^1.0.3",
+                    "wp-forge/collection": "^1.0.2",
+                    "wp-forge/helpers": "^1.1.1",
+                    "wp-forge/wp-update-handler": "^1.0.1",
+                    "wp-forge/wp-upgrade-handler": "^1.0",
+                    "wpscholar/url": "^1.2.2"
+                },
+                "require-dev": {
+                    "newfold-labs/wp-php-standards": "^1.2",
+                    "wp-cli/i18n-command": "@stable",
+                    "wp-cli/wp-cli-bundle": "@stable"
+                },
+                "time": "2023-03-29T17:22:28+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "psr-4": {
@@ -12866,6 +13024,68 @@
                     "issues": "https://github.com/bluehost/mojo-marketplace-wp-plugin/issues"
                 }
             },
+            "1.7.3": {
+                "name": "bluehost/mojo-marketplace-wp-plugin",
+                "version": "1.7.3",
+                "version_normalized": "1.7.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bluehost/mojo-marketplace-wp-plugin.git",
+                    "reference": "7aa5e03d24f38b2cc153bdf7aa016d08ae9d53f1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/mojo-marketplace-wp-plugin/zipball/7aa5e03d24f38b2cc153bdf7aa016d08ae9d53f1",
+                    "reference": "7aa5e03d24f38b2cc153bdf7aa016d08ae9d53f1",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/inflector": "1.2.0 as 1.3.1",
+                    "newfold-labs/wp-module-business-reviews": "^1.1",
+                    "newfold-labs/wp-module-data": "^2.3.0",
+                    "newfold-labs/wp-module-loader": "^1.0.10",
+                    "newfold-labs/wp-module-marketplace": "^1.5.0",
+                    "newfold-labs/wp-module-secure-passwords": "^1.1",
+                    "newfold-labs/wp-module-sso": "^1.0.3",
+                    "wp-forge/wp-update-handler": "^1.0"
+                },
+                "require-dev": {
+                    "newfold-labs/wp-php-standards": "^1.2",
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-cli/wp-cli-bundle": "^2.4"
+                },
+                "time": "2023-04-06T20:15:21+00:00",
+                "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . --standard=Bluehost"
+                    ],
+                    "i18n": [
+                        "vendor/bin/wp i18n make-pot . ./languages/mojo-marketplace-wp-plugin.pot --headers='{\"Report-Msgid-Bugs-To\":\"https://github.com/bluehost/mojo-marketplace-wp-plugin/issues\",\"POT-Creation-Date\":null}'"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . --standard=Bluehost -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike Hansen",
+                        "homepage": "https://mikehansen.me/"
+                    },
+                    {
+                        "name": "Micah Wood",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "WordPress plugin that has shortcodes, widgets and themes.",
+                "support": {
+                    "source": "https://github.com/bluehost/mojo-marketplace-wp-plugin",
+                    "issues": "https://github.com/bluehost/mojo-marketplace-wp-plugin/issues"
+                }
+            },
             "dev-master": {
                 "name": "bluehost/mojo-marketplace-wp-plugin",
                 "version": "dev-master",
@@ -12873,12 +13093,74 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/mojo-marketplace-wp-plugin.git",
-                    "reference": "4d3a70446de42bd649dddb2f01767e2200a3f58d"
+                    "reference": "7aa5e03d24f38b2cc153bdf7aa016d08ae9d53f1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/mojo-marketplace-wp-plugin/zipball/4d3a70446de42bd649dddb2f01767e2200a3f58d",
-                    "reference": "4d3a70446de42bd649dddb2f01767e2200a3f58d",
+                    "url": "https://api.github.com/repos/bluehost/mojo-marketplace-wp-plugin/zipball/7aa5e03d24f38b2cc153bdf7aa016d08ae9d53f1",
+                    "reference": "7aa5e03d24f38b2cc153bdf7aa016d08ae9d53f1",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/inflector": "1.2.0 as 1.3.1",
+                    "newfold-labs/wp-module-business-reviews": "^1.1",
+                    "newfold-labs/wp-module-data": "^2.3.0",
+                    "newfold-labs/wp-module-loader": "^1.0.10",
+                    "newfold-labs/wp-module-marketplace": "^1.5.0",
+                    "newfold-labs/wp-module-secure-passwords": "^1.1",
+                    "newfold-labs/wp-module-sso": "^1.0.3",
+                    "wp-forge/wp-update-handler": "^1.0"
+                },
+                "require-dev": {
+                    "newfold-labs/wp-php-standards": "^1.2",
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-cli/wp-cli-bundle": "^2.4"
+                },
+                "time": "2023-04-06T20:15:21+00:00",
+                "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . --standard=Bluehost"
+                    ],
+                    "i18n": [
+                        "vendor/bin/wp i18n make-pot . ./languages/mojo-marketplace-wp-plugin.pot --headers='{\"Report-Msgid-Bugs-To\":\"https://github.com/bluehost/mojo-marketplace-wp-plugin/issues\",\"POT-Creation-Date\":null}'"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . --standard=Bluehost -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike Hansen",
+                        "homepage": "https://mikehansen.me/"
+                    },
+                    {
+                        "name": "Micah Wood",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "WordPress plugin that has shortcodes, widgets and themes.",
+                "support": {
+                    "source": "https://github.com/bluehost/mojo-marketplace-wp-plugin",
+                    "issues": "https://github.com/bluehost/mojo-marketplace-wp-plugin/issues"
+                }
+            },
+            "dev-dependabot/composer/develop/newfold-labs/wp-module-data-2.3": {
+                "name": "bluehost/mojo-marketplace-wp-plugin",
+                "version": "dev-dependabot/composer/develop/newfold-labs/wp-module-data-2.3",
+                "version_normalized": "dev-dependabot/composer/develop/newfold-labs/wp-module-data-2.3",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bluehost/mojo-marketplace-wp-plugin.git",
+                    "reference": "e66de8d92354ec56b35a6048848264193ab887df"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/mojo-marketplace-wp-plugin/zipball/e66de8d92354ec56b35a6048848264193ab887df",
+                    "reference": "e66de8d92354ec56b35a6048848264193ab887df",
                     "shasum": ""
                 },
                 "require": {
@@ -12896,7 +13178,689 @@
                     "wp-cli/i18n-command": "^2.2",
                     "wp-cli/wp-cli-bundle": "^2.4"
                 },
-                "time": "2023-03-01T17:43:42+00:00",
+                "time": "2023-04-06T20:15:47+00:00",
+                "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . --standard=Bluehost"
+                    ],
+                    "i18n": [
+                        "vendor/bin/wp i18n make-pot . ./languages/mojo-marketplace-wp-plugin.pot --headers='{\"Report-Msgid-Bugs-To\":\"https://github.com/bluehost/mojo-marketplace-wp-plugin/issues\",\"POT-Creation-Date\":null}'"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . --standard=Bluehost -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike Hansen",
+                        "homepage": "https://mikehansen.me/"
+                    },
+                    {
+                        "name": "Micah Wood",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "WordPress plugin that has shortcodes, widgets and themes.",
+                "support": {
+                    "source": "https://github.com/bluehost/mojo-marketplace-wp-plugin",
+                    "issues": "https://github.com/bluehost/mojo-marketplace-wp-plugin/issues"
+                }
+            },
+            "dev-dependabot/composer/develop/newfold-labs/wp-module-marketplace-1.5.0": {
+                "name": "bluehost/mojo-marketplace-wp-plugin",
+                "version": "dev-dependabot/composer/develop/newfold-labs/wp-module-marketplace-1.5.0",
+                "version_normalized": "dev-dependabot/composer/develop/newfold-labs/wp-module-marketplace-1.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bluehost/mojo-marketplace-wp-plugin.git",
+                    "reference": "b4438eadef6dc3d36cf490dc139226eb643879dd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/mojo-marketplace-wp-plugin/zipball/b4438eadef6dc3d36cf490dc139226eb643879dd",
+                    "reference": "b4438eadef6dc3d36cf490dc139226eb643879dd",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/inflector": "1.2.0 as 1.3.1",
+                    "newfold-labs/wp-module-business-reviews": "^1.1",
+                    "newfold-labs/wp-module-data": "^2.2.5",
+                    "newfold-labs/wp-module-loader": "^1.0.10",
+                    "newfold-labs/wp-module-marketplace": "^1.4.10",
+                    "newfold-labs/wp-module-secure-passwords": "^1.1",
+                    "newfold-labs/wp-module-sso": "^1.0",
+                    "wp-forge/wp-update-handler": "^1.0"
+                },
+                "require-dev": {
+                    "newfold-labs/wp-php-standards": "^1.2",
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-cli/wp-cli-bundle": "^2.4"
+                },
+                "time": "2023-04-06T20:15:43+00:00",
+                "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . --standard=Bluehost"
+                    ],
+                    "i18n": [
+                        "vendor/bin/wp i18n make-pot . ./languages/mojo-marketplace-wp-plugin.pot --headers='{\"Report-Msgid-Bugs-To\":\"https://github.com/bluehost/mojo-marketplace-wp-plugin/issues\",\"POT-Creation-Date\":null}'"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . --standard=Bluehost -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike Hansen",
+                        "homepage": "https://mikehansen.me/"
+                    },
+                    {
+                        "name": "Micah Wood",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "WordPress plugin that has shortcodes, widgets and themes.",
+                "support": {
+                    "source": "https://github.com/bluehost/mojo-marketplace-wp-plugin",
+                    "issues": "https://github.com/bluehost/mojo-marketplace-wp-plugin/issues"
+                }
+            },
+            "dev-dependabot/composer/develop/wp-cli/i18n-command-2.4.2": {
+                "name": "bluehost/mojo-marketplace-wp-plugin",
+                "version": "dev-dependabot/composer/develop/wp-cli/i18n-command-2.4.2",
+                "version_normalized": "dev-dependabot/composer/develop/wp-cli/i18n-command-2.4.2",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bluehost/mojo-marketplace-wp-plugin.git",
+                    "reference": "80625d1b26cda2d6ee584021b9d96be8024af733"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/mojo-marketplace-wp-plugin/zipball/80625d1b26cda2d6ee584021b9d96be8024af733",
+                    "reference": "80625d1b26cda2d6ee584021b9d96be8024af733",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/inflector": "1.2.0 as 1.3.1",
+                    "newfold-labs/wp-module-business-reviews": "^1.1",
+                    "newfold-labs/wp-module-data": "^2.2.5",
+                    "newfold-labs/wp-module-loader": "^1.0.10",
+                    "newfold-labs/wp-module-marketplace": "^1.4.10",
+                    "newfold-labs/wp-module-secure-passwords": "^1.1",
+                    "newfold-labs/wp-module-sso": "^1.0",
+                    "wp-forge/wp-update-handler": "^1.0"
+                },
+                "require-dev": {
+                    "newfold-labs/wp-php-standards": "^1.2",
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-cli/wp-cli-bundle": "^2.4"
+                },
+                "time": "2023-04-06T20:15:53+00:00",
+                "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . --standard=Bluehost"
+                    ],
+                    "i18n": [
+                        "vendor/bin/wp i18n make-pot . ./languages/mojo-marketplace-wp-plugin.pot --headers='{\"Report-Msgid-Bugs-To\":\"https://github.com/bluehost/mojo-marketplace-wp-plugin/issues\",\"POT-Creation-Date\":null}'"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . --standard=Bluehost -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike Hansen",
+                        "homepage": "https://mikehansen.me/"
+                    },
+                    {
+                        "name": "Micah Wood",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "WordPress plugin that has shortcodes, widgets and themes.",
+                "support": {
+                    "source": "https://github.com/bluehost/mojo-marketplace-wp-plugin",
+                    "issues": "https://github.com/bluehost/mojo-marketplace-wp-plugin/issues"
+                }
+            },
+            "dev-dependabot/github_actions/develop/actions/cache-3": {
+                "name": "bluehost/mojo-marketplace-wp-plugin",
+                "version": "dev-dependabot/github_actions/develop/actions/cache-3",
+                "version_normalized": "dev-dependabot/github_actions/develop/actions/cache-3",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bluehost/mojo-marketplace-wp-plugin.git",
+                    "reference": "1f7d7233ae21833ee8cbd37527c8fa7cb50545c5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/mojo-marketplace-wp-plugin/zipball/1f7d7233ae21833ee8cbd37527c8fa7cb50545c5",
+                    "reference": "1f7d7233ae21833ee8cbd37527c8fa7cb50545c5",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/inflector": "1.2.0 as 1.3.1",
+                    "newfold-labs/wp-module-business-reviews": "^1.1",
+                    "newfold-labs/wp-module-data": "^2.2.5",
+                    "newfold-labs/wp-module-loader": "^1.0.10",
+                    "newfold-labs/wp-module-marketplace": "^1.4.10",
+                    "newfold-labs/wp-module-secure-passwords": "^1.1",
+                    "newfold-labs/wp-module-sso": "^1.0",
+                    "wp-forge/wp-update-handler": "^1.0"
+                },
+                "require-dev": {
+                    "newfold-labs/wp-php-standards": "^1.2",
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-cli/wp-cli-bundle": "^2.4"
+                },
+                "time": "2023-04-06T20:15:56+00:00",
+                "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . --standard=Bluehost"
+                    ],
+                    "i18n": [
+                        "vendor/bin/wp i18n make-pot . ./languages/mojo-marketplace-wp-plugin.pot --headers='{\"Report-Msgid-Bugs-To\":\"https://github.com/bluehost/mojo-marketplace-wp-plugin/issues\",\"POT-Creation-Date\":null}'"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . --standard=Bluehost -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike Hansen",
+                        "homepage": "https://mikehansen.me/"
+                    },
+                    {
+                        "name": "Micah Wood",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "WordPress plugin that has shortcodes, widgets and themes.",
+                "support": {
+                    "source": "https://github.com/bluehost/mojo-marketplace-wp-plugin",
+                    "issues": "https://github.com/bluehost/mojo-marketplace-wp-plugin/issues"
+                }
+            },
+            "dev-dependabot/github_actions/develop/actions/checkout-3": {
+                "name": "bluehost/mojo-marketplace-wp-plugin",
+                "version": "dev-dependabot/github_actions/develop/actions/checkout-3",
+                "version_normalized": "dev-dependabot/github_actions/develop/actions/checkout-3",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bluehost/mojo-marketplace-wp-plugin.git",
+                    "reference": "2f996e111d75e839f545d2e3730804df0a9c559b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/mojo-marketplace-wp-plugin/zipball/2f996e111d75e839f545d2e3730804df0a9c559b",
+                    "reference": "2f996e111d75e839f545d2e3730804df0a9c559b",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/inflector": "1.2.0 as 1.3.1",
+                    "newfold-labs/wp-module-business-reviews": "^1.1",
+                    "newfold-labs/wp-module-data": "^2.2.5",
+                    "newfold-labs/wp-module-loader": "^1.0.10",
+                    "newfold-labs/wp-module-marketplace": "^1.4.10",
+                    "newfold-labs/wp-module-secure-passwords": "^1.1",
+                    "newfold-labs/wp-module-sso": "^1.0",
+                    "wp-forge/wp-update-handler": "^1.0"
+                },
+                "require-dev": {
+                    "newfold-labs/wp-php-standards": "^1.2",
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-cli/wp-cli-bundle": "^2.4"
+                },
+                "time": "2023-04-06T20:15:43+00:00",
+                "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . --standard=Bluehost"
+                    ],
+                    "i18n": [
+                        "vendor/bin/wp i18n make-pot . ./languages/mojo-marketplace-wp-plugin.pot --headers='{\"Report-Msgid-Bugs-To\":\"https://github.com/bluehost/mojo-marketplace-wp-plugin/issues\",\"POT-Creation-Date\":null}'"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . --standard=Bluehost -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike Hansen",
+                        "homepage": "https://mikehansen.me/"
+                    },
+                    {
+                        "name": "Micah Wood",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "WordPress plugin that has shortcodes, widgets and themes.",
+                "support": {
+                    "source": "https://github.com/bluehost/mojo-marketplace-wp-plugin",
+                    "issues": "https://github.com/bluehost/mojo-marketplace-wp-plugin/issues"
+                }
+            },
+            "dev-dependabot/github_actions/develop/actions/upload-artifact-3": {
+                "name": "bluehost/mojo-marketplace-wp-plugin",
+                "version": "dev-dependabot/github_actions/develop/actions/upload-artifact-3",
+                "version_normalized": "dev-dependabot/github_actions/develop/actions/upload-artifact-3",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bluehost/mojo-marketplace-wp-plugin.git",
+                    "reference": "496440645c796fe78a2b5f53ea607582b182bd52"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/mojo-marketplace-wp-plugin/zipball/496440645c796fe78a2b5f53ea607582b182bd52",
+                    "reference": "496440645c796fe78a2b5f53ea607582b182bd52",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/inflector": "1.2.0 as 1.3.1",
+                    "newfold-labs/wp-module-business-reviews": "^1.1",
+                    "newfold-labs/wp-module-data": "^2.2.5",
+                    "newfold-labs/wp-module-loader": "^1.0.10",
+                    "newfold-labs/wp-module-marketplace": "^1.4.10",
+                    "newfold-labs/wp-module-secure-passwords": "^1.1",
+                    "newfold-labs/wp-module-sso": "^1.0",
+                    "wp-forge/wp-update-handler": "^1.0"
+                },
+                "require-dev": {
+                    "newfold-labs/wp-php-standards": "^1.2",
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-cli/wp-cli-bundle": "^2.4"
+                },
+                "time": "2023-04-06T20:15:46+00:00",
+                "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . --standard=Bluehost"
+                    ],
+                    "i18n": [
+                        "vendor/bin/wp i18n make-pot . ./languages/mojo-marketplace-wp-plugin.pot --headers='{\"Report-Msgid-Bugs-To\":\"https://github.com/bluehost/mojo-marketplace-wp-plugin/issues\",\"POT-Creation-Date\":null}'"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . --standard=Bluehost -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike Hansen",
+                        "homepage": "https://mikehansen.me/"
+                    },
+                    {
+                        "name": "Micah Wood",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "WordPress plugin that has shortcodes, widgets and themes.",
+                "support": {
+                    "source": "https://github.com/bluehost/mojo-marketplace-wp-plugin",
+                    "issues": "https://github.com/bluehost/mojo-marketplace-wp-plugin/issues"
+                }
+            },
+            "dev-dependabot/github_actions/develop/peter-evans/repository-dispatch-2": {
+                "name": "bluehost/mojo-marketplace-wp-plugin",
+                "version": "dev-dependabot/github_actions/develop/peter-evans/repository-dispatch-2",
+                "version_normalized": "dev-dependabot/github_actions/develop/peter-evans/repository-dispatch-2",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bluehost/mojo-marketplace-wp-plugin.git",
+                    "reference": "a0fc0929bc16290693e34ec3e95345fba42669bb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/mojo-marketplace-wp-plugin/zipball/a0fc0929bc16290693e34ec3e95345fba42669bb",
+                    "reference": "a0fc0929bc16290693e34ec3e95345fba42669bb",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/inflector": "1.2.0 as 1.3.1",
+                    "newfold-labs/wp-module-business-reviews": "^1.1",
+                    "newfold-labs/wp-module-data": "^2.2.5",
+                    "newfold-labs/wp-module-loader": "^1.0.10",
+                    "newfold-labs/wp-module-marketplace": "^1.4.10",
+                    "newfold-labs/wp-module-secure-passwords": "^1.1",
+                    "newfold-labs/wp-module-sso": "^1.0",
+                    "wp-forge/wp-update-handler": "^1.0"
+                },
+                "require-dev": {
+                    "newfold-labs/wp-php-standards": "^1.2",
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-cli/wp-cli-bundle": "^2.4"
+                },
+                "time": "2023-04-06T20:15:51+00:00",
+                "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . --standard=Bluehost"
+                    ],
+                    "i18n": [
+                        "vendor/bin/wp i18n make-pot . ./languages/mojo-marketplace-wp-plugin.pot --headers='{\"Report-Msgid-Bugs-To\":\"https://github.com/bluehost/mojo-marketplace-wp-plugin/issues\",\"POT-Creation-Date\":null}'"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . --standard=Bluehost -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike Hansen",
+                        "homepage": "https://mikehansen.me/"
+                    },
+                    {
+                        "name": "Micah Wood",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "WordPress plugin that has shortcodes, widgets and themes.",
+                "support": {
+                    "source": "https://github.com/bluehost/mojo-marketplace-wp-plugin",
+                    "issues": "https://github.com/bluehost/mojo-marketplace-wp-plugin/issues"
+                }
+            },
+            "dev-dependabot/github_actions/develop/technote-space/get-diff-action-6": {
+                "name": "bluehost/mojo-marketplace-wp-plugin",
+                "version": "dev-dependabot/github_actions/develop/technote-space/get-diff-action-6",
+                "version_normalized": "dev-dependabot/github_actions/develop/technote-space/get-diff-action-6",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bluehost/mojo-marketplace-wp-plugin.git",
+                    "reference": "22a5eae203bd21f2d265796f14552eb2c3444a55"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/mojo-marketplace-wp-plugin/zipball/22a5eae203bd21f2d265796f14552eb2c3444a55",
+                    "reference": "22a5eae203bd21f2d265796f14552eb2c3444a55",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/inflector": "1.2.0 as 1.3.1",
+                    "newfold-labs/wp-module-business-reviews": "^1.1",
+                    "newfold-labs/wp-module-data": "^2.2.5",
+                    "newfold-labs/wp-module-loader": "^1.0.10",
+                    "newfold-labs/wp-module-marketplace": "^1.4.10",
+                    "newfold-labs/wp-module-secure-passwords": "^1.1",
+                    "newfold-labs/wp-module-sso": "^1.0",
+                    "wp-forge/wp-update-handler": "^1.0"
+                },
+                "require-dev": {
+                    "newfold-labs/wp-php-standards": "^1.2",
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-cli/wp-cli-bundle": "^2.4"
+                },
+                "time": "2023-04-06T20:15:49+00:00",
+                "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . --standard=Bluehost"
+                    ],
+                    "i18n": [
+                        "vendor/bin/wp i18n make-pot . ./languages/mojo-marketplace-wp-plugin.pot --headers='{\"Report-Msgid-Bugs-To\":\"https://github.com/bluehost/mojo-marketplace-wp-plugin/issues\",\"POT-Creation-Date\":null}'"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . --standard=Bluehost -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike Hansen",
+                        "homepage": "https://mikehansen.me/"
+                    },
+                    {
+                        "name": "Micah Wood",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "WordPress plugin that has shortcodes, widgets and themes.",
+                "support": {
+                    "source": "https://github.com/bluehost/mojo-marketplace-wp-plugin",
+                    "issues": "https://github.com/bluehost/mojo-marketplace-wp-plugin/issues"
+                }
+            },
+            "dev-dependabot/npm_and_yarn/develop/husky-8.0.3": {
+                "name": "bluehost/mojo-marketplace-wp-plugin",
+                "version": "dev-dependabot/npm_and_yarn/develop/husky-8.0.3",
+                "version_normalized": "dev-dependabot/npm_and_yarn/develop/husky-8.0.3",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bluehost/mojo-marketplace-wp-plugin.git",
+                    "reference": "81fa403085d8ba69640796834ab0073f7bfb7e94"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/mojo-marketplace-wp-plugin/zipball/81fa403085d8ba69640796834ab0073f7bfb7e94",
+                    "reference": "81fa403085d8ba69640796834ab0073f7bfb7e94",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/inflector": "1.2.0 as 1.3.1",
+                    "newfold-labs/wp-module-business-reviews": "^1.1",
+                    "newfold-labs/wp-module-data": "^2.2.5",
+                    "newfold-labs/wp-module-loader": "^1.0.10",
+                    "newfold-labs/wp-module-marketplace": "^1.4.10",
+                    "newfold-labs/wp-module-secure-passwords": "^1.1",
+                    "newfold-labs/wp-module-sso": "^1.0",
+                    "wp-forge/wp-update-handler": "^1.0"
+                },
+                "require-dev": {
+                    "newfold-labs/wp-php-standards": "^1.2",
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-cli/wp-cli-bundle": "^2.4"
+                },
+                "time": "2023-04-06T20:16:05+00:00",
+                "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . --standard=Bluehost"
+                    ],
+                    "i18n": [
+                        "vendor/bin/wp i18n make-pot . ./languages/mojo-marketplace-wp-plugin.pot --headers='{\"Report-Msgid-Bugs-To\":\"https://github.com/bluehost/mojo-marketplace-wp-plugin/issues\",\"POT-Creation-Date\":null}'"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . --standard=Bluehost -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike Hansen",
+                        "homepage": "https://mikehansen.me/"
+                    },
+                    {
+                        "name": "Micah Wood",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "WordPress plugin that has shortcodes, widgets and themes.",
+                "support": {
+                    "source": "https://github.com/bluehost/mojo-marketplace-wp-plugin",
+                    "issues": "https://github.com/bluehost/mojo-marketplace-wp-plugin/issues"
+                }
+            },
+            "dev-dependabot/npm_and_yarn/develop/lint-staged-13.2.0": {
+                "name": "bluehost/mojo-marketplace-wp-plugin",
+                "version": "dev-dependabot/npm_and_yarn/develop/lint-staged-13.2.0",
+                "version_normalized": "dev-dependabot/npm_and_yarn/develop/lint-staged-13.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bluehost/mojo-marketplace-wp-plugin.git",
+                    "reference": "40291a4aae05a7bd5187349e166fea923fb3f948"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/mojo-marketplace-wp-plugin/zipball/40291a4aae05a7bd5187349e166fea923fb3f948",
+                    "reference": "40291a4aae05a7bd5187349e166fea923fb3f948",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/inflector": "1.2.0 as 1.3.1",
+                    "newfold-labs/wp-module-business-reviews": "^1.1",
+                    "newfold-labs/wp-module-data": "^2.2.5",
+                    "newfold-labs/wp-module-loader": "^1.0.10",
+                    "newfold-labs/wp-module-marketplace": "^1.4.10",
+                    "newfold-labs/wp-module-secure-passwords": "^1.1",
+                    "newfold-labs/wp-module-sso": "^1.0",
+                    "wp-forge/wp-update-handler": "^1.0"
+                },
+                "require-dev": {
+                    "newfold-labs/wp-php-standards": "^1.2",
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-cli/wp-cli-bundle": "^2.4"
+                },
+                "time": "2023-04-06T20:16:18+00:00",
+                "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . --standard=Bluehost"
+                    ],
+                    "i18n": [
+                        "vendor/bin/wp i18n make-pot . ./languages/mojo-marketplace-wp-plugin.pot --headers='{\"Report-Msgid-Bugs-To\":\"https://github.com/bluehost/mojo-marketplace-wp-plugin/issues\",\"POT-Creation-Date\":null}'"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . --standard=Bluehost -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike Hansen",
+                        "homepage": "https://mikehansen.me/"
+                    },
+                    {
+                        "name": "Micah Wood",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "WordPress plugin that has shortcodes, widgets and themes.",
+                "support": {
+                    "source": "https://github.com/bluehost/mojo-marketplace-wp-plugin",
+                    "issues": "https://github.com/bluehost/mojo-marketplace-wp-plugin/issues"
+                }
+            },
+            "dev-dependabot/npm_and_yarn/develop/react-router-dom-6.10.0": {
+                "name": "bluehost/mojo-marketplace-wp-plugin",
+                "version": "dev-dependabot/npm_and_yarn/develop/react-router-dom-6.10.0",
+                "version_normalized": "dev-dependabot/npm_and_yarn/develop/react-router-dom-6.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bluehost/mojo-marketplace-wp-plugin.git",
+                    "reference": "05fa401e808f547edaabb2d548f505f2f52beb5c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/mojo-marketplace-wp-plugin/zipball/05fa401e808f547edaabb2d548f505f2f52beb5c",
+                    "reference": "05fa401e808f547edaabb2d548f505f2f52beb5c",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/inflector": "1.2.0 as 1.3.1",
+                    "newfold-labs/wp-module-business-reviews": "^1.1",
+                    "newfold-labs/wp-module-data": "^2.2.5",
+                    "newfold-labs/wp-module-loader": "^1.0.10",
+                    "newfold-labs/wp-module-marketplace": "^1.4.10",
+                    "newfold-labs/wp-module-secure-passwords": "^1.1",
+                    "newfold-labs/wp-module-sso": "^1.0",
+                    "wp-forge/wp-update-handler": "^1.0"
+                },
+                "require-dev": {
+                    "newfold-labs/wp-php-standards": "^1.2",
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-cli/wp-cli-bundle": "^2.4"
+                },
+                "time": "2023-04-06T20:15:53+00:00",
+                "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . --standard=Bluehost"
+                    ],
+                    "i18n": [
+                        "vendor/bin/wp i18n make-pot . ./languages/mojo-marketplace-wp-plugin.pot --headers='{\"Report-Msgid-Bugs-To\":\"https://github.com/bluehost/mojo-marketplace-wp-plugin/issues\",\"POT-Creation-Date\":null}'"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . --standard=Bluehost -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike Hansen",
+                        "homepage": "https://mikehansen.me/"
+                    },
+                    {
+                        "name": "Micah Wood",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "WordPress plugin that has shortcodes, widgets and themes.",
+                "support": {
+                    "source": "https://github.com/bluehost/mojo-marketplace-wp-plugin",
+                    "issues": "https://github.com/bluehost/mojo-marketplace-wp-plugin/issues"
+                }
+            },
+            "dev-dependabot/npm_and_yarn/develop/wordpress/scripts-26.1.0": {
+                "name": "bluehost/mojo-marketplace-wp-plugin",
+                "version": "dev-dependabot/npm_and_yarn/develop/wordpress/scripts-26.1.0",
+                "version_normalized": "dev-dependabot/npm_and_yarn/develop/wordpress/scripts-26.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bluehost/mojo-marketplace-wp-plugin.git",
+                    "reference": "81e88f2267b508e50c5ef967f5924b1546285f93"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/mojo-marketplace-wp-plugin/zipball/81e88f2267b508e50c5ef967f5924b1546285f93",
+                    "reference": "81e88f2267b508e50c5ef967f5924b1546285f93",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/inflector": "1.2.0 as 1.3.1",
+                    "newfold-labs/wp-module-business-reviews": "^1.1",
+                    "newfold-labs/wp-module-data": "^2.2.5",
+                    "newfold-labs/wp-module-loader": "^1.0.10",
+                    "newfold-labs/wp-module-marketplace": "^1.4.10",
+                    "newfold-labs/wp-module-secure-passwords": "^1.1",
+                    "newfold-labs/wp-module-sso": "^1.0",
+                    "wp-forge/wp-update-handler": "^1.0"
+                },
+                "require-dev": {
+                    "newfold-labs/wp-php-standards": "^1.2",
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-cli/wp-cli-bundle": "^2.4"
+                },
+                "time": "2023-04-06T20:17:06+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
@@ -12935,12 +13899,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/mojo-marketplace-wp-plugin.git",
-                    "reference": "52cbf10e000b80285236b09dc197707cecfae7c6"
+                    "reference": "22e2d121cabaaeea8720e7be8df590062b74563d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/mojo-marketplace-wp-plugin/zipball/52cbf10e000b80285236b09dc197707cecfae7c6",
-                    "reference": "52cbf10e000b80285236b09dc197707cecfae7c6",
+                    "url": "https://api.github.com/repos/bluehost/mojo-marketplace-wp-plugin/zipball/22e2d121cabaaeea8720e7be8df590062b74563d",
+                    "reference": "22e2d121cabaaeea8720e7be8df590062b74563d",
                     "shasum": ""
                 },
                 "require": {
@@ -12958,69 +13922,7 @@
                     "wp-cli/i18n-command": "^2.2",
                     "wp-cli/wp-cli-bundle": "^2.4"
                 },
-                "time": "2023-03-21T15:00:55+00:00",
-                "type": "wordpress-plugin",
-                "scripts": {
-                    "fix": [
-                        "vendor/bin/phpcbf . --standard=Bluehost"
-                    ],
-                    "i18n": [
-                        "vendor/bin/wp i18n make-pot . ./languages/mojo-marketplace-wp-plugin.pot --headers='{\"Report-Msgid-Bugs-To\":\"https://github.com/bluehost/mojo-marketplace-wp-plugin/issues\",\"POT-Creation-Date\":null}'"
-                    ],
-                    "lint": [
-                        "vendor/bin/phpcs . --standard=Bluehost -s"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0-or-later"
-                ],
-                "authors": [
-                    {
-                        "name": "Mike Hansen",
-                        "homepage": "https://mikehansen.me/"
-                    },
-                    {
-                        "name": "Micah Wood",
-                        "homepage": "https://wpscholar.com"
-                    }
-                ],
-                "description": "WordPress plugin that has shortcodes, widgets and themes.",
-                "support": {
-                    "source": "https://github.com/bluehost/mojo-marketplace-wp-plugin",
-                    "issues": "https://github.com/bluehost/mojo-marketplace-wp-plugin/issues"
-                }
-            },
-            "dev-release/1.7.3": {
-                "name": "bluehost/mojo-marketplace-wp-plugin",
-                "version": "dev-release/1.7.3",
-                "version_normalized": "dev-release/1.7.3",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/bluehost/mojo-marketplace-wp-plugin.git",
-                    "reference": "cee986ece3b08303beae7ce2cf3d08daa6f7a655"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/mojo-marketplace-wp-plugin/zipball/cee986ece3b08303beae7ce2cf3d08daa6f7a655",
-                    "reference": "cee986ece3b08303beae7ce2cf3d08daa6f7a655",
-                    "shasum": ""
-                },
-                "require": {
-                    "doctrine/inflector": "1.2.0 as 1.3.1",
-                    "newfold-labs/wp-module-business-reviews": "^1.1",
-                    "newfold-labs/wp-module-data": "^2.2.5",
-                    "newfold-labs/wp-module-loader": "^1.0.10",
-                    "newfold-labs/wp-module-marketplace": "^1.4.10",
-                    "newfold-labs/wp-module-secure-passwords": "^1.1",
-                    "newfold-labs/wp-module-sso": "^1.0",
-                    "wp-forge/wp-update-handler": "^1.0"
-                },
-                "require-dev": {
-                    "newfold-labs/wp-php-standards": "^1.2",
-                    "wp-cli/i18n-command": "^2.2",
-                    "wp-cli/wp-cli-bundle": "^2.4"
-                },
-                "time": "2023-03-22T21:14:48+00:00",
+                "time": "2023-04-06T16:37:52+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
