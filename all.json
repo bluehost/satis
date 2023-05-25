@@ -4772,6 +4772,87 @@
                     "issues": "https://github.com/bluehost/bluehost-wordpress-plugin/issues"
                 }
             },
+            "2.13.7": {
+                "name": "bluehost/bluehost-wordpress-plugin",
+                "version": "2.13.7",
+                "version_normalized": "2.13.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bluehost/bluehost-wordpress-plugin.git",
+                    "reference": "561287220e5705a1565ba7f381da10d2dca93615"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/561287220e5705a1565ba7f381da10d2dca93615",
+                    "reference": "561287220e5705a1565ba7f381da10d2dca93615",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/inflector": "1.2.0 as 1.3.1",
+                    "ext-iconv": "*",
+                    "newfold-labs/wp-module-business-reviews": "^1.1",
+                    "newfold-labs/wp-module-coming-soon": "^1.1.3",
+                    "newfold-labs/wp-module-ctb": "^1.0.0",
+                    "newfold-labs/wp-module-customer-bluehost": "^1.5.3",
+                    "newfold-labs/wp-module-data": "^2.3",
+                    "newfold-labs/wp-module-ecommerce": "0.9.0",
+                    "newfold-labs/wp-module-loader": "^1.0.10",
+                    "newfold-labs/wp-module-marketplace": "^1.5.1",
+                    "newfold-labs/wp-module-notifications": "^1.1.2",
+                    "newfold-labs/wp-module-onboarding": "1.7.0",
+                    "newfold-labs/wp-module-secure-passwords": "^1.1",
+                    "newfold-labs/wp-module-sso": "^1.0.3",
+                    "wp-forge/collection": "^1.0.2",
+                    "wp-forge/helpers": "^1.1.1",
+                    "wp-forge/wp-update-handler": "^1.0.1",
+                    "wp-forge/wp-upgrade-handler": "^1.0",
+                    "wpscholar/url": "^1.2.2"
+                },
+                "require-dev": {
+                    "newfold-labs/wp-php-standards": "^1.2",
+                    "roave/security-advisories": "dev-latest",
+                    "wp-cli/i18n-command": "@stable",
+                    "wp-cli/wp-cli-bundle": "@stable"
+                },
+                "time": "2023-05-25T15:17:49+00:00",
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "psr-4": {
+                        "Bluehost\\": "inc/",
+                        "Newfold\\Plugin\\": "inc/"
+                    }
+                },
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf --standard=phpcs.xml ."
+                    ],
+                    "i18n": [
+                        "vendor/bin/wp i18n make-pot . ./languages/bluehost-wordpress-plugin.pot --headers='{\"Report-Msgid-Bugs-To\":\"https://github.com/bluehost/bluehost-wordpress-plugin/issues\",\"POT-Creation-Date\":null}' --exclude=assets,storybook,tests"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs --standard=phpcs.xml -s ."
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike Hansen",
+                        "homepage": "https://mikehansen.me/"
+                    },
+                    {
+                        "name": "Micah Wood",
+                        "email": "micah@wpscholar.com",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "This plugin integrates your WordPress site with the Bluehost control panel, including performance, security, and update features.",
+                "support": {
+                    "source": "https://github.com/bluehost/bluehost-wordpress-plugin",
+                    "issues": "https://github.com/bluehost/bluehost-wordpress-plugin/issues"
+                }
+            },
             "2.2": {
                 "name": "bluehost/bluehost-wordpress-plugin",
                 "version": "2.2",
@@ -6950,12 +7031,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/bluehost-wordpress-plugin.git",
-                    "reference": "de4d2fc066f7238185aeac2d1bfdc88c47f70269"
+                    "reference": "561287220e5705a1565ba7f381da10d2dca93615"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/de4d2fc066f7238185aeac2d1bfdc88c47f70269",
-                    "reference": "de4d2fc066f7238185aeac2d1bfdc88c47f70269",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/561287220e5705a1565ba7f381da10d2dca93615",
+                    "reference": "561287220e5705a1565ba7f381da10d2dca93615",
                     "shasum": ""
                 },
                 "require": {
@@ -6966,11 +7047,11 @@
                     "newfold-labs/wp-module-ctb": "^1.0.0",
                     "newfold-labs/wp-module-customer-bluehost": "^1.5.3",
                     "newfold-labs/wp-module-data": "^2.3",
-                    "newfold-labs/wp-module-ecommerce": "0.8.3",
+                    "newfold-labs/wp-module-ecommerce": "0.9.0",
                     "newfold-labs/wp-module-loader": "^1.0.10",
                     "newfold-labs/wp-module-marketplace": "^1.5.1",
                     "newfold-labs/wp-module-notifications": "^1.1.2",
-                    "newfold-labs/wp-module-onboarding": "1.6.0",
+                    "newfold-labs/wp-module-onboarding": "1.7.0",
                     "newfold-labs/wp-module-secure-passwords": "^1.1",
                     "newfold-labs/wp-module-sso": "^1.0.3",
                     "wp-forge/collection": "^1.0.2",
@@ -6985,7 +7066,7 @@
                     "wp-cli/i18n-command": "@stable",
                     "wp-cli/wp-cli-bundle": "@stable"
                 },
-                "time": "2023-05-15T20:28:12+00:00",
+                "time": "2023-05-25T15:17:49+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "psr-4": {
@@ -7490,12 +7571,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/bluehost-wordpress-plugin.git",
-                    "reference": "d79b93a95f7cea5df0eb221369d5f2c90b3540b3"
+                    "reference": "fdef288becbd5aa298408b34027091bdaf85dbb4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/d79b93a95f7cea5df0eb221369d5f2c90b3540b3",
-                    "reference": "d79b93a95f7cea5df0eb221369d5f2c90b3540b3",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/fdef288becbd5aa298408b34027091bdaf85dbb4",
+                    "reference": "fdef288becbd5aa298408b34027091bdaf85dbb4",
                     "shasum": ""
                 },
                 "require": {
@@ -7506,11 +7587,11 @@
                     "newfold-labs/wp-module-ctb": "^1.0.0",
                     "newfold-labs/wp-module-customer-bluehost": "^1.5.3",
                     "newfold-labs/wp-module-data": "^2.3",
-                    "newfold-labs/wp-module-ecommerce": "0.8.3",
+                    "newfold-labs/wp-module-ecommerce": "0.9.0",
                     "newfold-labs/wp-module-loader": "^1.0.10",
                     "newfold-labs/wp-module-marketplace": "^1.5.1",
                     "newfold-labs/wp-module-notifications": "^1.1.2",
-                    "newfold-labs/wp-module-onboarding": "1.6.0",
+                    "newfold-labs/wp-module-onboarding": "1.7.0",
                     "newfold-labs/wp-module-secure-passwords": "^1.1",
                     "newfold-labs/wp-module-sso": "^1.0.3",
                     "wp-forge/collection": "^1.0.2",
@@ -7525,7 +7606,7 @@
                     "wp-cli/i18n-command": "@stable",
                     "wp-cli/wp-cli-bundle": "@stable"
                 },
-                "time": "2023-05-11T16:09:10+00:00",
+                "time": "2023-05-24T20:41:00+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "psr-4": {
@@ -7571,12 +7652,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/bluehost-wordpress-plugin.git",
-                    "reference": "eb2d928b844ff3e4e966886f6e8e1c60f22748c5"
+                    "reference": "d35226ce105732965120068ddfbfac0a627b1d2a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/eb2d928b844ff3e4e966886f6e8e1c60f22748c5",
-                    "reference": "eb2d928b844ff3e4e966886f6e8e1c60f22748c5",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/d35226ce105732965120068ddfbfac0a627b1d2a",
+                    "reference": "d35226ce105732965120068ddfbfac0a627b1d2a",
                     "shasum": ""
                 },
                 "require": {
@@ -7587,11 +7668,11 @@
                     "newfold-labs/wp-module-ctb": "^1.0.0",
                     "newfold-labs/wp-module-customer-bluehost": "^1.5.3",
                     "newfold-labs/wp-module-data": "^2.3",
-                    "newfold-labs/wp-module-ecommerce": "0.8.3",
+                    "newfold-labs/wp-module-ecommerce": "0.9.0",
                     "newfold-labs/wp-module-loader": "^1.0.10",
                     "newfold-labs/wp-module-marketplace": "^1.5.1",
                     "newfold-labs/wp-module-notifications": "^1.1.2",
-                    "newfold-labs/wp-module-onboarding": "1.6.0",
+                    "newfold-labs/wp-module-onboarding": "1.7.0",
                     "newfold-labs/wp-module-secure-passwords": "^1.1",
                     "newfold-labs/wp-module-sso": "^1.0.3",
                     "wp-forge/collection": "^1.0.2",
@@ -7606,7 +7687,7 @@
                     "wp-cli/i18n-command": "@stable",
                     "wp-cli/wp-cli-bundle": "@stable"
                 },
-                "time": "2023-05-15T18:54:37+00:00",
+                "time": "2023-05-24T23:25:37+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "psr-4": {
@@ -7801,12 +7882,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/bluehost-wordpress-plugin.git",
-                    "reference": "a3cc93f0e7b8af8330eace47129c54c860994bf8"
+                    "reference": "6e558641467dd76f34c6b4aea46ae8b9bf8e50f7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/a3cc93f0e7b8af8330eace47129c54c860994bf8",
-                    "reference": "a3cc93f0e7b8af8330eace47129c54c860994bf8",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/6e558641467dd76f34c6b4aea46ae8b9bf8e50f7",
+                    "reference": "6e558641467dd76f34c6b4aea46ae8b9bf8e50f7",
                     "shasum": ""
                 },
                 "require": {
@@ -7824,7 +7905,7 @@
                     "newfold-labs/wp-module-onboarding": "1.6.0",
                     "newfold-labs/wp-module-secure-passwords": "^1.1",
                     "newfold-labs/wp-module-sso": "^1.0.3",
-                    "newfold-labs/wp-module-staging": "dev-main",
+                    "newfold-labs/wp-module-staging": "^1.0.0",
                     "wp-forge/collection": "^1.0.2",
                     "wp-forge/helpers": "^1.1.1",
                     "wp-forge/wp-update-handler": "^1.0.1",
@@ -7837,7 +7918,7 @@
                     "wp-cli/i18n-command": "@stable",
                     "wp-cli/wp-cli-bundle": "@stable"
                 },
-                "time": "2023-05-12T21:56:20+00:00",
+                "time": "2023-05-19T19:35:25+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "psr-4": {
@@ -7873,6 +7954,136 @@
                 "description": "This plugin integrates your WordPress site with the Bluehost control panel, including performance, security, and update features.",
                 "support": {
                     "source": "https://github.com/bluehost/bluehost-wordpress-plugin",
+                    "issues": "https://github.com/bluehost/bluehost-wordpress-plugin/issues"
+                }
+            },
+            "dev-feature/ui-update-cypress": {
+                "name": "bluehost/bluehost-wordpress-plugin",
+                "version": "dev-feature/ui-update-cypress",
+                "version_normalized": "dev-feature/ui-update-cypress",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bluehost/bluehost-wordpress-plugin.git",
+                    "reference": "b106793cea339180e24729e3854bc074a91e1d51"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/b106793cea339180e24729e3854bc074a91e1d51",
+                    "reference": "b106793cea339180e24729e3854bc074a91e1d51",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/inflector": "1.2.0 as 1.3.1",
+                    "newfold-labs/wp-module-coming-soon": "^1.1.3",
+                    "newfold-labs/wp-module-data": "^2.3.4",
+                    "newfold-labs/wp-module-ecommerce": "dev-next/ui-redesign",
+                    "newfold-labs/wp-module-loader": "^1.0.10",
+                    "newfold-labs/wp-module-marketplace": "^1.5.1",
+                    "newfold-labs/wp-module-notifications": "^1.1.2",
+                    "newfold-labs/wp-module-onboarding": "^1.7.0",
+                    "newfold-labs/wp-module-performance": "^1.0.1",
+                    "newfold-labs/wp-module-secure-passwords": "^1.1",
+                    "newfold-labs/wp-module-sso": "^1.0.3",
+                    "newfold-labs/wp-module-staging": "^1.0.0",
+                    "wp-forge/wp-update-handler": "^1.0",
+                    "wp-forge/wp-upgrade-handler": "^1.0"
+                },
+                "require-dev": {
+                    "newfold-labs/wp-php-standards": "^1.2",
+                    "wp-cli/i18n-command": "^2.4.3",
+                    "wp-phpunit/wp-phpunit": "^6.2"
+                },
+                "time": "2023-05-25T15:57:28+00:00",
+                "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf --standard=phpcs.xml ."
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs --standard=phpcs.xml -s ."
+                    ],
+                    "i18n": [
+                        "vendor/bin/wp i18n make-pot . ./languages/wp-plugin-bluehost.pot --headers=Report-Msgid-Bugs-To:https://github.com/newfold-labs/wp-plugin-bluehost/issues --exclude=assets,storybook,tests",
+                        "vendor/bin/wp i18n make-pot . ./languages/wp-plugin-bluehost.pot --headers=POT-Creation-Date:null --exclude=assets,storybook,tests"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Evan Mullins",
+                        "homepage": "https://evanmullins.com"
+                    }
+                ],
+                "description": "WordPress plugin that integrates your WordPress site with the Bluehost control panel, including performance, security, and update features.",
+                "support": {
+                    "source": "https://github.com/bluehost/bluehost-wordpress-plugin/tree/feature/ui-update-cypress",
+                    "issues": "https://github.com/bluehost/bluehost-wordpress-plugin/issues"
+                }
+            },
+            "dev-feature/ui-update-rename": {
+                "name": "bluehost/bluehost-wordpress-plugin",
+                "version": "dev-feature/ui-update-rename",
+                "version_normalized": "dev-feature/ui-update-rename",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bluehost/bluehost-wordpress-plugin.git",
+                    "reference": "7b591dddff41a2f5af0335947c02941553274eb9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/7b591dddff41a2f5af0335947c02941553274eb9",
+                    "reference": "7b591dddff41a2f5af0335947c02941553274eb9",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/inflector": "1.2.0 as 1.3.1",
+                    "newfold-labs/wp-module-coming-soon": "^1.1.3",
+                    "newfold-labs/wp-module-data": "^2.3.4",
+                    "newfold-labs/wp-module-ecommerce": "dev-next/ui-redesign",
+                    "newfold-labs/wp-module-loader": "^1.0.10",
+                    "newfold-labs/wp-module-marketplace": "^1.5.1",
+                    "newfold-labs/wp-module-notifications": "^1.1.2",
+                    "newfold-labs/wp-module-onboarding": "^1.7.0",
+                    "newfold-labs/wp-module-performance": "^1.0.1",
+                    "newfold-labs/wp-module-secure-passwords": "^1.1",
+                    "newfold-labs/wp-module-sso": "^1.0.3",
+                    "newfold-labs/wp-module-staging": "^1.0.0",
+                    "wp-forge/wp-update-handler": "^1.0",
+                    "wp-forge/wp-upgrade-handler": "^1.0"
+                },
+                "require-dev": {
+                    "newfold-labs/wp-php-standards": "^1.2",
+                    "wp-cli/i18n-command": "^2.4.3",
+                    "wp-phpunit/wp-phpunit": "^6.2"
+                },
+                "time": "2023-05-24T22:45:58+00:00",
+                "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf --standard=phpcs.xml ."
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs --standard=phpcs.xml -s ."
+                    ],
+                    "i18n": [
+                        "vendor/bin/wp i18n make-pot . ./languages/wp-plugin-bluehost.pot --headers=Report-Msgid-Bugs-To:https://github.com/newfold-labs/wp-plugin-bluehost/issues --exclude=assets,storybook,tests",
+                        "vendor/bin/wp i18n make-pot . ./languages/wp-plugin-bluehost.pot --headers=POT-Creation-Date:null --exclude=assets,storybook,tests"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Evan Mullins",
+                        "homepage": "https://evanmullins.com"
+                    }
+                ],
+                "description": "WordPress plugin that integrates your WordPress site with the Bluehost control panel, including performance, security, and update features.",
+                "support": {
+                    "source": "https://github.com/bluehost/bluehost-wordpress-plugin/tree/feature/ui-update-rename",
                     "issues": "https://github.com/bluehost/bluehost-wordpress-plugin/issues"
                 }
             },
@@ -8258,6 +8469,152 @@
                 "description": "This plugin integrates your WordPress site with the Bluehost control panel, including performance, security, and update features.",
                 "support": {
                     "source": "https://github.com/bluehost/bluehost-wordpress-plugin",
+                    "issues": "https://github.com/bluehost/bluehost-wordpress-plugin/issues"
+                }
+            },
+            "dev-jarvis-pending-migration": {
+                "name": "bluehost/bluehost-wordpress-plugin",
+                "version": "dev-jarvis-pending-migration",
+                "version_normalized": "dev-jarvis-pending-migration",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bluehost/bluehost-wordpress-plugin.git",
+                    "reference": "da8830a0a081a99b5f3c1a037fb6fbe3e0457cc0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/da8830a0a081a99b5f3c1a037fb6fbe3e0457cc0",
+                    "reference": "da8830a0a081a99b5f3c1a037fb6fbe3e0457cc0",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/inflector": "1.2.0 as 1.3.1",
+                    "ext-iconv": "*",
+                    "newfold-labs/wp-module-business-reviews": "^1.1",
+                    "newfold-labs/wp-module-coming-soon": "^1.1.3",
+                    "newfold-labs/wp-module-ctb": "^1.0.0",
+                    "newfold-labs/wp-module-customer-bluehost": "^1.5.3",
+                    "newfold-labs/wp-module-data": "^2.3",
+                    "newfold-labs/wp-module-ecommerce": "0.8.3",
+                    "newfold-labs/wp-module-loader": "^1.0.10",
+                    "newfold-labs/wp-module-marketplace": "^1.5.1",
+                    "newfold-labs/wp-module-notifications": "^1.1.2",
+                    "newfold-labs/wp-module-onboarding": "1.6.0",
+                    "newfold-labs/wp-module-secure-passwords": "^1.1",
+                    "newfold-labs/wp-module-sso": "^1.0.3",
+                    "wp-forge/collection": "^1.0.2",
+                    "wp-forge/helpers": "^1.1.1",
+                    "wp-forge/wp-update-handler": "^1.0.1",
+                    "wp-forge/wp-upgrade-handler": "^1.0",
+                    "wpscholar/url": "^1.2.2"
+                },
+                "require-dev": {
+                    "newfold-labs/wp-php-standards": "^1.2",
+                    "roave/security-advisories": "dev-latest",
+                    "wp-cli/i18n-command": "@stable",
+                    "wp-cli/wp-cli-bundle": "@stable"
+                },
+                "time": "2023-05-23T06:45:03+00:00",
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "psr-4": {
+                        "Bluehost\\": "inc/",
+                        "Newfold\\Plugin\\": "inc/"
+                    }
+                },
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf --standard=phpcs.xml ."
+                    ],
+                    "i18n": [
+                        "vendor/bin/wp i18n make-pot . ./languages/bluehost-wordpress-plugin.pot --headers='{\"Report-Msgid-Bugs-To\":\"https://github.com/bluehost/bluehost-wordpress-plugin/issues\",\"POT-Creation-Date\":null}' --exclude=assets,storybook,tests"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs --standard=phpcs.xml -s ."
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike Hansen",
+                        "homepage": "https://mikehansen.me/"
+                    },
+                    {
+                        "name": "Micah Wood",
+                        "email": "micah@wpscholar.com",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "This plugin integrates your WordPress site with the Bluehost control panel, including performance, security, and update features.",
+                "support": {
+                    "source": "https://github.com/bluehost/bluehost-wordpress-plugin",
+                    "issues": "https://github.com/bluehost/bluehost-wordpress-plugin/issues"
+                }
+            },
+            "dev-plugin-rebuild-and-ui": {
+                "name": "bluehost/bluehost-wordpress-plugin",
+                "version": "dev-plugin-rebuild-and-ui",
+                "version_normalized": "dev-plugin-rebuild-and-ui",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bluehost/bluehost-wordpress-plugin.git",
+                    "reference": "e0ba3c7e56e09c031f8d6fe1360e2a59e3f009fc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/e0ba3c7e56e09c031f8d6fe1360e2a59e3f009fc",
+                    "reference": "e0ba3c7e56e09c031f8d6fe1360e2a59e3f009fc",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/inflector": "1.2.0 as 1.3.1",
+                    "newfold-labs/wp-module-coming-soon": "^1.1.3",
+                    "newfold-labs/wp-module-data": "^2.3.4",
+                    "newfold-labs/wp-module-ecommerce": "dev-next/ui-redesign",
+                    "newfold-labs/wp-module-loader": "^1.0.10",
+                    "newfold-labs/wp-module-marketplace": "^1.5.1",
+                    "newfold-labs/wp-module-notifications": "^1.1.2",
+                    "newfold-labs/wp-module-onboarding": "^1.7.0",
+                    "newfold-labs/wp-module-performance": "^1.0.1",
+                    "newfold-labs/wp-module-secure-passwords": "^1.1",
+                    "newfold-labs/wp-module-sso": "^1.0.3",
+                    "newfold-labs/wp-module-staging": "^1.0.0",
+                    "wp-forge/wp-update-handler": "^1.0",
+                    "wp-forge/wp-upgrade-handler": "^1.0"
+                },
+                "require-dev": {
+                    "newfold-labs/wp-php-standards": "^1.2",
+                    "wp-cli/i18n-command": "^2.4.3",
+                    "wp-phpunit/wp-phpunit": "^6.2"
+                },
+                "time": "2023-05-25T07:21:54+00:00",
+                "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf --standard=phpcs.xml ."
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs --standard=phpcs.xml -s ."
+                    ],
+                    "i18n": [
+                        "vendor/bin/wp i18n make-pot . ./languages/wp-plugin-bluehost.pot --headers=Report-Msgid-Bugs-To:https://github.com/newfold-labs/wp-plugin-bluehost/issues --exclude=assets,storybook,tests",
+                        "vendor/bin/wp i18n make-pot . ./languages/wp-plugin-bluehost.pot --headers=POT-Creation-Date:null --exclude=assets,storybook,tests"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Evan Mullins",
+                        "homepage": "https://evanmullins.com"
+                    }
+                ],
+                "description": "WordPress plugin that integrates your WordPress site with the Bluehost control panel, including performance, security, and update features.",
+                "support": {
+                    "source": "https://github.com/bluehost/bluehost-wordpress-plugin/tree/plugin-rebuild-and-ui",
                     "issues": "https://github.com/bluehost/bluehost-wordpress-plugin/issues"
                 }
             },
@@ -13654,19 +14011,19 @@
                     "issues": "https://github.com/bluehost/mojo-marketplace-wp-plugin/issues"
                 }
             },
-            "dev-dependabot/composer/develop/newfold-labs/wp-module-data-2.3.3": {
+            "dev-dependabot/composer/develop/newfold-labs/wp-module-data-2.3.4": {
                 "name": "bluehost/mojo-marketplace-wp-plugin",
-                "version": "dev-dependabot/composer/develop/newfold-labs/wp-module-data-2.3.3",
-                "version_normalized": "dev-dependabot/composer/develop/newfold-labs/wp-module-data-2.3.3",
+                "version": "dev-dependabot/composer/develop/newfold-labs/wp-module-data-2.3.4",
+                "version_normalized": "dev-dependabot/composer/develop/newfold-labs/wp-module-data-2.3.4",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/mojo-marketplace-wp-plugin.git",
-                    "reference": "6cd145e15be87c4ccbc0f07cec848d99d396352d"
+                    "reference": "7e7423da50e6b2827385730c5e1fbfab07fedcc2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/mojo-marketplace-wp-plugin/zipball/6cd145e15be87c4ccbc0f07cec848d99d396352d",
-                    "reference": "6cd145e15be87c4ccbc0f07cec848d99d396352d",
+                    "url": "https://api.github.com/repos/bluehost/mojo-marketplace-wp-plugin/zipball/7e7423da50e6b2827385730c5e1fbfab07fedcc2",
+                    "reference": "7e7423da50e6b2827385730c5e1fbfab07fedcc2",
                     "shasum": ""
                 },
                 "require": {
@@ -13684,7 +14041,7 @@
                     "wp-cli/i18n-command": "^2.2",
                     "wp-cli/wp-cli-bundle": "^2.4"
                 },
-                "time": "2023-05-10T03:04:31+00:00",
+                "time": "2023-05-16T03:04:02+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
@@ -13902,19 +14259,19 @@
                     "issues": "https://github.com/bluehost/mojo-marketplace-wp-plugin/issues"
                 }
             },
-            "dev-dependabot/npm_and_yarn/develop/react-router-dom-6.11.1": {
+            "dev-dependabot/npm_and_yarn/develop/react-router-dom-6.11.2": {
                 "name": "bluehost/mojo-marketplace-wp-plugin",
-                "version": "dev-dependabot/npm_and_yarn/develop/react-router-dom-6.11.1",
-                "version_normalized": "dev-dependabot/npm_and_yarn/develop/react-router-dom-6.11.1",
+                "version": "dev-dependabot/npm_and_yarn/develop/react-router-dom-6.11.2",
+                "version_normalized": "dev-dependabot/npm_and_yarn/develop/react-router-dom-6.11.2",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/mojo-marketplace-wp-plugin.git",
-                    "reference": "99602cd863f930e3b8e15cbdb64a394f4ad173a4"
+                    "reference": "8bdd69b543ed747b8173572834516f3a0002a833"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/mojo-marketplace-wp-plugin/zipball/99602cd863f930e3b8e15cbdb64a394f4ad173a4",
-                    "reference": "99602cd863f930e3b8e15cbdb64a394f4ad173a4",
+                    "url": "https://api.github.com/repos/bluehost/mojo-marketplace-wp-plugin/zipball/8bdd69b543ed747b8173572834516f3a0002a833",
+                    "reference": "8bdd69b543ed747b8173572834516f3a0002a833",
                     "shasum": ""
                 },
                 "require": {
@@ -13932,7 +14289,7 @@
                     "wp-cli/i18n-command": "^2.2",
                     "wp-cli/wp-cli-bundle": "^2.4"
                 },
-                "time": "2023-05-04T03:03:58+00:00",
+                "time": "2023-05-18T03:13:02+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
@@ -13964,19 +14321,19 @@
                     "issues": "https://github.com/bluehost/mojo-marketplace-wp-plugin/issues"
                 }
             },
-            "dev-dependabot/npm_and_yarn/develop/wordpress/scripts-26.4.0": {
+            "dev-dependabot/npm_and_yarn/develop/wordpress/scripts-26.5.0": {
                 "name": "bluehost/mojo-marketplace-wp-plugin",
-                "version": "dev-dependabot/npm_and_yarn/develop/wordpress/scripts-26.4.0",
-                "version_normalized": "dev-dependabot/npm_and_yarn/develop/wordpress/scripts-26.4.0",
+                "version": "dev-dependabot/npm_and_yarn/develop/wordpress/scripts-26.5.0",
+                "version_normalized": "dev-dependabot/npm_and_yarn/develop/wordpress/scripts-26.5.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/mojo-marketplace-wp-plugin.git",
-                    "reference": "8c1af0e03b8cece74a1cc85faa3ffbe184be5895"
+                    "reference": "6916f852f28d698ad103cc565c20d20c0a07c377"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/mojo-marketplace-wp-plugin/zipball/8c1af0e03b8cece74a1cc85faa3ffbe184be5895",
-                    "reference": "8c1af0e03b8cece74a1cc85faa3ffbe184be5895",
+                    "url": "https://api.github.com/repos/bluehost/mojo-marketplace-wp-plugin/zipball/6916f852f28d698ad103cc565c20d20c0a07c377",
+                    "reference": "6916f852f28d698ad103cc565c20d20c0a07c377",
                     "shasum": ""
                 },
                 "require": {
@@ -13994,7 +14351,7 @@
                     "wp-cli/i18n-command": "^2.2",
                     "wp-cli/wp-cli-bundle": "^2.4"
                 },
-                "time": "2023-05-11T03:04:39+00:00",
+                "time": "2023-05-25T03:03:50+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
