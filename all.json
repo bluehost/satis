@@ -7024,12 +7024,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:bluehost/bluehost-wordpress-plugin.git",
-                    "reference": "61767c3e2df72fff957c6de2fe60cb3537552d07"
+                    "reference": "6d4e163ea28de7ff136787b16c6b53c8da8c0444"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/61767c3e2df72fff957c6de2fe60cb3537552d07",
-                    "reference": "61767c3e2df72fff957c6de2fe60cb3537552d07",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/6d4e163ea28de7ff136787b16c6b53c8da8c0444",
+                    "reference": "6d4e163ea28de7ff136787b16c6b53c8da8c0444",
                     "shasum": ""
                 },
                 "require": {
@@ -7058,7 +7058,7 @@
                     "wp-cli/i18n-command": "^2.4.3",
                     "wp-phpunit/wp-phpunit": "^6.2"
                 },
-                "time": "2023-06-07T16:59:52+00:00",
+                "time": "2023-06-07T17:05:34+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
@@ -9496,12 +9496,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:bluehost/bluehost-wordpress-plugin.git",
-                    "reference": "61767c3e2df72fff957c6de2fe60cb3537552d07"
+                    "reference": "6d4e163ea28de7ff136787b16c6b53c8da8c0444"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/61767c3e2df72fff957c6de2fe60cb3537552d07",
-                    "reference": "61767c3e2df72fff957c6de2fe60cb3537552d07",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/6d4e163ea28de7ff136787b16c6b53c8da8c0444",
+                    "reference": "6d4e163ea28de7ff136787b16c6b53c8da8c0444",
                     "shasum": ""
                 },
                 "require": {
@@ -9530,7 +9530,7 @@
                     "wp-cli/i18n-command": "^2.4.3",
                     "wp-phpunit/wp-phpunit": "^6.2"
                 },
-                "time": "2023-06-07T16:59:52+00:00",
+                "time": "2023-06-07T17:05:34+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
@@ -10917,7 +10917,7 @@
                 "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-module-business-reviews.git",
+                    "url": "git@github.com:bluehost/endurance-wp-module-business-reviews.git",
                     "reference": "ea3ba71e07b76c3ccc5aa21513ac03fb1cefabda"
                 },
                 "dist": {
@@ -10926,7 +10926,7 @@
                     "reference": "ea3ba71e07b76c3ccc5aa21513ac03fb1cefabda",
                     "shasum": ""
                 },
-                "time": "2018-10-03T19:38:53+00:00",
+                "time": "2018-10-03T19:19:28+00:00",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -10942,12 +10942,7 @@
                         "email": "william.earnhardt@endurance.com"
                     }
                 ],
-                "description": "Bluehost Business Reviews Integration",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-business-reviews/tree/1.0",
-                    "issues": "https://github.com/bluehost/endurance-wp-module-business-reviews/issues"
-                },
-                "abandoned": true
+                "description": "Bluehost Business Reviews Integration"
             },
             "1.0.1": {
                 "name": "bluehost/endurance-wp-module-business-reviews",
@@ -10955,7 +10950,7 @@
                 "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-module-business-reviews.git",
+                    "url": "git@github.com:bluehost/endurance-wp-module-business-reviews.git",
                     "reference": "f570cd603d099d17e32dad1c3fe0076899e19c3f"
                 },
                 "dist": {
@@ -10980,12 +10975,7 @@
                         "email": "william.earnhardt@endurance.com"
                     }
                 ],
-                "description": "Bluehost Business Reviews Integration",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-business-reviews/tree/1.0.1",
-                    "issues": "https://github.com/bluehost/endurance-wp-module-business-reviews/issues"
-                },
-                "abandoned": true
+                "description": "Bluehost Business Reviews Integration"
             },
             "1.0.2": {
                 "name": "bluehost/endurance-wp-module-business-reviews",
@@ -10993,7 +10983,7 @@
                 "version_normalized": "1.0.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-module-business-reviews.git",
+                    "url": "git@github.com:bluehost/endurance-wp-module-business-reviews.git",
                     "reference": "1d102cce1faef1980130c2aefdb88b8d1acbcfda"
                 },
                 "dist": {
@@ -11018,12 +11008,7 @@
                         "email": "william.earnhardt@endurance.com"
                     }
                 ],
-                "description": "Bluehost Business Reviews Integration",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-business-reviews/tree/1.0.2",
-                    "issues": "https://github.com/bluehost/endurance-wp-module-business-reviews/issues"
-                },
-                "abandoned": true
+                "description": "Bluehost Business Reviews Integration"
             },
             "1.0.3": {
                 "name": "bluehost/endurance-wp-module-business-reviews",
@@ -11031,7 +11016,7 @@
                 "version_normalized": "1.0.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-module-business-reviews.git",
+                    "url": "git@github.com:bluehost/endurance-wp-module-business-reviews.git",
                     "reference": "05ecf887a98c95642ae845bafd7be5b609304763"
                 },
                 "dist": {
@@ -11056,12 +11041,7 @@
                         "email": "william.earnhardt@endurance.com"
                     }
                 ],
-                "description": "Bluehost Business Reviews Integration",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-business-reviews/tree/1.0.3",
-                    "issues": "https://github.com/bluehost/endurance-wp-module-business-reviews/issues"
-                },
-                "abandoned": true
+                "description": "Bluehost Business Reviews Integration"
             },
             "1.0.4": {
                 "name": "bluehost/endurance-wp-module-business-reviews",
@@ -11069,7 +11049,7 @@
                 "version_normalized": "1.0.4.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-module-business-reviews.git",
+                    "url": "git@github.com:bluehost/endurance-wp-module-business-reviews.git",
                     "reference": "b8ba7d91701971a7c20dc03a9611714aba3be830"
                 },
                 "dist": {
@@ -11095,10 +11075,6 @@
                     }
                 ],
                 "description": "Bluehost Business Reviews Integration",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-business-reviews/tree/1.0.4",
-                    "issues": "https://github.com/bluehost/endurance-wp-module-business-reviews/issues"
-                },
                 "abandoned": "newfold-labs/wp-module-business-reviews"
             },
             "dev-master": {
@@ -11107,7 +11083,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-module-business-reviews.git",
+                    "url": "git@github.com:bluehost/endurance-wp-module-business-reviews.git",
                     "reference": "b8ba7d91701971a7c20dc03a9611714aba3be830"
                 },
                 "dist": {
@@ -11133,10 +11109,6 @@
                     }
                 ],
                 "description": "Bluehost Business Reviews Integration",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-business-reviews/tree/1.0.4",
-                    "issues": "https://github.com/bluehost/endurance-wp-module-business-reviews/issues"
-                },
                 "abandoned": "newfold-labs/wp-module-business-reviews"
             }
         },
@@ -11221,7 +11193,7 @@
                 "version_normalized": "0.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-module-gutenframe.git",
+                    "url": "git@github.com:bluehost/endurance-wp-module-gutenframe.git",
                     "reference": "da28927053c7d3ded6a55bd015abe563046a7cec"
                 },
                 "dist": {
@@ -11257,12 +11229,7 @@
                         "email": "davidb.ryan@endurance.com"
                     }
                 ],
-                "description": "A solution for forcing the Block Editor fullscreen and preparing it for <iframe>-ing.",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-gutenframe/tree/0.1.0",
-                    "issues": "https://github.com/bluehost/endurance-wp-module-gutenframe/issues"
-                },
-                "abandoned": true
+                "description": "A solution for forcing the Block Editor fullscreen and preparing it for <iframe>-ing."
             },
             "0.1.1": {
                 "name": "bluehost/endurance-wp-module-gutenframe",
@@ -11270,7 +11237,7 @@
                 "version_normalized": "0.1.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-module-gutenframe.git",
+                    "url": "git@github.com:bluehost/endurance-wp-module-gutenframe.git",
                     "reference": "3168d04d0456a28f653b70872759af6dfd0a82f7"
                 },
                 "dist": {
@@ -11306,12 +11273,7 @@
                         "email": "davidb.ryan@endurance.com"
                     }
                 ],
-                "description": "A solution for forcing the Block Editor fullscreen and preparing it for <iframe>-ing.",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-gutenframe/tree/0.1.1",
-                    "issues": "https://github.com/bluehost/endurance-wp-module-gutenframe/issues"
-                },
-                "abandoned": true
+                "description": "A solution for forcing the Block Editor fullscreen and preparing it for <iframe>-ing."
             },
             "0.1.2": {
                 "name": "bluehost/endurance-wp-module-gutenframe",
@@ -11319,7 +11281,7 @@
                 "version_normalized": "0.1.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-module-gutenframe.git",
+                    "url": "git@github.com:bluehost/endurance-wp-module-gutenframe.git",
                     "reference": "5affb465c83dcb8b8c77203e257c852d3d5aa8a5"
                 },
                 "dist": {
@@ -11355,12 +11317,7 @@
                         "email": "davidb.ryan@endurance.com"
                     }
                 ],
-                "description": "A solution for forcing the Block Editor fullscreen and preparing it for <iframe>-ing.",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-gutenframe/tree/0.1.2",
-                    "issues": "https://github.com/bluehost/endurance-wp-module-gutenframe/issues"
-                },
-                "abandoned": true
+                "description": "A solution for forcing the Block Editor fullscreen and preparing it for <iframe>-ing."
             },
             "0.1.3": {
                 "name": "bluehost/endurance-wp-module-gutenframe",
@@ -11368,7 +11325,7 @@
                 "version_normalized": "0.1.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-module-gutenframe.git",
+                    "url": "git@github.com:bluehost/endurance-wp-module-gutenframe.git",
                     "reference": "6e3041b1abcb725de78f6cdc4c9ec6e09c9fadb9"
                 },
                 "dist": {
@@ -11404,12 +11361,7 @@
                         "email": "davidb.ryan@endurance.com"
                     }
                 ],
-                "description": "A solution for forcing the Block Editor fullscreen and preparing it for <iframe>-ing.",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-gutenframe/tree/0.1.3",
-                    "issues": "https://github.com/bluehost/endurance-wp-module-gutenframe/issues"
-                },
-                "abandoned": true
+                "description": "A solution for forcing the Block Editor fullscreen and preparing it for <iframe>-ing."
             },
             "0.1.4": {
                 "name": "bluehost/endurance-wp-module-gutenframe",
@@ -11417,7 +11369,7 @@
                 "version_normalized": "0.1.4.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-module-gutenframe.git",
+                    "url": "git@github.com:bluehost/endurance-wp-module-gutenframe.git",
                     "reference": "78bd00bba7b7f686ca86a8ac95f77e605384c785"
                 },
                 "dist": {
@@ -11454,10 +11406,6 @@
                     }
                 ],
                 "description": "A solution for forcing the Block Editor fullscreen and preparing it for <iframe>-ing.",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-gutenframe/tree/0.1.4",
-                    "issues": "https://github.com/bluehost/endurance-wp-module-gutenframe/issues"
-                },
                 "abandoned": true
             },
             "dev-master": {
@@ -11466,7 +11414,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-module-gutenframe.git",
+                    "url": "git@github.com:bluehost/endurance-wp-module-gutenframe.git",
                     "reference": "78bd00bba7b7f686ca86a8ac95f77e605384c785"
                 },
                 "dist": {
@@ -11503,10 +11451,6 @@
                     }
                 ],
                 "description": "A solution for forcing the Block Editor fullscreen and preparing it for <iframe>-ing.",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-gutenframe/tree/0.1.4",
-                    "issues": "https://github.com/bluehost/endurance-wp-module-gutenframe/issues"
-                },
                 "abandoned": true
             },
             "dev-compat": {
@@ -11515,7 +11459,7 @@
                 "version_normalized": "dev-compat",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-module-gutenframe.git",
+                    "url": "git@github.com:bluehost/endurance-wp-module-gutenframe.git",
                     "reference": "38c3e7112f07a1fc9f6ae8190a43554869984543"
                 },
                 "dist": {
@@ -11551,12 +11495,7 @@
                         "email": "davidb.ryan@endurance.com"
                     }
                 ],
-                "description": "A solution for forcing the Block Editor fullscreen and preparing it for <iframe>-ing.",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-gutenframe/tree/compat",
-                    "issues": "https://github.com/bluehost/endurance-wp-module-gutenframe/issues"
-                },
-                "abandoned": true
+                "description": "A solution for forcing the Block Editor fullscreen and preparing it for <iframe>-ing."
             },
             "dev-micah": {
                 "name": "bluehost/endurance-wp-module-gutenframe",
@@ -11564,7 +11503,7 @@
                 "version_normalized": "dev-micah",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-module-gutenframe.git",
+                    "url": "git@github.com:bluehost/endurance-wp-module-gutenframe.git",
                     "reference": "dadad90ef5b6f7d7dde198c2ac8ad0d0eb26b5e9"
                 },
                 "dist": {
@@ -11600,12 +11539,7 @@
                         "email": "davidb.ryan@endurance.com"
                     }
                 ],
-                "description": "A solution for forcing the Block Editor fullscreen and preparing it for <iframe>-ing.",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-gutenframe/tree/micah",
-                    "issues": "https://github.com/bluehost/endurance-wp-module-gutenframe/issues"
-                },
-                "abandoned": true
+                "description": "A solution for forcing the Block Editor fullscreen and preparing it for <iframe>-ing."
             }
         },
         "bluehost/endurance-wp-module-loader": {
@@ -11615,7 +11549,7 @@
                 "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-module-loader.git",
+                    "url": "git@github.com:bluehost/endurance-wp-module-loader.git",
                     "reference": "42990574d2a3c5a5bdd4d0fb063c44ef7c2cf9df"
                 },
                 "dist": {
@@ -11642,12 +11576,7 @@
                         "name": "Micah Wood",
                         "email": "micah@wpscholar.com"
                     }
-                ],
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-loader/tree/1.0",
-                    "issues": "https://github.com/bluehost/endurance-wp-module-loader/issues"
-                },
-                "abandoned": true
+                ]
             },
             "1.0.1": {
                 "name": "bluehost/endurance-wp-module-loader",
@@ -11655,7 +11584,7 @@
                 "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-module-loader.git",
+                    "url": "git@github.com:bluehost/endurance-wp-module-loader.git",
                     "reference": "b91f7a6d443e9585beb35899cae0c4690cd5ba03"
                 },
                 "dist": {
@@ -11683,12 +11612,7 @@
                         "email": "micah@wpscholar.com"
                     }
                 ],
-                "description": "An Endurance module that handles registration and management of other modules.",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-loader/tree/1.0.1",
-                    "issues": "https://github.com/bluehost/endurance-wp-module-loader/issues"
-                },
-                "abandoned": true
+                "description": "An Endurance module that handles registration and management of other modules."
             },
             "1.0.2": {
                 "name": "bluehost/endurance-wp-module-loader",
@@ -11696,7 +11620,7 @@
                 "version_normalized": "1.0.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-module-loader.git",
+                    "url": "git@github.com:bluehost/endurance-wp-module-loader.git",
                     "reference": "3c69917bf0bf735cdd9a6895b7ce12293cce662f"
                 },
                 "dist": {
@@ -11724,12 +11648,7 @@
                         "email": "micah@wpscholar.com"
                     }
                 ],
-                "description": "An Endurance module that handles registration and management of other modules.",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-loader/tree/1.0.2",
-                    "issues": "https://github.com/bluehost/endurance-wp-module-loader/issues"
-                },
-                "abandoned": true
+                "description": "An Endurance module that handles registration and management of other modules."
             },
             "1.0.3": {
                 "name": "bluehost/endurance-wp-module-loader",
@@ -11737,7 +11656,7 @@
                 "version_normalized": "1.0.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-module-loader.git",
+                    "url": "git@github.com:bluehost/endurance-wp-module-loader.git",
                     "reference": "a9a384596e26950466f7ffc667e0be29f96c36a9"
                 },
                 "dist": {
@@ -11765,12 +11684,7 @@
                         "email": "micah@wpscholar.com"
                     }
                 ],
-                "description": "An Endurance module that handles registration and management of other modules.",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-loader/tree/1.0.3",
-                    "issues": "https://github.com/bluehost/endurance-wp-module-loader/issues"
-                },
-                "abandoned": true
+                "description": "An Endurance module that handles registration and management of other modules."
             },
             "1.1": {
                 "name": "bluehost/endurance-wp-module-loader",
@@ -11778,7 +11692,7 @@
                 "version_normalized": "1.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-module-loader.git",
+                    "url": "git@github.com:bluehost/endurance-wp-module-loader.git",
                     "reference": "bbcef0ba48ce68a6c5dfd65aa13af6ce3dd994ad"
                 },
                 "dist": {
@@ -11806,12 +11720,7 @@
                         "email": "micah@wpscholar.com"
                     }
                 ],
-                "description": "An Endurance module that handles registration and management of other modules.",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-loader/tree/1.1",
-                    "issues": "https://github.com/bluehost/endurance-wp-module-loader/issues"
-                },
-                "abandoned": true
+                "description": "An Endurance module that handles registration and management of other modules."
             },
             "1.1.1": {
                 "name": "bluehost/endurance-wp-module-loader",
@@ -11819,7 +11728,7 @@
                 "version_normalized": "1.1.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-module-loader.git",
+                    "url": "git@github.com:bluehost/endurance-wp-module-loader.git",
                     "reference": "e9d5beedb6fbbfcce02759366e3727da858c85f4"
                 },
                 "dist": {
@@ -11847,12 +11756,7 @@
                         "email": "micah@wpscholar.com"
                     }
                 ],
-                "description": "An Endurance module that handles registration and management of other modules.",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-loader/tree/1.1.1",
-                    "issues": "https://github.com/bluehost/endurance-wp-module-loader/issues"
-                },
-                "abandoned": true
+                "description": "An Endurance module that handles registration and management of other modules."
             },
             "1.1.2": {
                 "name": "bluehost/endurance-wp-module-loader",
@@ -11860,7 +11764,7 @@
                 "version_normalized": "1.1.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-module-loader.git",
+                    "url": "git@github.com:bluehost/endurance-wp-module-loader.git",
                     "reference": "598d3ad56f05d5540b200f0640ad5fb9207986b2"
                 },
                 "dist": {
@@ -11889,10 +11793,6 @@
                     }
                 ],
                 "description": "An Endurance module that handles registration and management of other modules.",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-loader/tree/1.1.2",
-                    "issues": "https://github.com/bluehost/endurance-wp-module-loader/issues"
-                },
                 "abandoned": "newfold-labs/wp-module-loader"
             },
             "dev-master": {
@@ -11901,7 +11801,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-module-loader.git",
+                    "url": "git@github.com:bluehost/endurance-wp-module-loader.git",
                     "reference": "598d3ad56f05d5540b200f0640ad5fb9207986b2"
                 },
                 "dist": {
@@ -11930,10 +11830,6 @@
                     }
                 ],
                 "description": "An Endurance module that handles registration and management of other modules.",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-loader/tree/1.1.2",
-                    "issues": "https://github.com/bluehost/endurance-wp-module-loader/issues"
-                },
                 "abandoned": "newfold-labs/wp-module-loader"
             },
             "dev-feature/abandon": {
@@ -11942,7 +11838,7 @@
                 "version_normalized": "dev-feature/abandon",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-module-loader.git",
+                    "url": "git@github.com:bluehost/endurance-wp-module-loader.git",
                     "reference": "a253175bde1a2fd411a9779fd5598f297fa04479"
                 },
                 "dist": {
@@ -11971,10 +11867,6 @@
                     }
                 ],
                 "description": "An Endurance module that handles registration and management of other modules.",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-loader/tree/feature/abandon",
-                    "issues": "https://github.com/bluehost/endurance-wp-module-loader/issues"
-                },
                 "abandoned": "newfold-labs/wp-module-loader"
             }
         },
@@ -11985,7 +11877,7 @@
                 "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-module-spam-prevention.git",
+                    "url": "git@github.com:bluehost/endurance-wp-module-spam-prevention.git",
                     "reference": "ed30bf2b63e0cc8071518ac3d03f025771c91a04"
                 },
                 "dist": {
@@ -12009,12 +11901,7 @@
                         "name": "Micah Wood",
                         "email": "micah@wpscholar.com"
                     }
-                ],
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-spam-prevention/tree/1.0",
-                    "issues": "https://github.com/bluehost/endurance-wp-module-spam-prevention/issues"
-                },
-                "abandoned": true
+                ]
             },
             "1.0.1": {
                 "name": "bluehost/endurance-wp-module-spam-prevention",
@@ -12022,7 +11909,7 @@
                 "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-module-spam-prevention.git",
+                    "url": "git@github.com:bluehost/endurance-wp-module-spam-prevention.git",
                     "reference": "febcfebc931e38f8864a4ab9d36a39dbd2504e1a"
                 },
                 "dist": {
@@ -12046,12 +11933,7 @@
                         "name": "Micah Wood",
                         "email": "micah@wpscholar.com"
                     }
-                ],
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-spam-prevention/tree/1.0.1",
-                    "issues": "https://github.com/bluehost/endurance-wp-module-spam-prevention/issues"
-                },
-                "abandoned": true
+                ]
             },
             "1.0.2": {
                 "name": "bluehost/endurance-wp-module-spam-prevention",
@@ -12059,7 +11941,7 @@
                 "version_normalized": "1.0.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-module-spam-prevention.git",
+                    "url": "git@github.com:bluehost/endurance-wp-module-spam-prevention.git",
                     "reference": "a9925e475c94aaa6511c297012bdec1f37335f86"
                 },
                 "dist": {
@@ -12084,12 +11966,7 @@
                         "email": "micah@wpscholar.com"
                     }
                 ],
-                "description": "Bluehost Spam Prevention Module",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-spam-prevention/tree/1.0.2",
-                    "issues": "https://github.com/bluehost/endurance-wp-module-spam-prevention/issues"
-                },
-                "abandoned": true
+                "description": "Bluehost Spam Prevention Module"
             },
             "1.0.3": {
                 "name": "bluehost/endurance-wp-module-spam-prevention",
@@ -12097,7 +11974,7 @@
                 "version_normalized": "1.0.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-module-spam-prevention.git",
+                    "url": "git@github.com:bluehost/endurance-wp-module-spam-prevention.git",
                     "reference": "8f3216878fa6a4964572a5cda993f12ea44d8b9c"
                 },
                 "dist": {
@@ -12123,10 +12000,6 @@
                     }
                 ],
                 "description": "Bluehost Spam Prevention Module",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-spam-prevention/tree/1.0.3",
-                    "issues": "https://github.com/bluehost/endurance-wp-module-spam-prevention/issues"
-                },
                 "abandoned": true
             },
             "dev-master": {
@@ -12135,7 +12008,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-module-spam-prevention.git",
+                    "url": "git@github.com:bluehost/endurance-wp-module-spam-prevention.git",
                     "reference": "8f3216878fa6a4964572a5cda993f12ea44d8b9c"
                 },
                 "dist": {
@@ -12161,10 +12034,6 @@
                     }
                 ],
                 "description": "Bluehost Spam Prevention Module",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-spam-prevention/tree/1.0.3",
-                    "issues": "https://github.com/bluehost/endurance-wp-module-spam-prevention/issues"
-                },
                 "abandoned": true
             }
         },
@@ -12175,7 +12044,7 @@
                 "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-module-sso.git",
+                    "url": "git@github.com:bluehost/endurance-wp-module-sso.git",
                     "reference": "6f69904c1d5513cfc7a6a94b47a27b0eecd473d6"
                 },
                 "dist": {
@@ -12200,12 +12069,7 @@
                         "email": "micah@wpscholar.com"
                     }
                 ],
-                "description": "Bluehost Single Sign-on Integration",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-sso/tree/1.0",
-                    "issues": "https://github.com/bluehost/endurance-wp-module-sso/issues"
-                },
-                "abandoned": true
+                "description": "Bluehost Single Sign-on Integration"
             },
             "1.0.1": {
                 "name": "bluehost/endurance-wp-module-sso",
@@ -12213,7 +12077,7 @@
                 "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-module-sso.git",
+                    "url": "git@github.com:bluehost/endurance-wp-module-sso.git",
                     "reference": "16b3fcced3796d42fd57cd56250ceaf06b23b8ad"
                 },
                 "dist": {
@@ -12238,12 +12102,7 @@
                         "email": "micah@wpscholar.com"
                     }
                 ],
-                "description": "Bluehost Single Sign-on Integration",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-sso/tree/1.0.1",
-                    "issues": "https://github.com/bluehost/endurance-wp-module-sso/issues"
-                },
-                "abandoned": true
+                "description": "Bluehost Single Sign-on Integration"
             },
             "1.0.2": {
                 "name": "bluehost/endurance-wp-module-sso",
@@ -12251,7 +12110,7 @@
                 "version_normalized": "1.0.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-module-sso.git",
+                    "url": "git@github.com:bluehost/endurance-wp-module-sso.git",
                     "reference": "71e24d9f07758e6ce93d4a11bbc66e523b643292"
                 },
                 "dist": {
@@ -12276,12 +12135,7 @@
                         "email": "micah@wpscholar.com"
                     }
                 ],
-                "description": "Bluehost Single Sign-on Integration",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-sso/tree/1.0.2",
-                    "issues": "https://github.com/bluehost/endurance-wp-module-sso/issues"
-                },
-                "abandoned": true
+                "description": "Bluehost Single Sign-on Integration"
             },
             "1.0.3": {
                 "name": "bluehost/endurance-wp-module-sso",
@@ -12289,7 +12143,7 @@
                 "version_normalized": "1.0.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-module-sso.git",
+                    "url": "git@github.com:bluehost/endurance-wp-module-sso.git",
                     "reference": "f41f81721a175667cc87973f73a5f7a3d10a79d3"
                 },
                 "dist": {
@@ -12314,12 +12168,7 @@
                         "email": "micah@wpscholar.com"
                     }
                 ],
-                "description": "Bluehost Single Sign-on Integration",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-sso/tree/1.0.3",
-                    "issues": "https://github.com/bluehost/endurance-wp-module-sso/issues"
-                },
-                "abandoned": true
+                "description": "Bluehost Single Sign-on Integration"
             },
             "1.0.4": {
                 "name": "bluehost/endurance-wp-module-sso",
@@ -12327,7 +12176,7 @@
                 "version_normalized": "1.0.4.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-module-sso.git",
+                    "url": "git@github.com:bluehost/endurance-wp-module-sso.git",
                     "reference": "a166e6c65319e450cf5914ee943f549a420b3dd4"
                 },
                 "dist": {
@@ -12352,12 +12201,7 @@
                         "email": "micah@wpscholar.com"
                     }
                 ],
-                "description": "Bluehost Single Sign-on Integration",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-sso/tree/1.0.4",
-                    "issues": "https://github.com/bluehost/endurance-wp-module-sso/issues"
-                },
-                "abandoned": true
+                "description": "Bluehost Single Sign-on Integration"
             },
             "1.0.5": {
                 "name": "bluehost/endurance-wp-module-sso",
@@ -12365,7 +12209,7 @@
                 "version_normalized": "1.0.5.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-module-sso.git",
+                    "url": "git@github.com:bluehost/endurance-wp-module-sso.git",
                     "reference": "33c9d807cf6289f95989468db5d98d0896225af7"
                 },
                 "dist": {
@@ -12391,10 +12235,6 @@
                     }
                 ],
                 "description": "Bluehost Single Sign-on Integration",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-sso/tree/1.0.5",
-                    "issues": "https://github.com/bluehost/endurance-wp-module-sso/issues"
-                },
                 "abandoned": "newfold-labs/wp-module-sso"
             },
             "dev-master": {
@@ -12403,7 +12243,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-module-sso.git",
+                    "url": "git@github.com:bluehost/endurance-wp-module-sso.git",
                     "reference": "33c9d807cf6289f95989468db5d98d0896225af7"
                 },
                 "dist": {
@@ -12429,10 +12269,6 @@
                     }
                 ],
                 "description": "Bluehost Single Sign-on Integration",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-module-sso/tree/1.0.5",
-                    "issues": "https://github.com/bluehost/endurance-wp-module-sso/issues"
-                },
                 "abandoned": "newfold-labs/wp-module-sso"
             }
         },
@@ -12443,7 +12279,7 @@
                 "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-plugin-updater.git",
+                    "url": "git@github.com:bluehost/endurance-wp-plugin-updater.git",
                     "reference": "3342dea46403c5db4b91013806a5778d7508ac97"
                 },
                 "dist": {
@@ -12470,11 +12306,7 @@
                         "name": "Micah Wood",
                         "email": "micah@wpscholar.com"
                     }
-                ],
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-plugin-updater/tree/1.0",
-                    "issues": "https://github.com/bluehost/endurance-wp-plugin-updater/issues"
-                }
+                ]
             },
             "1.0.1": {
                 "name": "bluehost/endurance-wp-plugin-updater",
@@ -12482,7 +12314,7 @@
                 "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-plugin-updater.git",
+                    "url": "git@github.com:bluehost/endurance-wp-plugin-updater.git",
                     "reference": "23054d2a7eab4d6f83ebcd8c696474c4e012ec83"
                 },
                 "dist": {
@@ -12509,11 +12341,7 @@
                         "name": "Micah Wood",
                         "email": "micah@wpscholar.com"
                     }
-                ],
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-plugin-updater/tree/1.0.1",
-                    "issues": "https://github.com/bluehost/endurance-wp-plugin-updater/issues"
-                }
+                ]
             },
             "1.0.2": {
                 "name": "bluehost/endurance-wp-plugin-updater",
@@ -12521,7 +12349,7 @@
                 "version_normalized": "1.0.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-plugin-updater.git",
+                    "url": "git@github.com:bluehost/endurance-wp-plugin-updater.git",
                     "reference": "56e7e6978fbeee71b208d53f777107fe76028116"
                 },
                 "dist": {
@@ -12548,11 +12376,7 @@
                         "name": "Micah Wood",
                         "email": "micah@wpscholar.com"
                     }
-                ],
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-plugin-updater/tree/1.0.2",
-                    "issues": "https://github.com/bluehost/endurance-wp-plugin-updater/issues"
-                }
+                ]
             },
             "1.1": {
                 "name": "bluehost/endurance-wp-plugin-updater",
@@ -12560,7 +12384,7 @@
                 "version_normalized": "1.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-plugin-updater.git",
+                    "url": "git@github.com:bluehost/endurance-wp-plugin-updater.git",
                     "reference": "3a6fb97dd0e0d7973a072968e27a5c1cb9a9673e"
                 },
                 "dist": {
@@ -12599,11 +12423,7 @@
                         "email": "micah@wpscholar.com"
                     }
                 ],
-                "description": "A Composer package handling updates for WordPress plugins managed by Endurance.",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-plugin-updater/tree/1.1",
-                    "issues": "https://github.com/bluehost/endurance-wp-plugin-updater/issues"
-                }
+                "description": "A Composer package handling updates for WordPress plugins managed by Endurance."
             },
             "1.1.1": {
                 "name": "bluehost/endurance-wp-plugin-updater",
@@ -12611,7 +12431,7 @@
                 "version_normalized": "1.1.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-plugin-updater.git",
+                    "url": "git@github.com:bluehost/endurance-wp-plugin-updater.git",
                     "reference": "256a86a4a600077504807b47724b464495bb8270"
                 },
                 "dist": {
@@ -12650,11 +12470,7 @@
                         "email": "micah@wpscholar.com"
                     }
                 ],
-                "description": "A Composer package handling updates for WordPress plugins managed by Endurance.",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-plugin-updater/tree/1.1.1",
-                    "issues": "https://github.com/bluehost/endurance-wp-plugin-updater/issues"
-                }
+                "description": "A Composer package handling updates for WordPress plugins managed by Endurance."
             },
             "1.1.2": {
                 "name": "bluehost/endurance-wp-plugin-updater",
@@ -12662,7 +12478,7 @@
                 "version_normalized": "1.1.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-plugin-updater.git",
+                    "url": "git@github.com:bluehost/endurance-wp-plugin-updater.git",
                     "reference": "7ba33e3f02d612aa5e5e25751c945d6c700d1653"
                 },
                 "dist": {
@@ -12701,11 +12517,7 @@
                         "email": "micah@wpscholar.com"
                     }
                 ],
-                "description": "A Composer package handling updates for WordPress plugins managed by Endurance.",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-plugin-updater/tree/1.1.2",
-                    "issues": "https://github.com/bluehost/endurance-wp-plugin-updater/issues"
-                }
+                "description": "A Composer package handling updates for WordPress plugins managed by Endurance."
             },
             "1.1.3": {
                 "name": "bluehost/endurance-wp-plugin-updater",
@@ -12713,7 +12525,7 @@
                 "version_normalized": "1.1.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-plugin-updater.git",
+                    "url": "git@github.com:bluehost/endurance-wp-plugin-updater.git",
                     "reference": "d1b0dfe3b8717a52e2b69c52a3265aea5799840d"
                 },
                 "dist": {
@@ -12752,11 +12564,7 @@
                         "email": "micah@wpscholar.com"
                     }
                 ],
-                "description": "A Composer package handling updates for WordPress plugins managed by Endurance.",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-plugin-updater/tree/1.1.3",
-                    "issues": "https://github.com/bluehost/endurance-wp-plugin-updater/issues"
-                }
+                "description": "A Composer package handling updates for WordPress plugins managed by Endurance."
             },
             "1.1.4": {
                 "name": "bluehost/endurance-wp-plugin-updater",
@@ -12764,7 +12572,7 @@
                 "version_normalized": "1.1.4.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-plugin-updater.git",
+                    "url": "git@github.com:bluehost/endurance-wp-plugin-updater.git",
                     "reference": "9d6e672cf94758e9d73ee6b7ff58d5adf8a3da26"
                 },
                 "dist": {
@@ -12803,11 +12611,7 @@
                         "email": "micah@wpscholar.com"
                     }
                 ],
-                "description": "A Composer package handling updates for WordPress plugins managed by Endurance.",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-plugin-updater/tree/1.1.4",
-                    "issues": "https://github.com/bluehost/endurance-wp-plugin-updater/issues"
-                }
+                "description": "A Composer package handling updates for WordPress plugins managed by Endurance."
             },
             "1.1.5": {
                 "name": "bluehost/endurance-wp-plugin-updater",
@@ -12815,7 +12619,7 @@
                 "version_normalized": "1.1.5.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-plugin-updater.git",
+                    "url": "git@github.com:bluehost/endurance-wp-plugin-updater.git",
                     "reference": "d4537b7f4e0fa4987f8e93e72eac1ec9ebe7fcc8"
                 },
                 "dist": {
@@ -12854,11 +12658,7 @@
                         "email": "micah@wpscholar.com"
                     }
                 ],
-                "description": "A Composer package handling updates for WordPress plugins managed by Endurance.",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-plugin-updater/tree/1.1.5",
-                    "issues": "https://github.com/bluehost/endurance-wp-plugin-updater/issues"
-                }
+                "description": "A Composer package handling updates for WordPress plugins managed by Endurance."
             },
             "dev-master": {
                 "name": "bluehost/endurance-wp-plugin-updater",
@@ -12866,7 +12666,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/endurance-wp-plugin-updater.git",
+                    "url": "git@github.com:bluehost/endurance-wp-plugin-updater.git",
                     "reference": "d4537b7f4e0fa4987f8e93e72eac1ec9ebe7fcc8"
                 },
                 "dist": {
@@ -12905,11 +12705,7 @@
                         "email": "micah@wpscholar.com"
                     }
                 ],
-                "description": "A Composer package handling updates for WordPress plugins managed by Endurance.",
-                "support": {
-                    "source": "https://github.com/bluehost/endurance-wp-plugin-updater/tree/1.1.5",
-                    "issues": "https://github.com/bluehost/endurance-wp-plugin-updater/issues"
-                }
+                "description": "A Composer package handling updates for WordPress plugins managed by Endurance."
             }
         },
         "bluehost/maestro-connector": {
@@ -15764,13 +15560,47 @@
             }
         },
         "bluehost/wp-php-standards": {
+            "1.0": {
+                "name": "bluehost/wp-php-standards",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:bluehost/wp-php-standards.git",
+                    "reference": "253f360cb6396a99c1af895c11ea70c21a7a2b26"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/wp-php-standards/zipball/253f360cb6396a99c1af895c11ea70c21a7a2b26",
+                    "reference": "253f360cb6396a99c1af895c11ea70c21a7a2b26",
+                    "shasum": ""
+                },
+                "require": {
+                    "phpcompatibility/php-compatibility": "@stable",
+                    "squizlabs/php_codesniffer": "@stable",
+                    "wp-coding-standards/wpcs": "@stable",
+                    "wpscholar/phpcs-standards-installer": "@stable"
+                },
+                "time": "2019-01-07T16:42:55+00:00",
+                "type": "phpcs-standards",
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Micah Wood",
+                        "email": "micah@wpscholar.com"
+                    }
+                ],
+                "description": "PHP Code Sniffer Standards for Bluehost WordPress projects."
+            },
             "1.1": {
                 "name": "bluehost/wp-php-standards",
                 "version": "1.1",
                 "version_normalized": "1.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/wp-php-standards.git",
+                    "url": "git@github.com:bluehost/wp-php-standards.git",
                     "reference": "79ec6b87d61893b89c731ced540f8d9bb48c9fa2"
                 },
                 "dist": {
@@ -15796,11 +15626,7 @@
                         "email": "micah@wpscholar.com"
                     }
                 ],
-                "description": "PHP Code Sniffer Standards for Bluehost WordPress projects.",
-                "support": {
-                    "source": "https://github.com/bluehost/wp-php-standards/tree/1.1",
-                    "issues": "https://github.com/bluehost/wp-php-standards/issues"
-                }
+                "description": "PHP Code Sniffer Standards for Bluehost WordPress projects."
             },
             "1.1.1": {
                 "name": "bluehost/wp-php-standards",
@@ -15808,7 +15634,7 @@
                 "version_normalized": "1.1.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/wp-php-standards.git",
+                    "url": "git@github.com:bluehost/wp-php-standards.git",
                     "reference": "f21bffbba27bdf1164762d31620ffdf13760e642"
                 },
                 "dist": {
@@ -15835,10 +15661,6 @@
                     }
                 ],
                 "description": "PHP Code Sniffer Standards for Bluehost WordPress projects.",
-                "support": {
-                    "source": "https://github.com/bluehost/wp-php-standards/tree/1.1.1",
-                    "issues": "https://github.com/bluehost/wp-php-standards/issues"
-                },
                 "abandoned": "newfold-labs/wp-php-standards"
             },
             "dev-master": {
@@ -15847,7 +15669,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bluehost/wp-php-standards.git",
+                    "url": "git@github.com:bluehost/wp-php-standards.git",
                     "reference": "f21bffbba27bdf1164762d31620ffdf13760e642"
                 },
                 "dist": {
@@ -15874,11 +15696,41 @@
                     }
                 ],
                 "description": "PHP Code Sniffer Standards for Bluehost WordPress projects.",
-                "support": {
-                    "source": "https://github.com/bluehost/wp-php-standards/tree/1.1.1",
-                    "issues": "https://github.com/bluehost/wp-php-standards/issues"
-                },
                 "abandoned": "newfold-labs/wp-php-standards"
+            },
+            "dev-propose/all-global-methods-prefixed-bluehost": {
+                "name": "bluehost/wp-php-standards",
+                "version": "dev-propose/all-global-methods-prefixed-bluehost",
+                "version_normalized": "dev-propose/all-global-methods-prefixed-bluehost",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:bluehost/wp-php-standards.git",
+                    "reference": "f31b281c04a4c38dab9b7a865cdf97b4bb92663b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bluehost/wp-php-standards/zipball/f31b281c04a4c38dab9b7a865cdf97b4bb92663b",
+                    "reference": "f31b281c04a4c38dab9b7a865cdf97b4bb92663b",
+                    "shasum": ""
+                },
+                "require": {
+                    "dealerdirect/phpcodesniffer-composer-installer": "@stable",
+                    "phpcompatibility/phpcompatibility-wp": "@stable",
+                    "squizlabs/php_codesniffer": "@stable",
+                    "wp-coding-standards/wpcs": "@stable"
+                },
+                "time": "2020-01-22T15:50:25+00:00",
+                "type": "phpcodesniffer-standard",
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Micah Wood",
+                        "email": "micah@wpscholar.com"
+                    }
+                ],
+                "description": "PHP Code Sniffer Standards for Bluehost WordPress projects."
             }
         },
         "endurance/wp-module-data": {
