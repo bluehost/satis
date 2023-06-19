@@ -221,6 +221,61 @@
                     "issues": "https://github.com/newfold-labs/bluehost-site-migrator/issues"
                 }
             },
+            "1.0.12": {
+                "name": "bluehost/bluehost-site-migrator",
+                "version": "1.0.12",
+                "version_normalized": "1.0.12.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/newfold-labs/bluehost-site-migrator.git",
+                    "reference": "3609bcb630b48dd16f336ec8329ad49e4e7c9118"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/newfold-labs/bluehost-site-migrator/zipball/3609bcb630b48dd16f336ec8329ad49e4e7c9118",
+                    "reference": "3609bcb630b48dd16f336ec8329ad49e4e7c9118",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "ext-zip": "*",
+                    "newfold-labs/wp-module-tasks": "^1.0.3",
+                    "symfony/process": "^3.4",
+                    "wp-forge/wp-plugin-check": "^1.0"
+                },
+                "require-dev": {
+                    "newfold-labs/wp-php-standards": "^1.1"
+                },
+                "time": "2023-06-19T13:36:08+00:00",
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "classmap": [
+                        "includes/"
+                    ]
+                },
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . --standard=Newfold"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . --standard=Newfold -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Micah Wood",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "A WordPress plugin to help you quickly and easily migrate your website to Bluehost.",
+                "support": {
+                    "source": "https://github.com/newfold-labs/bluehost-site-migrator/tree/1.0.12",
+                    "issues": "https://github.com/newfold-labs/bluehost-site-migrator/issues"
+                }
+            },
             "1.0.2": {
                 "name": "bluehost/bluehost-site-migrator",
                 "version": "1.0.2",
@@ -716,12 +771,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/newfold-labs/bluehost-site-migrator.git",
-                    "reference": "16ef0d386b8d078037dbc85f47ec09de7c131138"
+                    "reference": "3609bcb630b48dd16f336ec8329ad49e4e7c9118"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/newfold-labs/bluehost-site-migrator/zipball/16ef0d386b8d078037dbc85f47ec09de7c131138",
-                    "reference": "16ef0d386b8d078037dbc85f47ec09de7c131138",
+                    "url": "https://api.github.com/repos/newfold-labs/bluehost-site-migrator/zipball/3609bcb630b48dd16f336ec8329ad49e4e7c9118",
+                    "reference": "3609bcb630b48dd16f336ec8329ad49e4e7c9118",
                     "shasum": ""
                 },
                 "require": {
@@ -734,7 +789,7 @@
                 "require-dev": {
                     "newfold-labs/wp-php-standards": "^1.1"
                 },
-                "time": "2023-06-19T08:43:52+00:00",
+                "time": "2023-06-19T13:36:08+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "classmap": [
@@ -760,7 +815,7 @@
                 ],
                 "description": "A WordPress plugin to help you quickly and easily migrate your website to Bluehost.",
                 "support": {
-                    "source": "https://github.com/newfold-labs/bluehost-site-migrator/tree/1.0.11",
+                    "source": "https://github.com/newfold-labs/bluehost-site-migrator/tree/1.0.12",
                     "issues": "https://github.com/newfold-labs/bluehost-site-migrator/issues"
                 }
             },
@@ -815,6 +870,61 @@
                 "description": "A WordPress plugin to help you quickly and easily migrate your website to Bluehost.",
                 "support": {
                     "source": "https://github.com/newfold-labs/bluehost-site-migrator/tree/add/geo-support",
+                    "issues": "https://github.com/newfold-labs/bluehost-site-migrator/issues"
+                }
+            },
+            "dev-bump_version": {
+                "name": "bluehost/bluehost-site-migrator",
+                "version": "dev-bump_version",
+                "version_normalized": "dev-bump_version",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/newfold-labs/bluehost-site-migrator.git",
+                    "reference": "6a8dc204c29c163e5d8fc3490ef3d6e865231a22"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/newfold-labs/bluehost-site-migrator/zipball/6a8dc204c29c163e5d8fc3490ef3d6e865231a22",
+                    "reference": "6a8dc204c29c163e5d8fc3490ef3d6e865231a22",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "ext-zip": "*",
+                    "newfold-labs/wp-module-tasks": "^1.0.3",
+                    "symfony/process": "^3.4",
+                    "wp-forge/wp-plugin-check": "^1.0"
+                },
+                "require-dev": {
+                    "newfold-labs/wp-php-standards": "^1.1"
+                },
+                "time": "2023-06-19T12:49:35+00:00",
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "classmap": [
+                        "includes/"
+                    ]
+                },
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . --standard=Newfold"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . --standard=Newfold -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Micah Wood",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "A WordPress plugin to help you quickly and easily migrate your website to Bluehost.",
+                "support": {
+                    "source": "https://github.com/newfold-labs/bluehost-site-migrator/tree/bump_version",
                     "issues": "https://github.com/newfold-labs/bluehost-site-migrator/issues"
                 }
             },
