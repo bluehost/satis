@@ -6,15 +6,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/bluehost/endurance-wp-module-business-reviews"
-        },
-        {
-            "type": "vcs",
             "url": "https://github.com/bluehost/endurance-wp-module-gutenframe"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/bluehost/endurance-wp-module-loader"
         },
         {
             "type": "vcs",
@@ -22,31 +14,7 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/bluehost/endurance-wp-module-sso"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/bluehost/endurance-wp-plugin-updater"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/bluehost/wp-php-standards"
-        },
-        {
-            "type": "vcs",
             "url": "https://github.com/bluehost/mojo-marketplace-wp-plugin"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/bluehost/endurance-wp-module-generator"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/bluehost/bluehost-site-migrator"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/bluehost/maestro-connector"
         },
         {
             "type": "vcs",
@@ -54,19 +22,7 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/bluehost/endurance-wp-module-data"
-        },
-        {
-            "type": "vcs",
             "url": "https://github.com/bluehost/bluehost-wp-customer-data"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/bluehost/wp-module-sso.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/bluehost/wp-module-secure-passwords.git"
         }
     ],
     "require-all": true
