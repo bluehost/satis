@@ -7094,12 +7094,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/bluehost-wordpress-plugin.git",
-                    "reference": "ae8cddc1ddc2bc087c49e5a44d914835c130887f"
+                    "reference": "9ad81e4156ecca17c8b96fc4dafc948179d913b5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/ae8cddc1ddc2bc087c49e5a44d914835c130887f",
-                    "reference": "ae8cddc1ddc2bc087c49e5a44d914835c130887f",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/9ad81e4156ecca17c8b96fc4dafc948179d913b5",
+                    "reference": "9ad81e4156ecca17c8b96fc4dafc948179d913b5",
                     "shasum": ""
                 },
                 "require": {
@@ -7133,7 +7133,7 @@
                     "wp-cli/i18n-command": "^2.6.1",
                     "wp-phpunit/wp-phpunit": "^6.5.3"
                 },
-                "time": "2024-06-05T19:53:58+00:00",
+                "time": "2024-06-05T20:10:21+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
@@ -10856,12 +10856,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bluehost/bluehost-wordpress-plugin.git",
-                    "reference": "ae8cddc1ddc2bc087c49e5a44d914835c130887f"
+                    "reference": "9ad81e4156ecca17c8b96fc4dafc948179d913b5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/ae8cddc1ddc2bc087c49e5a44d914835c130887f",
-                    "reference": "ae8cddc1ddc2bc087c49e5a44d914835c130887f",
+                    "url": "https://api.github.com/repos/bluehost/bluehost-wordpress-plugin/zipball/9ad81e4156ecca17c8b96fc4dafc948179d913b5",
+                    "reference": "9ad81e4156ecca17c8b96fc4dafc948179d913b5",
                     "shasum": ""
                 },
                 "require": {
@@ -10895,7 +10895,7 @@
                     "wp-cli/i18n-command": "^2.6.1",
                     "wp-phpunit/wp-phpunit": "^6.5.3"
                 },
-                "time": "2024-06-05T19:53:58+00:00",
+                "time": "2024-06-05T20:10:21+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
