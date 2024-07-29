@@ -23,6 +23,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/bluehost/bluehost-wp-customer-data"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:newfold-labs/wp-module-my-products.git"
         }
     ],
     "require-all": true
